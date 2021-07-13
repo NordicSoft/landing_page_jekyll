@@ -1,0 +1,565 @@
+/**
+ * Site header
+ */
+@import url(//db.onlinewebfonts.com/c/7980cc1889b6b0b264dc47cca659f7c2?family=Neue+Montreal);
+.header {
+  width: 100%;
+  max-width: 1241px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  width: 100%;
+  max-width: 1241px;
+  // display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  // border-top: 5px solid $border-color-03;
+  border-bottom: 1px solid $border-color-01;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-transform: lowercase;
+
+  // @include relative-font-size(1.625);
+  // font-weight: 300;
+  // letter-spacing: -1px;
+  // margin-bottom: 0;
+  // float: left;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  max-width: 757px;
+  width: 100%;
+
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit / 2;
+  background-color: $background-color;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  text-align: right;
+  .menu {
+    width: 100%;
+    max-width: 274px;
+    display: flex;
+    align-items: center;
+    a {
+      padding: 0 24px;
+    }
+  }
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      margin-left: auto;
+    }
+  }
+}
+.menu-right {
+  width: 100%;
+  max-width: 254px;
+  display: flex;
+  justify-content: end;
+  a {
+    color: black;
+  }
+  div {
+    padding: 0 24px;
+  }
+}
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $border-color-01;
+  padding: $spacing-unit 0;
+}
+
+.footer-heading {
+  @include relative-font-size(1.125);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.feed-subscribe .svg-icon {
+  padding: 5px 5px 2px 0;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper,
+.social-links {
+  @include relative-font-size(0.9375);
+  color: $brand-color;
+}
+
+.footer-col {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.footer-col-1,
+.footer-col-2 {
+  width: calc(50% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: calc(100% - (#{$spacing-unit} / 2));
+}
+
+@media screen and (min-width: $on-large) {
+  .footer-col-1 {
+    width: calc(35% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: calc(20% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: calc(45% - (#{$spacing-unit} / 2));
+  }
+}
+
+@media screen and (min-width: $on-medium) {
+  .footer-col-wrapper {
+    display: flex;
+  }
+
+  .footer-col {
+    width: calc(100% - (#{$spacing-unit} / 2));
+    padding: 0 ($spacing-unit / 2);
+
+    &:first-child {
+      padding-right: $spacing-unit / 2;
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: $spacing-unit / 2;
+    }
+  }
+}
+
+/**
+ * Page content
+ */
+.home {
+  width: 100%;
+  max-width: 1241px;
+}
+.h1home {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  h1 {
+    margin-bottom: 0px;
+    width: 1028px;
+    // height: 231px;
+    left: 206px;
+    top: 179px;
+
+    font-family: Neue Montreal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+  }
+}
+@font-face {
+  font-family: "TelegrafRegular";
+  src: url("fonts/TelegrafRegular400.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+.about-us {
+  padding: 40px 0;
+  border-top: 1rem solid;
+  border-bottom: 1px solid #e0e0e0;
+  width: 1241px;
+  // height: 137px;
+  display: flex;
+  justify-content: space-between;
+  .upwork-top {
+    // font-family: TelegrafRegular;
+    font-weight: 900;
+  }
+  .description {
+    max-width: 392px;
+    font-family: Telegraf;
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #7c7c7c;
+  }
+  .about-service {
+    font-family: Neue Montreal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+
+    text-align: right;
+
+    color: #020113;
+  }
+}
+.products {
+  width: 100%;
+  max-width: 1240px;
+}
+.selected-projects {
+  text-transform: uppercase;
+}
+.row {
+  width: 50%;
+}
+.sample-rectange {
+  max-width: 442px;
+  max-height: 562px;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+.view-all {
+  font-family: Neue Montreal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  border-bottom: 1px solid #020113;
+  padding: 40px 0;
+  margin-bottom: 104px;
+}
+#what-we-do {
+  padding: 104px 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+}
+.section-name {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  .h2-text {
+    // font-family: Telegraf;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+}
+.what-we-do-links {
+  margin: auto;
+  padding-top: 47px;
+  .links{
+    width: 100%;
+  }
+  .link {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    max-width: 1028px;
+    margin: auto;
+    p {
+      font-family: Neue Montreal;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 160%;
+      /* identical to box height, or 58px */
+      color: #020113;
+    }
+    a {
+      font-family: Neue Montreal;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 160%;
+      /* or 38px */
+
+      text-align: right;
+      text-decoration-line: underline;
+
+      color: #7c7c7c;
+    }
+  }
+  .links:last-child {
+    border-bottom: unset;
+  }
+}
+
+#get-in-touch {
+  p {
+    font-family: Neue Montreal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #020113;
+  }
+}
+.projects-row{
+  display: flex;
+  justify-content: space-between;
+}
+.page-content {
+  padding: $spacing-unit 0;
+  flex: 1 0 auto;
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $brand-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1.15;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.625);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: $spacing-unit * 2;
+  }
+  h4,
+  h5,
+  h6 {
+    margin-top: $spacing-unit;
+  }
+
+  h2 {
+    @include relative-font-size(1.75);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.375);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.625);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+  }
+
+  h5 {
+    @include relative-font-size(1.125);
+  }
+  h6 {
+    @include relative-font-size(1.0625);
+  }
+}
+
+.social-media-list {
+  display: table;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 5px 10px 5px 0;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    a {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid $border-color-01;
+      &:hover {
+        border-color: $border-color-02;
+      }
+    }
+  }
+}
+
+/**
+ * Pagination navbar
+ */
+.pagination {
+  margin-bottom: $spacing-unit;
+  @extend .social-media-list;
+  li {
+    a,
+    div {
+      min-width: 41px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    div {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid transparent;
+
+      &.pager-edge {
+        color: $border-color-01;
+        border: 1px dashed;
+      }
+    }
+  }
+}
+
+/**
+ * Grid helpers
+ */
+@media screen and (min-width: $on-large) {
+  .one-half {
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
+}
