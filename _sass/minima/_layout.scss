@@ -314,8 +314,14 @@
   width: 100%;
   max-width: 1240px;
 }
+.projects .container {
+  padding: 120px 0;
+  
+}
 .selected-projects {
   text-transform: uppercase;
+  padding-bottom: 32px;
+font-weight: 800;
 }
 .row {
   width: 50%;
@@ -334,8 +340,9 @@
   font-size: 24px;
   line-height: 160%;
   border-bottom: 1px solid #020113;
-  padding: 40px 0;
-  margin-bottom: 104px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  // margin-bottom: 64px;
 }
 #what-we-do {
   padding: 104px 0;
@@ -357,6 +364,27 @@
     text-transform: uppercase;
     color: #020113;
     margin-bottom: 0px;
+  }
+}
+.project-cols{
+  display: flex;
+  justify-content: space-between;
+}
+.project-cols:first-child{
+  display: flex;
+  justify-content: space-between;
+}
+.project-cols>div:first-child{
+    padding-top: 166px;
+
+  }
+
+.project-col{
+  max-width: 620px; ;
+}
+.project {
+  h2{
+    font-weight: 800;
   }
 }
 .what-we-do-links {
@@ -402,7 +430,20 @@
 }
 
 #get-in-touch {
+  padding-bottom: 185px;
+  a {
+    font-family: Neue Montreal;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 86px;
+
+color: #020113;
+padding-bottom: 185px;
+  }
   p {
+    padding-top: 133px;
+    padding-bottom: 94px;
     font-family: Neue Montreal;
     font-style: normal;
     font-weight: normal;
