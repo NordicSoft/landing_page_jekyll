@@ -1,37 +1,54 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
+  <!-- <div class="wrapper"> -->
+<div class="container">
+<div class="menu-footer">
+    <ul class="footer-col">
+      <li class="nav-item">
+          <a class="footer-link" href="/contact" title="Contact us" itemprop="url">
+              <span itemprop="name">Home</span>
           </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
+      </li>
+      <li class="nav-item">
+          <a class="footer-link" href="/terms" title="Terms of Use" itemprop="url">
+              <span itemprop="name">About</span>
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="footer-link" href="/privacy-policy" title="Privacy Policy" itemprop="url">
+              <span itemprop="name">Work</span>
+          </a>
+      </li>
+  </ul>
+  <ul class="footer-col">
+    <li class="nav-item">
+        <a class="footer-link" href="/contact" title="Contact" itemprop="url">
+            <span itemprop="name">Contact</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="footer-link" href="/culture" title="Culture" itemprop="url">
+            <span itemprop="name">Culture</span>
+        </a>
+    </li>
+</ul>
 
+<div class="footer-col">
+
+  <div class="mail-footer"><span class="mail-footer"></span> <a class="mail" href="mailto:info@nordicsoft.ee" title="email" aria-label="email">info@nordicsoft.ee</a></div>
+  <span class="phone-footer"></span> <a href="tel:+3726347270" title="Estonia phone number" aria-label="Estonia phone number">+372 634 7270</a>
+  <span class="phone-footer"></span> <a href="tel:+448081961122" title="United Kingdom phone number" aria-label="United Kingdom phone number">+44 80 8196 1122</a>
+  <span class="phone-footer"></span> <a href="tel:+18778879771" title="United States/Canada phone number" aria-label="United States/Canada phone number">+1 877 887 9771</a>
+</div>
+</div>
     <div class="social-links">
       {%- include social.html -%}
     </div>
-
   </div>
-
+  <div class="container">
+  <div class="disclaimer"><p>© 2021. NordicSoft OÜ (Reg. #14187539).<br>
+    NordicSoft is EU registered trademark of NordicSoft OÜ.<br> 
+    All Rights Reserved.</p></div>
+  </div>
 </footer>

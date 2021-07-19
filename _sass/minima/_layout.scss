@@ -55,6 +55,11 @@
   }
 }
 
+.get-in-touch{
+  font-family: Neue Montreal;
+  text-decoration-line: underline;
+  color: #020113;
+}
 .site-nav {
   display: flex;
   justify-content: center;
@@ -77,7 +82,6 @@
       padding: 0 24px;
     }
   }
-
   .nav-trigger {
     display: none;
   }
@@ -192,59 +196,86 @@
 }
 
 .footer-col-wrapper,
-.social-links {
-  @include relative-font-size(0.9375);
-  color: $brand-color;
-}
+// .social-links {
+//   // @include relative-font-size(0.9375);
+//   // color: $brand-color;
+//   max-width: 100px;
+//   width: 100%;
 
-.footer-col {
-  margin-bottom: $spacing-unit / 2;
-}
+// }
 
-.footer-col-1,
-.footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
-}
+/**
+ * site-footer
 
-.footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
-}
+ */
 
-@media screen and (min-width: $on-large) {
-  .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
-  }
-}
-
-@media screen and (min-width: $on-medium) {
-  .footer-col-wrapper {
+.site-footer {
+  .container {
     display: flex;
-  }
+    justify-content: space-between;
+    align-items: unset;
+    .footer-link {
+      width: 100%;
+      max-width: 70px;
+      font-family: Neue Montreal;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      /* identical to box height */
 
-  .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit / 2);
-
-    &:first-child {
-      padding-right: $spacing-unit / 2;
-      padding-left: 0;
-    }
-
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit / 2;
+      color: #020113;
     }
   }
 }
 
+.nav-item {
+  padding: 12px 40px;
+  list-style: none;
+}
+.menu-footer {
+  .mail-footer{
+    padding: 12px 0  24px 0;
+  }
+  display: flex;
+  justify-content: space-between;
+  max-width: 437px;
+  width: 100%;
+  ul {
+    margin: unset;
+  } 
+  .footer-col:first-child{
+li{
+  padding-left: unset;
+}
+  }
+  .footer-col:last-child {
+    padding: 0 87px;
+    a {
+      font-family: Neue Montreal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #020113;
+    }
+    
+  }
+}
+.disclaimer{
+  p{
+    padding-top: 108px;
+    max-width: 391px;
+    font-family: Neue Montreal;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 180%;
+/* or 22px */
+
+
+color: #7C7C7C;
+
+  }
+}
 /**
  * Page content
  */
@@ -316,12 +347,11 @@
 }
 .projects .container {
   padding: 120px 0;
-  
 }
 .selected-projects {
   text-transform: uppercase;
   padding-bottom: 32px;
-font-weight: 800;
+  font-weight: 800;
 }
 .row {
   width: 50%;
@@ -366,31 +396,30 @@ font-weight: 800;
     margin-bottom: 0px;
   }
 }
-.project-cols{
+.project-cols {
   display: flex;
   justify-content: space-between;
 }
-.project-cols:first-child{
+.project-cols:first-child {
   display: flex;
   justify-content: space-between;
 }
-.project-cols>div:first-child{
-    padding-top: 166px;
+.project-cols > div:first-child {
+  padding-top: 166px;
+}
 
-  }
-
-.project-col{
-  max-width: 620px; ;
+.project-col {
+  max-width: 620px;
 }
 .project {
-  h2{
+  h2 {
     font-weight: 800;
   }
 }
 .what-we-do-links {
   margin: auto;
   padding-top: 47px;
-  .links{
+  .links {
     width: 100%;
   }
   .link {
@@ -430,16 +459,16 @@ font-weight: 800;
 }
 
 #get-in-touch {
-  padding-bottom: 185px;
+  padding-bottom: 155px;
   a {
     font-family: Neue Montreal;
-font-style: normal;
-font-weight: 500;
-font-size: 72px;
-line-height: 86px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 86px;
 
-color: #020113;
-padding-bottom: 185px;
+    color: #020113;
+    padding-bottom: 185px;
   }
   p {
     padding-top: 133px;
@@ -454,7 +483,7 @@ padding-bottom: 185px;
     color: #020113;
   }
 }
-.projects-row{
+.projects-row {
   display: flex;
   justify-content: space-between;
 }
@@ -562,7 +591,7 @@ padding-bottom: 185px;
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $border-color-01;
+      // border: 1px solid $border-color-01;
       &:hover {
         border-color: $border-color-02;
       }
