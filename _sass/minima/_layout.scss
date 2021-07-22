@@ -1,7 +1,27 @@
+@font-face {
+  font-family: "Telegraf";
+  src: url("fonts/TelegrafRegular400.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TelegrafBold";
+  src: url("fonts/TelegrafUltraBold800.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot");
+  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal") format("svg");
+}
 /**
  * Site header
  */
-@import url(//db.onlinewebfonts.com/c/7980cc1889b6b0b264dc47cca659f7c2?family=Neue+Montreal);
 .header {
   width: 100%;
   max-width: 1241px;
@@ -14,8 +34,6 @@
 .container {
   width: 100%;
   max-width: 1241px;
-  // display: flex;
-  // justify-content: space-between;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
@@ -23,12 +41,9 @@
 .site-header {
   display: flex;
   justify-content: space-between;
-  // border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
-  // Positioning context for the mobile navigation icon
   position: relative;
 }
 
@@ -38,12 +53,6 @@
   font-size: 22px;
   line-height: 150%;
   text-transform: lowercase;
-
-  // @include relative-font-size(1.625);
-  // font-weight: 300;
-  // letter-spacing: -1px;
-  // margin-bottom: 0;
-  // float: left;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -55,17 +64,18 @@
   }
 }
 
-.get-in-touch{
-  font-family: Neue Montreal;
+.get-in-touch {
   text-decoration-line: underline;
-  color: #020113;
 }
-.site-nav {
+.site-nav {font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #020113;
   display: flex;
   justify-content: center;
   max-width: 757px;
   width: 100%;
-
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
@@ -78,9 +88,6 @@
     max-width: 274px;
     display: flex;
     align-items: center;
-    a {
-      padding: 0 24px;
-    }
   }
   .nav-trigger {
     display: none;
@@ -123,8 +130,6 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
-
-    // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
@@ -161,13 +166,18 @@
   }
 }
 .menu-right {
+  a {
+    font-family: Neue Montreal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #020113;
+  }
   width: 100%;
   max-width: 254px;
   display: flex;
   justify-content: end;
-  a {
-    color: black;
-  }
   div {
     padding: 0 24px;
   }
@@ -196,13 +206,6 @@
 }
 
 .footer-col-wrapper,
-// .social-links {
-//   // @include relative-font-size(0.9375);
-//   // color: $brand-color;
-//   max-width: 100px;
-//   width: 100%;
-
-// }
 
 /**
  * site-footer
@@ -222,8 +225,6 @@
       font-weight: 600;
       font-size: 18px;
       line-height: 22px;
-      /* identical to box height */
-
       color: #020113;
     }
   }
@@ -234,8 +235,8 @@
   list-style: none;
 }
 .menu-footer {
-  .mail-footer{
-    padding: 12px 0  24px 0;
+  .mail-footer {
+    padding: 12px 0 24px 0;
   }
   display: flex;
   justify-content: space-between;
@@ -243,11 +244,11 @@
   width: 100%;
   ul {
     margin: unset;
-  } 
-  .footer-col:first-child{
-li{
-  padding-left: unset;
-}
+  }
+  .footer-col:first-child {
+    li {
+      padding-left: unset;
+    }
   }
   .footer-col:last-child {
     padding: 0 87px;
@@ -257,23 +258,18 @@ li{
       line-height: 17px;
       color: #020113;
     }
-    
   }
 }
-.disclaimer{
-  p{
+.disclaimer {
+  p {
     padding-top: 108px;
     max-width: 391px;
     font-family: Neue Montreal;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 180%;
-/* or 22px */
-
-
-color: #7C7C7C;
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: #7c7c7c;
   }
 }
 /**
@@ -290,7 +286,6 @@ color: #7C7C7C;
   h1 {
     margin-bottom: 0px;
     width: 1028px;
-    // height: 231px;
     left: 206px;
     top: 179px;
 
@@ -302,22 +297,15 @@ color: #7C7C7C;
     text-align: center;
   }
 }
-@font-face {
-  font-family: "TelegrafRegular";
-  src: url("fonts/TelegrafRegular400.otf");
-  font-weight: normal;
-  font-style: normal;
-}
 .about-us {
   padding: 40px 0;
-  border-top: 1rem solid;
+  border-top: 8px solid;
   border-bottom: 1px solid #e0e0e0;
   width: 1241px;
-  // height: 137px;
   display: flex;
   justify-content: space-between;
-  .upwork-top {
-    // font-family: TelegrafRegular;
+  .upwork-top p {
+    font-family: TelegrafBold;
     font-weight: 900;
   }
   .description {
@@ -329,15 +317,13 @@ color: #7C7C7C;
     color: #7c7c7c;
   }
   .about-service {
+    padding-right: 20px;
     font-family: Neue Montreal;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 160%;
-    /* or 38px */
-
     text-align: right;
-
     color: #020113;
   }
 }
@@ -349,9 +335,17 @@ color: #7C7C7C;
   padding: 120px 0;
 }
 .selected-projects {
+  font-family: Telegraf;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 34px;
+  /* identical to box height */
+
   text-transform: uppercase;
-  padding-bottom: 32px;
-  font-weight: 800;
+
+  color: #020113;
+  margin: unset;
 }
 .row {
   width: 50%;
@@ -366,13 +360,15 @@ color: #7C7C7C;
 .view-all {
   font-family: Neue Montreal;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   line-height: 160%;
   border-bottom: 1px solid #020113;
   padding-top: 120px;
   padding-bottom: 40px;
-  // margin-bottom: 64px;
+  svg {
+    padding-left: 20px;
+  }
 }
 #what-we-do {
   padding: 104px 0;
@@ -380,13 +376,45 @@ color: #7C7C7C;
   background-color: #f5f5f5;
   border-bottom: 1px solid #e0e0e0;
 }
+
+
+/**
+*Contact form
+*/ 
+#contact-form {
+  padding-top: 62px;
+}
+.start-conversation {
+  padding: 96px 0 40px 0;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  .h2-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+}
+.contact-title {
+  font-family: TelegrafBold;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-transform: uppercase;
+  color: #06050d;
+}
 .section-name {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 40px;
   display: flex;
   align-items: center;
   .h2-text {
-    // font-family: Telegraf;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -463,23 +491,24 @@ color: #7C7C7C;
   a {
     font-family: Neue Montreal;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 72px;
     line-height: 86px;
-
+    padding-top: 53px;
     color: #020113;
     padding-bottom: 185px;
   }
   p {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    color: #7c7c7c;
     padding-top: 133px;
-    padding-bottom: 94px;
+    padding-bottom: 40px;
     font-family: Neue Montreal;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
-    /* identical to box height */
-
     color: #020113;
   }
 }
@@ -591,7 +620,6 @@ color: #7C7C7C;
     a {
       display: block;
       padding: $spacing-unit / 4;
-      // border: 1px solid $border-color-01;
       &:hover {
         border-color: $border-color-02;
       }

@@ -1,14 +1,17 @@
----
-layout: default
----
-<article class="post">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+  {%- include head.html -%}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <body>
 
-</article>
+    {%- include header.html -%}
+
+      <!-- <div class="wrapper"> -->
+        {{ content }}
+      <!-- </div> -->
+    {% include footer_contact.html %}
+  </body>
+
+</html>
+
