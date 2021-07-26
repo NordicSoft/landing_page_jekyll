@@ -484,6 +484,32 @@ Footer
   padding-bottom: 8px;
   appearance: none;
 }
+
+/**
+*Services
+*/
+#services .container {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+.our-expertise {
+  padding: 96px 0 40px 0;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  .h2-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+}
+
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
 .form-col::after {
   content: "\26AB";
