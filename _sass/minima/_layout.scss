@@ -37,6 +37,8 @@
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .site-header {
   display: flex;
@@ -216,6 +218,7 @@
 .site-footer {
   .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: unset;
     .footer-link {
@@ -257,6 +260,8 @@ Footer
   }
   .footer-col:last-child {
     padding: 0 87px;
+
+    max-width: 119px;
     a {
       font-family: Neue Montreal;
       font-size: 14px;
@@ -337,8 +342,8 @@ Footer
     font-family: Neue Montreal;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 36px;
+    line-height: 43px;
     text-align: center;
   }
 }
@@ -346,9 +351,9 @@ Footer
   padding: 40px 0;
   border-top: 8px solid;
   border-bottom: 1px solid #e0e0e0;
-  width: 1241px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   .upwork-top p {
     font-family: TelegrafBold;
     font-weight: 900;
@@ -377,10 +382,11 @@ Footer
   max-width: 1240px;
 }
 .projects .container {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .selected-projects {
-  font-family: Telegraf;
+  font-family: TelegrafBold;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
@@ -489,9 +495,9 @@ Footer
 *Services
 */
 #services .container {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .our-expertise {
   padding: 96px 0 40px 0;
@@ -520,10 +526,6 @@ align-items: flex-start;
 .form-col {
   position: relative;
 }
-// .form-col::after {
-//   position: absolute;
-//   top: 0; right: 0;
-// }
 .form-group {
   max-width: 332px;
   width: 100%;
@@ -822,5 +824,134 @@ align-items: flex-start;
 @media screen and (min-width: $on-large) {
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
+  }
+}
+
+/**
+ * Responsive
+ */
+@media screen and (max-width: $on-min-phone) {
+  .container {
+    max-width: 288px;
+  }
+  .h1home h1 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .project-col {
+    justify-content: center;
+  }
+
+  .about-us p {
+    margin-bottom: 40px;
+  }
+  .about-us .description {
+    text-align: unset;
+  }
+  .menu-footer .footer-col:last-child {
+    padding: 87px 0;
+  }
+}
+@media screen and (max-width: $on-phone) {
+  .projects h1 {
+    max-width: 170px;
+    line-height: 40px;
+  }
+  .project-cols {
+    justify-content: center;
+  }
+  .about-us p {
+    margin-bottom: 40px;
+  }
+  .about-us .description {
+    text-align: unset;
+  }
+  .project-cols > div:first-child {
+    padding-top: 62px;
+  }
+  .container {
+    max-width: 288px;
+  }
+  .menu-footer .footer-col:last-child {
+    padding: 87px 0;
+    max-width: 119px;
+  }
+}
+@media screen and (min-width: $on-phone) {
+  .container {
+    max-width: 540px;
+  }
+  .h1home h1 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+@media screen and (max-width: $on-palm) {
+  .project-cols svg {
+    width: 100%;
+  }
+  .menu-footer {
+    flex-wrap: wrap;
+  }
+
+  .project-cols {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .project-col {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .svg-project {
+    max-width: 600px;
+  }
+  .link {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .what-we-do-links .link p {
+    font-size: 32px;
+  }
+  #get-in-touch a {
+    font-size: 42px;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (min-width: $on-palm) {
+  .container {
+    max-width: 720px;
+  }
+  .h1home h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media screen and (min-width: $on-laptop) {
+  .container {
+    max-width: 960px;
+  }
+  .h1home h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .project-cols {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: $on-pc) {
+  .project-cols {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: $on-pc) {
+  .container {
+    max-width: 1240px;
+  }
+  .h1home h1 {
+    font-size: 64px;
+    line-height: 77px;
   }
 }

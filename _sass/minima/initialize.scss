@@ -16,8 +16,11 @@ $table-text-align: left !default;
 // Width of the content area
 $content-width:    800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-pc:            1260px !default;
+$on-laptop:        992px !default;
+$on-palm:          768px !default;
+$on-phone:         480px !default;
+$on-min-phone:     375px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
