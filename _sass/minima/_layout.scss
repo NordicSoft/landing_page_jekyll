@@ -49,7 +49,7 @@
   position: relative;
 }
 
-.site-title {
+.logo {
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -189,7 +189,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
 }
 
@@ -208,7 +207,13 @@
   margin-left: 0;
 }
 
-.footer-col-wrapper,
+// .footer-contact-container{
+//   width: 100%;
+//   max-width: 1240px;
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+// }
 
 /**
  * site-footer
@@ -288,10 +293,10 @@ Footer
   max-width: 436px;
   width: 100%;
 }
-.site-footer-contact {
-  padding: 48px;
-  margin-bottom: 142px;
-  border-bottom: 1px solid $border-color-01;
+.footer-container{
+  width: 100%;
+    max-width: 1440px;
+    margin: unset;
 }
 .contacts {
   display: flex;
@@ -431,10 +436,21 @@ Footer
 /**
 *Contact form
 */
+#footer-contact-page{
+  border-bottom: 1px solid $border-color-01;
+  border-top: 1px solid $border-color-01;
+margin-left: 100px;
+margin-right: 100px;
+padding: 48px 0;
+}
 #contact-form {
   padding-top: 62px;
   padding-bottom: 184px;
+  margin: 0 100px;
+
+
 }
+
 .start-conversation {
   padding: 96px 0 40px 0;
   width: 100%;
@@ -480,6 +496,9 @@ Footer
   padding-top: 12px;
   margin-bottom: 24px;
   padding-bottom: 8px;
+}
+.form-col select {
+  margin-bottom: 24px;
 }
 .form-col select {
   border: 0;
@@ -533,6 +552,7 @@ Footer
 .contact-cols {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-cols > div:first-child {
   max-width: 357px;
@@ -540,6 +560,7 @@ Footer
 .form-cols {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-col {
   width: 100%;
@@ -552,6 +573,9 @@ Footer
 }
 .contact-form > .form-group {
   max-width: unset;
+}
+.contact-form select {
+  width: calc(100% - 10px);
 }
 .contact-form label {
   font-family: TelegrafBold;
@@ -653,6 +677,7 @@ Footer
 
 #get-in-touch {
   padding-bottom: 155px;
+  border-bottom: 1px solid #e8e8e8;
   a {
     font-family: Neue Montreal;
     font-style: normal;
@@ -888,6 +913,9 @@ Footer
   }
 }
 @media screen and (max-width: $on-palm) {
+  #footer-contact-page {
+    margin: 0 16px;}
+
   .project-cols svg {
     width: 100%;
   }
@@ -917,6 +945,18 @@ Footer
     font-size: 42px;
     padding-bottom: 120px;
   }
+  .contact-title {
+    font-size: 56px;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
+  #contact-form {
+  margin: 0 5px;
+  padding-bottom: 59px;
+  }
+
+
 }
 @media screen and (min-width: $on-palm) {
   .container {
