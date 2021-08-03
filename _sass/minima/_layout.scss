@@ -58,6 +58,7 @@
 
   @include media-query($on-palm) {
     padding-right: 45px;
+    padding-left: 16px;
   }
 
   &,
@@ -83,30 +84,16 @@
   top: 9px;
   right: $spacing-unit / 2;
   background-color: $background-color;
-  border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
   .menu {
     width: 100%;
-    max-width: 274px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   .nav-trigger {
     display: none;
-  }
-
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg path {
-      fill: $border-color-03;
-    }
   }
 
   label[for="nav-trigger"] {
@@ -146,10 +133,6 @@
     background-color: inherit;
 
     label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .menu-icon {
       display: none;
     }
 
@@ -293,10 +276,10 @@ Footer
   max-width: 436px;
   width: 100%;
 }
-.footer-container{
+.footer-container {
   width: 100%;
-    max-width: 1440px;
-    margin: unset;
+  max-width: 1440px;
+  margin: unset;
 }
 .contacts {
   display: flex;
@@ -436,19 +419,17 @@ Footer
 /**
 *Contact form
 */
-#footer-contact-page{
+#footer-contact-page {
   border-bottom: 1px solid $border-color-01;
   border-top: 1px solid $border-color-01;
-margin-left: 100px;
-margin-right: 100px;
-padding: 48px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 48px 0;
 }
 #contact-form {
   padding-top: 62px;
   padding-bottom: 184px;
   margin: 0 100px;
-
-
 }
 
 .start-conversation {
@@ -566,7 +547,9 @@ padding: 48px 0;
   width: 100%;
   max-width: 712px;
 }
-
+#footer-contact-page .disclaimer {
+  display: none;
+}
 .form-col {
   max-width: 356px;
   width: 100%;
@@ -575,7 +558,7 @@ padding: 48px 0;
   max-width: unset;
 }
 .contact-form select {
-  width: calc(100% - 10px);
+  width: calc(100% - 15px);
 }
 .contact-form label {
   font-family: TelegrafBold;
@@ -896,7 +879,7 @@ padding: 48px 0;
     padding-top: 62px;
   }
   .container {
-    max-width: 288px;
+    max-width: 300px;
   }
   .menu-footer .footer-col:last-child {
     padding: 87px 0;
@@ -913,8 +896,85 @@ padding: 48px 0;
   }
 }
 @media screen and (max-width: $on-palm) {
+  .container {
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .site-nav {
+    width: unset;
+  }
+  // menu
+  .menu-right div {
+    padding: 5px 10px;
+    line-height: 1.5;
+  }
+  .menu-right a {
+    font-family: unset;
+    text-decoration-line: unset;
+  }
+  .site-nav > .menu {
+    display: block;
+  }
+  .menu-right {
+    display: block;
+    a {
+      border-bottom: 1px solid #e8e8e8;
+    }
+  }
+  .site-nav {
+    top: -200px;
+    transition: all 0.5s;
+    width: 167px;
+    // left: 299px;
+    &.show {
+      top: 57px;
+      // background-color: unset;
+    }
+  }
+
+  .page-link {
+    border-bottom: 1px solid #e8e8e8;
+  }
   #footer-contact-page {
-    margin: 0 16px;}
+    padding-bottom: 40px;
+
+  }
+  #footer-contact-page .disclaimer {
+    display:flex;
+    padding-top: 40px;
+    p{
+      padding-top: unset;
+    }
+  }
+  .site-footer{
+    padding-bottom: unset;
+  }
+  .menu-toggle {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 15px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+  .nav-trigger {
+    padding-right: 16px;
+  }
+  .start-conversation {
+    padding: 16px 0 16px 0;}
+    #contact-form {
+       padding-top: 32px;}
+  // menu
+  .page-content > .container{
+    margin-left: 16px;
+  }
+  #footer-contact-page {
+    margin: 0 16px;
+  }
 
   .project-cols svg {
     width: 100%;
@@ -947,16 +1007,33 @@ padding: 48px 0;
   }
   .contact-title {
     font-size: 56px;
+    padding-bottom: 72px;
+    margin-bottom: 0;
   }
   .contacts {
     flex-wrap: wrap;
   }
   #contact-form {
-  margin: 0 5px;
-  padding-bottom: 59px;
+    margin: 0 5px;
+    padding-bottom: 9px;
   }
-
-
+  .menu-toggle{
+    width: 40px;
+    padding-right: 16px;
+  }
+  .contact-cols>div:first-child{
+    display: flex;
+    justify-content: center;
+  }
+  .contact-col{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+  }
+  .contacts>.contact-col{
+    padding-top: 20px;
+  }
+  #footer-contact-page {
+    border-bottom: unset;}
 }
 @media screen and (min-width: $on-palm) {
   .container {
@@ -965,6 +1042,9 @@ padding: 48px 0;
   .h1home h1 {
     font-size: 40px;
     line-height: 55px;
+  }
+  .menu-toggle {
+    display: none;
   }
 }
 @media screen and (min-width: $on-laptop) {
