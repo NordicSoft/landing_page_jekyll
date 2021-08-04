@@ -491,31 +491,6 @@ Footer
   appearance: none;
 }
 
-/**
-*Services
-*/
-#services .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.our-expertise {
-  padding: 96px 0 40px 0;
-  width: 100%;
-  border-bottom: 1px solid #e0e0e0;
-  display: flex;
-  align-items: center;
-  .h2-text {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 150%;
-    text-transform: uppercase;
-    color: #020113;
-    margin-bottom: 0px;
-  }
-}
-
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
 .form-col::after {
   content: "\26AB";
@@ -836,6 +811,140 @@ Footer
 }
 
 /**
+*SERVICES
+*/
+#services .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#services>.container:first-child {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 64px;
+}
+#services>.container:nth-child(3) {
+  padding-top: 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#services>.container:nth-child(4) > .container {
+  max-width: 392px;
+}
+.step-container{
+display: flex;
+flex-wrap: wrap;
+max-width: 1240px;
+margin: auto;
+padding-top: 56px;
+padding-bottom: 115px;
+}
+.step-container .container{
+  max-width: 392px;
+  flex-wrap: wrap;
+}
+.h2-services {
+  padding: 0 0 40px 0;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  .h2-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+}
+
+#services {
+  padding-top: 96px;
+}
+.who-are-we p {
+  padding-top: 180px;
+  max-width: 500px;
+  font-family: Neue Montreal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  color: #020113;
+}
+.h3-text {
+  font-family: Neue Montreal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 160%;
+  /* or 58px */
+
+  max-width: 500px;
+  padding: 40px 0;
+  color: #020113;
+}
+.step-title {
+display: flex;
+align-items: center;
+padding-right: 40px;
+}
+.step-title>p{
+  margin-bottom: 32px;
+}
+.step-description{
+  font-family: Neue Montreal;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+margin-bottom: 40px;
+/* or 29px */
+
+
+/* Nordicsoft/Description */
+
+color: #7C7C7C;
+}
+.step-number{
+  font-family: Neue Montreal;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+padding-right: 40px;
+/* identical to box height */
+
+
+/* Nordicsoft / Main */
+
+color: #06050D;
+}
+.step-name{
+  font-family: Neue Montreal;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+/* Nordicsoft / Main */
+
+color: #06050D;
+}
+.steps{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #020113;
+margin-bottom: 17px;
+}
+
+/**
  * Responsive
  */
 @media screen and (max-width: $on-min-phone) {
@@ -937,16 +1046,15 @@ Footer
   }
   #footer-contact-page {
     padding-bottom: 40px;
-
   }
   #footer-contact-page .disclaimer {
-    display:flex;
+    display: flex;
     padding-top: 40px;
-    p{
+    p {
       padding-top: unset;
     }
   }
-  .site-footer{
+  .site-footer {
     padding-bottom: unset;
   }
   .menu-toggle {
@@ -965,11 +1073,13 @@ Footer
     padding-right: 16px;
   }
   .start-conversation {
-    padding: 16px 0 16px 0;}
-    #contact-form {
-       padding-top: 32px;}
+    padding: 16px 0 16px 0;
+  }
+  #contact-form {
+    padding-top: 32px;
+  }
   // menu
-  .page-content > .container{
+  .page-content > .container {
     margin-left: 16px;
   }
   #footer-contact-page {
@@ -1017,23 +1127,24 @@ Footer
     margin: 0 5px;
     padding-bottom: 9px;
   }
-  .menu-toggle{
+  .menu-toggle {
     width: 40px;
     padding-right: 16px;
   }
-  .contact-cols>div:first-child{
+  .contact-cols > div:first-child {
     display: flex;
     justify-content: center;
   }
-  .contact-col{
+  .contact-col {
     border-bottom: 1px solid #e8e8e8;
     padding-bottom: 20px;
   }
-  .contacts>.contact-col{
+  .contacts > .contact-col {
     padding-top: 20px;
   }
   #footer-contact-page {
-    border-bottom: unset;}
+    border-bottom: unset;
+  }
 }
 @media screen and (min-width: $on-palm) {
   .container {
