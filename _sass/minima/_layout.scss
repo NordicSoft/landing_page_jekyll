@@ -859,7 +859,7 @@ Footer
 }
 
 #services {
-  padding-top: 96px;
+  padding-top: 66px;
 }
 .who-are-we p {
   padding-top: 180px;
@@ -1011,6 +1011,63 @@ Footer
 
   color: #7c7c7c;
 }
+$duration: 20s;
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  position: fixed;
+  top: 282px;
+  width: 100%;
+  padding-left: 100%;
+.ticker__item{
+  color: #020113;
+}
+  .ticker {
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: $duration;
+            animation-duration: $duration;
+    &__item {
+      font-family: TelegrafBold;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 76px;
+      color: #06050D;
+    }
+
+  }
+
+}
 
 /**
  * Responsive
@@ -1039,6 +1096,9 @@ Footer
   }
 }
 @media screen and (max-width: $on-phone) {
+  .step-container{
+    max-width: 300px;
+  }
   .projects h1 {
     max-width: 170px;
     line-height: 40px;
@@ -1058,10 +1118,9 @@ Footer
   .container {
     max-width: 300px;
   }
-  .menu-footer .footer-col:last-child {
-    padding: 87px 0;
-    max-width: 119px;
-  }
+  .ticker-wrap {
+    width: unset;
+}
 }
 @media screen and (min-width: $on-phone) {
   .container {
@@ -1073,6 +1132,17 @@ Footer
   }
 }
 @media screen and (max-width: $on-palm) {
+
+  .menu-footer .footer-col:last-child {
+    padding: 0 0px;
+    max-width: 119px;
+  }
+  .social-links {
+    padding-left: 50px;
+  }
+  .disclaimer p {
+    padding-top: 50px;
+  }
   .container {
     padding-left: unset;
     padding-right: unset;
@@ -1213,11 +1283,37 @@ Footer
   #footer-contact-page {
     border-bottom: unset;
   }
+  #services .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .who-are-we p {
+    padding-top: 80px;
+  }
+
+  .clients-testimonials {
+    flex-wrap: wrap;
+    padding: unset;
+    justify-content: center;
+  }
+  .testimonial .container {
+    flex-wrap: wrap;
+  }
+  .step-container {
+    padding-top: unset;
+    padding-bottom: unset;
+    .container {
+      padding: 50px 0;
+    }
+  }
 }
 @media screen and (min-width: $on-palm) {
   .container {
     max-width: 720px;
   }
+  // .step-container {
+  //   max-width: 360px;
+  // }
   .h1home h1 {
     font-size: 40px;
     line-height: 55px;
