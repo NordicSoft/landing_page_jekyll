@@ -13,12 +13,22 @@
 @font-face {
   font-family: "Neue Montreal";
   src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot");
-  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal") format("svg");
+  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal")
+      format("svg");
 }
+
+body {
+  overflow-x: hidden;
+}
+
 /**
  * Site header
  */
@@ -665,7 +675,7 @@ Footer
   justify-content: space-between;
 }
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 72px 0 12px;
   flex: 1 0 auto;
 }
 
@@ -1040,33 +1050,31 @@ $duration: 20s;
 }
 
 .ticker-wrap {
-  position: fixed;
+  position: absolute;
   top: 282px;
   width: 100%;
   padding-left: 100%;
-.ticker__item{
-  color: #020113;
-}
+  .ticker__item {
+    color: #020113;
+  }
   .ticker {
-    -webkit-animation-iteration-count: infinite; 
-            animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-   -webkit-animation-name: ticker;
-           animation-name: ticker;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
     -webkit-animation-duration: $duration;
-            animation-duration: $duration;
+    animation-duration: $duration;
     &__item {
       font-family: TelegrafBold;
       font-style: normal;
       font-weight: 900;
       font-size: 72px;
       line-height: 76px;
-      color: #06050D;
+      color: #06050d;
     }
-
   }
-
 }
 
 /**
@@ -1096,7 +1104,7 @@ $duration: 20s;
   }
 }
 @media screen and (max-width: $on-phone) {
-  .step-container{
+  .step-container {
     max-width: 300px;
   }
   .projects h1 {
@@ -1120,7 +1128,7 @@ $duration: 20s;
   }
   .ticker-wrap {
     width: unset;
-}
+  }
 }
 @media screen and (min-width: $on-phone) {
   .container {
@@ -1132,7 +1140,6 @@ $duration: 20s;
   }
 }
 @media screen and (max-width: $on-palm) {
-
   .menu-footer .footer-col:last-child {
     padding: 0 0px;
     max-width: 119px;
@@ -1348,5 +1355,254 @@ $duration: 20s;
   .h1home h1 {
     font-size: 64px;
     line-height: 77px;
+  }
+}
+
+#team {
+  border-bottom: 1px solid #e0e0e0;
+
+  .gallery {
+    padding: 252px 0 224px;
+    display: flex;
+    justify-content: space-between;
+
+    .pic {
+      margin-right: 32px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .pic1 {
+      width: 25%;
+      margin-top: 39px;
+    }
+
+    .pic2 {
+      width: 16.6%;
+      margin-top: 103px;
+    }
+
+    .pic3 {
+      width: 25%;
+    }
+
+    .pic4 {
+      width: 16.6%;
+      margin-top: 177px;
+    }
+
+    .empty {
+      width: 16.6%;
+    }
+  }
+
+  .h2-team {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+  }
+
+  .h2-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+
+  .h3-text {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .point-block {
+    display: flex;
+    align-items: center;
+  }
+
+  .wizard-block {
+    padding: 104px 0 224px;
+
+    .text-columns {
+      display: flex;
+      justify-content: space-between;
+
+      .column {
+        width: 100%;
+
+        &:first-child {
+          margin-right: 69px;
+        }
+        &:last-child {
+          margin-left: 69px;
+        }
+      }
+
+      p {
+        margin-bottom: 40px;
+        font-family: Neue Montreal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 160%;
+        color: #020113;
+      }
+    }
+
+    .avatars {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 184px;
+
+      .avatar {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+      }
+
+      .avatar1 {
+        background-image: url("../../assets/images/avatar1.svg");
+      }
+      .avatar2 {
+        background-image: url("../../assets/images/avatar2.svg");
+      }
+      .avatar3 {
+        background-image: url("../../assets/images/avatar3.svg");
+      }
+      .avatar4 {
+        background-image: url("../../assets/images/avatar4.svg");
+      }
+      .avatar5 {
+        background-image: url("../../assets/images/avatar5.svg");
+      }
+      .avatar6 {
+        background-image: url("../../assets/images/avatar6.svg");
+      }
+      .avatar7 {
+        background-image: url("../../assets/images/avatar7.svg");
+      }
+      .avatar8 {
+        background-image: url("../../assets/images/avatar8.svg");
+      }
+      .avatar9 {
+        background-image: url("../../assets/images/avatar9.svg");
+      }
+    }
+  }
+
+  .benefits {
+    background-color: #f5f5f5;
+    padding: 108px 0 60px;
+
+    .h2-team {
+      padding-bottom: 38px;
+      border: none;
+    }
+
+    .benefit-row {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #e0e0e0;
+
+      .benefit {
+        margin: 48px 122px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        p {
+          font-family: Neue Montreal;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 160%;
+          color: #06050d;
+        }
+
+        p.title {
+          font-family: Neue Montreal;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 160%;
+          color: #06050d;
+          margin-bottom: 24px;
+        }
+      }
+    }
+    .gallery-benefit {
+      padding-top: 74px;
+
+      .gallery-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 124px;
+
+        .pic-block {
+          margin: 0 16px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+
+        .pic1,
+        .pic6 {
+          width: 42%;
+        }
+
+        .pic2,
+        .pic5 {
+          width: 25%;
+        }
+
+        .pic3,
+        .pic4 {
+          width: 33%;
+        }
+      }
+    }
+  }
+
+  .in-touch {
+    padding: 163px 0 224px;
+    text-align: center;
+
+    div {
+      font-family: Neue Montreal;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 160%;
+      color: #7c7c7c;
+      text-decoration: none;
+    }
+
+    .title {
+      margin-bottom: 40px;
+      font-family: Neue Montreal;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 67px;
+      color: #020113;
+    }
   }
 }
