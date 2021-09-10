@@ -7,6 +7,10 @@ description: > # this means to ignore newlines until "show_excerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
+
+baseurl: ""
+permalink: /:title/
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # If you want to link only specific pages in your header, uncomment
@@ -18,3 +22,8 @@ header_pages:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-multiple-languages-plugin
+
+ # jekyll-multiple-languages-plugin settings:
+languages: ["en", "et"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]

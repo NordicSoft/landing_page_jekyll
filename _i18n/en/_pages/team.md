@@ -1,8 +1,3 @@
----
-layout: default
-permalink: /team/
----
-
 <section id="team">
   <div class="ticker-wrap">
     <div class="ticker">

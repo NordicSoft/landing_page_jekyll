@@ -40,6 +40,16 @@ body {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+
+  .link-lang {
+    font-family: Telegraf;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 17px;
+    color: #020113;
+    opacity: 0.7;
+  }
 }
 .container {
   width: 100%;
@@ -1076,7 +1086,7 @@ $duration: 20s;
     }
   }
 }
-.social-links a{
+.social-links a {
   padding: 12px;
 }
 /**

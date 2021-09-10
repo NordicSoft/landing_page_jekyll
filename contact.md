@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /contact/
+menu: false
 ---
 <div class="container">
     <div class="start-conversation">

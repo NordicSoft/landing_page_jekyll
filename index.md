@@ -6,4 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Home
+menu: false
+namespace: root
+permalink: /
 ---
