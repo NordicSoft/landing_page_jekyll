@@ -11,7 +11,7 @@
 
 <section id="get-in-touch">
   <div class="container">
-    <p>Our work speaks volumes of our craft</p>
-    <a class="get-in-touch-link" href="/get">View our projects</a>
+    <p>Meie töö räägib palju meie käsitööst</p>
+    <a class="get-in-touch-link" href="/get">Vaadake meie projekte</a>
   </div>
 </section>

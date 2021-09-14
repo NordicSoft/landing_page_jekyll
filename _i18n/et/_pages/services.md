@@ -1,7 +1,7 @@
 <section id="services">
   <div class="ticker-wrap">
     <div class="ticker">
-      <div class="ticker__item">ARENG.BLOCKCHAIN.DESIGN.</div>
+      <div class="ticker__item">ARENG.PLOKIAHEL.DISAIN.</div>
     </div>
   </div>
 
@@ -11,12 +11,12 @@
         <svg height="48" width="48">
           <circle cx="24" cy="24" r="12" fill="black" />
         </svg>
-        <p class="h2-text">Our expertise</p>
+        <p class="h2-text">Meie asjatundlikkus</p>
       </div>
       <div class="who-are-we">
         <p>
-          We integrate intelligent design with functionality and technology to
-          build world-class digital products that accentuate user experiences.
+          Integreerime intelligentse disaini funktsionaalsuse ja tehnoloogiaga
+          luua maailmatasemel digitaalseid tooteid, mis rõhutavad kasutajakogemust. 
         </p>
       </div>
     </div>
@@ -36,51 +36,51 @@
       <svg height="48" width="48">
         <circle cx="24" cy="24" r="12" fill="black" />
       </svg>
-      <p class="h2-text">services</p>
+      <p class="h2-text">teenused</p>
     </div>
   </div>
   <div class="container">
-    <p class="h3-text">Curating flawless digital experiences</p>
+    <p class="h3-text">Veatute digitaalsete kogemuste kureerimine</p>
   </div>
   <div class="step-container">
     <div class="container">
       <div class="step-title">
         <p class="step-number">01</p>
-        <p class="step-name">Design</p>
+        <p class="step-name">Disain</p>
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          Tõstke disain ja raamistikud ellu veatult juurutades
+           arenenud tehnoloogiaid ja pidevat tuge.
         </p>
       </div>
       <div class="steps">
-        <p class="steps-text">Brand Identity</p>
+        <p class="steps-text">Brändi identitee</p>
 
-        <p class="steps-text">Web Design</p>
+        <p class="steps-text">Veebidisain</p>
 
-        <p class="steps-text">Interaction Design</p>
+        <p class="steps-text">Interaktsiooni disain</p>
 
-        <p class="steps-text">Presentation Design</p>
+        <p class="steps-text">Esitluse kujundus</p>
       </div>
     </div>
     <div class="container">
       <div class="step-title">
         <p class="step-number">02</p>
-        <p class="step-name">Development</p>
+        <p class="step-name">Areng</p>
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          Tõstke disain ja raamistikud ellu veatult juurutades
+           arenenud tehnoloogiaid ja pidevat tuge.
         </p>
       </div>
       <div class="steps">
-        <p class="steps-text">Backend Development</p>
+        <p class="steps-text">Taustaprogrammi arendamine</p>
 
-        <p class="steps-text">Frontend Development</p>
+        <p class="steps-text">Frontend arendus</p>
 
-        <p class="steps-text">Blockchain</p>
+        <p class="steps-text">Plokiahel</p>
 
         <p class="steps-text">E-commerce</p>
 
@@ -93,7 +93,7 @@
     <div class="container">
       <div class="step-title">
         <p class="step-number">03</p>
-        <p class="step-name">IT Services</p>
+        <p class="step-name">IT -teenused</p>
       </div>
       <div class="step-description">
         <p>
@@ -102,36 +102,36 @@
         </p>
       </div>
       <div class="steps">
-        <p class="steps-text">Windows Administration</p>
+        <p class="steps-text">Windowsi haldus</p>
 
-        <p class="steps-text">Azure Administrationn</p>
+        <p class="steps-text">Azure'i administreerimine</p>
 
-        <p class="steps-text">Linux Administration</p>
+        <p class="steps-text">Linuxi administreerimine</p>
 
-        <p class="steps-text">AWS Administration</p>
+        <p class="steps-text">AWS administratsioon</p>
 
-        <p class="steps-text">Database Management</p>
+        <p class="steps-text">Andmebaasi haldamine</p>
       </div>
     </div>
     <div class="container">
       <div class="step-title">
         <p class="step-number">04</p>
-        <p class="step-name">QA & Testing</p>
+        <p class="step-name">QA ja testimine</p>
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          Tõstke disain ja raamistikud ellu veatult juurutades
+           arenenud tehnoloogiaid ja pidevat tuge.
         </p>
       </div>
       <div class="steps">
-        <p class="steps-text">Backend Development</p>
+        <p class="steps-text">Taustaprogrammi arendamine</p>
 
-        <p class="steps-text">Frontend Development</p>
+        <p class="steps-text">Frontend arendus</p>
 
-        <p class="steps-text">Blockchain</p>
+        <p class="steps-text">Plokiahel</p>
 
-        <p class="steps-text">E-commerce</p>
+        <p class="steps-text">E-kaubandus</p>
 
         <p class="steps-text">React.js</p>
       </div>
@@ -145,11 +145,11 @@
       <svg height="48" width="48">
         <circle cx="24" cy="24" r="12" fill="black" />
       </svg>
-      <p class="h2-text">testimonials</p>
+      <p class="h2-text">iseloomustused</p>
     </div>
   </div>
   <div class="container">
-    <p class="h3-text">Clients & Partners</p>
+    <p class="h3-text">Kliendid ja partnerid</p>
     <div class="clients-testimonials">
       <div class="testimonial">
         <div class="container">
@@ -163,12 +163,12 @@
           </div>
           <div class="testimonial-description">
             <p>
-              “NordicSoft provided us with immediate access to a top-notch
-              engineering team in the midst of rapid growth.”
+              “NordicSoft pakkus meile kohest juurdepääsu tipptasemel
+                insenerimeeskond kiire kasvu keskel.”
             </p>
             <div class="client-title">
               <p>Nick Nick</p>
-              <p>Product Lead, Dex.Guru</p>
+              <p>Tootejuht, Dex.Guru</p>
             </div>
           </div>
         </div>
@@ -185,12 +185,12 @@
           </div>
           <div class="testimonial-description">
             <p>
-              “NordicSoft provided us with immediate access to a top-notch
-              engineering team in the midst of rapid growth.”
+              “NordicSoft pakkus meile kohest juurdepääsu tipptasemel
+               insenerimeeskond kiire kasvu keskel.”
             </p>
             <div class="client-title">
               <p>Nick Nick</p>
-              <p>Product Lead, Dex.Guru</p>
+              <p>Tootejuht, Dex.Guru</p>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@
 
 <section id="get-in-touch">
   <div class="container">
-    <p>Our work speaks volumes of our craft</p>
-    <a class="get-in-touch-link" href="/get">View our projects</a>
+    <p>Meie töö räägib palju meie käsitööst</p>
+    <a class="get-in-touch-link" href="/get">Vaadake meie projekte</a>
   </div>
 </section>

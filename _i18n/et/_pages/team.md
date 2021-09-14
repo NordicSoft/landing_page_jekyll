@@ -12,7 +12,7 @@
           <svg height="48" width="48">
             <circle cx="24" cy="24" r="12" fill="black" />
           </svg>
-          <p class="h2-text">Working at nordicsoft</p>
+          <p class="h2-text">Töötab nordicsoftis</p>
         </div>
       </div>
       <div class="gallery">
@@ -30,9 +30,9 @@
         <svg height="48" width="48">
           <circle cx="24" cy="24" r="12" fill="black" />
         </svg>
-        <p class="h2-text">WHO ARE WE?</p>
+        <p class="h2-text">KES ME OLEME?</p>
       </div>
-      <p class="h3-text">Creative wizards who conjure magic</p>
+      <p class="h3-text">Loomingulised võlurid, kes võluvad</p>
     </div>
   </div>
   <div class="container">
@@ -40,22 +40,22 @@
       <div class="text-columns">
         <div class="column">
           <p>
-            Just kidding. We don’t know any magic. But we have a few neat tricks
-            up our sleeve in designing and building digital products
+            Tegin nalja. Me ei tea maagiat. Kuid meil on paar nippi
+             meie varrukas digitoodete projekteerimisel ja ehitamisel
           </p>
         </div>
         <div class="column">
           <p>
-            We are a team of different and driven individuals who work together
-            to experiment, create, and solve challenges. Our designers and
-            developers put together their experience, wisdom, and creativity to
-            build great products.
+            Oleme meeskond, kes koosneb erinevatest ja innukatest isikutest, kes töötavad koos
+             katsetada, luua ja lahendada väljakutseid. Meie disainerid ja
+             arendajad panid kokku oma kogemused, tarkuse ja loovuse
+             luua suurepäraseid tooteid.
           </p>
           <p>
-            We are a team of different and driven individuals who work together
-            to experiment, create, and solve challenges. Our designers and
-            developers put together their experience, wisdom, and creativity to
-            build great products.
+            Oleme meeskond, kes koosneb erinevatest ja innukatest isikutest, kes töötavad koos
+             katsetada, luua ja lahendada väljakutseid. Meie disainerid ja
+             arendajad panid kokku oma kogemused, tarkuse ja loovuse
+             luua suurepäraseid tooteid. 
           </p>
         </div>
       </div>
@@ -79,41 +79,41 @@
           <svg height="48" width="48">
             <circle cx="24" cy="24" r="12" fill="black" />
           </svg>
-          <p class="h2-text">Benefits other than</p>
+          <p class="h2-text">Muud eelised kui</p>
         </div>
-        <p class="h3-text">Joining an awesome team.</p>
+        <p class="h3-text">Ülimate meeskondadega liitumine.</p>
       </div>
     </div>
     <div class="container">
       <div class="benefit-row">
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Paindlikkus ja eelised</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+            Paindlikud tööajad, kaasav kultuur, regulaarsed meeskonnaväljakud ja iga -aastane
+             selts taandub. 
           </p>
         </div>
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Paindlikkus ja eelised</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+           Paindlikud tööajad, kaasav kultuur, regulaarsed meeskonnaväljakud ja iga -aastane
+             selts taandub. 
           </p>
         </div>
       </div>
       <div class="benefit-row">
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Paindlikkus ja eelised</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+           Paindlikud tööajad, kaasav kultuur, regulaarsed meeskonnaväljakud ja iga -aastane
+             selts taandub. 
           </p>
         </div>
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Paindlikkus ja eelised</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+           Paindlikud tööajad, kaasav kultuur, regulaarsed meeskonnaväljakud ja iga -aastane
+             selts taandub. 
           </p>
         </div>
       </div>
@@ -141,8 +141,8 @@
   </div>
   <div class="in-touch">
     <div class="container">
-      <div class="title">Interested in working with us?</div>
-      <div>Send us an email at careers@nordicsoft.ee</div>
+      <div class="title">Kas olete huvitatud meiega töötamisest?</div>
+      <div>Saatke meile e -kiri aadressil careers@nordicsoft.ee</div>
     </div>
   </div>
 </section>

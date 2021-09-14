@@ -1,7 +1,7 @@
 <section class="about-h1">
   <div class="container">
     <div class="h1home">
-      <h1>{% t global.mainhead %}</h1>
+      <h1>Oleme ülemaailmne loomingulise disaini ja tehnoloogia agentuur, mis toetab suuri ideid ja kaubamärke</h1>
     </div>
     <div class="about-us">
       <div class="upwork-top">
@@ -9,12 +9,12 @@
       </div>
       <div class="description">
         <p>
-          e-Commerce, blockchain, WEB DEVELOPMENT, UX/UI DEsign, API
-          integrations, IT Services
+          e-kaubandus, plokiahel, WEB DEVELOPMENT, UX/UI DEsign, API
+           integratsioonid, IT -teenused 
         </p>
       </div>
       <div>
-        <a class="about-service" href="/about">About services</a
+        <a class="about-service" href="/about">Teenuste kohta</a
         ><svg
           width="17"
           height="17"
@@ -35,7 +35,7 @@
 </section>
 <section class="projects">
   <div class="container">
-    <h1 class="selected-projects">selected projects</h1>
+    <h1 class="selected-projects">valitud projektid</h1>
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
@@ -57,7 +57,7 @@
             <p>3/4</p>
             <h2>MONFEX</h2>
           </div>
-          <p>platform for decentralized margin trading based on dex protocol</p>
+          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
         </div>
       </div>
       <div class="project-col">
@@ -69,7 +69,7 @@
             <p>2/4</p>
             <h2>DEX.GURU</h2>
           </div>
-          <p>platform for decentralized margin trading based on dex protocol</p>
+          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
         </div>
 
         <div class="project">
@@ -80,7 +80,7 @@
             <p>4/4</p>
             <h2>FULCRUM</h2>
           </div>
-          <p>platform for decentralized margin trading based on dex protocol</p>
+          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil </p>
         </div>
       </div>
     </div>
@@ -110,21 +110,21 @@
       <svg height="48" width="48">
         <circle cx="24" cy="24" r="12" fill="black" />
       </svg>
-      <p class="h2-text">what we do</p>
+      <p class="h2-text">mida me teeme</p>
     </div>
     <div class="what-we-do-links">
       <div class="links">
         <div class="link">
-          <p>Help businesses unleash their potential</p>
-          <a class="what-we-do-link" href="/know">Know about us</a>
+          <p>Aidake ettevõtetel oma potentsiaali vallandada</p>
+          <a class="what-we-do-link" href="/know">Teadke meist</a>
         </div>
         <div class="link">
-          <p>Build transformative products and experiences</p>
-          <a class="what-we-do-link" href="/Build">See our work</a>
+          <p>Looge ümberkujundavaid tooteid ja kogemusi</p>
+          <a class="what-we-do-link" href="/Build">Vaadake meie tööd</a>
         </div>
         <div class="link">
-          <p>Work with people who are willing to learn</p>
-          <a class="what-we-do-link" href="/know">Work with us</a>
+          <p>Töötage inimestega, kes on valmis õppima</p>
+          <a class="what-we-do-link" href="/know">Töötage meiega</a>
         </div>
       </div>
     </div>
@@ -132,7 +132,7 @@
 </section>
 <section id="get-in-touch">
   <div class="container">
-    <p>Want do discuss future collaboration?</p>
-    <a class="get-in-touch-link" href="/get">Get in touch</a>
+    <p>Kas soovite arutada tulevast koostööd?</p>
+    <a class="get-in-touch-link" href="/get">Ühendust võtm</a>
   </div>
 </section>

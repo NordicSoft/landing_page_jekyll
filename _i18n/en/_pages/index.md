@@ -1,7 +1,7 @@
 <section class="about-h1">
   <div class="container">
     <div class="h1home">
-      <h1>{% t global.mainhead %}</h1>
+      <h1>We are a global creative design and technology agency powering big ideas and brands</h1>
     </div>
     <div class="about-us">
       <div class="upwork-top">
