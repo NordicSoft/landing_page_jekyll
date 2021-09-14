@@ -18,17 +18,27 @@
       <div class="menu">
         <div class="menu-left">
           {% for page in site.pages %}
-          {% if page.menu  == true %}
-          <a class="page-link" href="{{ site.baseurl }}{{ page.url }}">
-            {{ page.title }} 
-          </a>
-          {% endif %}
+
+          {% if page.menu == true %}
+            <a class="page-link" href="{{ site.baseurl }}{{ page.url }}">
+              {% if site.lang == "et" %}
+                {{page.titleet }} 
+              {% else %}
+                {{page.titleen }} 
+              {% endif %}
+            </a>
+            {% endif %}
           {% endfor %}
         </div>
         <div class="menu-right">
           <div class="lang">
-            <a class="link-en link-lang" href="{% tl root en %}">EN</a>
-            <a class="link-et link-lang" href="{% tl root et %}">ET</a>
+            {% if site.lang == "en" %}
+              <a class="link-en link-lang active" href="#" id="lang-en">EN</a>
+              <a class="link-et link-lang" href="#" id="lang-et">ET</a>
+              {% else %}
+              <a class="link-en link-lang" href="#" id="lang-en">EN</a>
+              <a class="link-et link-lang active" href="#" id="lang-et">ET</a>
+              {% endif %}
           </div>
           <div class="get-in-touch">
             <a class="get" href="get">Get in touch</a>
@@ -38,3 +48,24 @@
     </nav>
   </div>
 </header>
+
+<script>
+var enLang = document.querySelector('#lang-en'); 
+var etLang = document.body.querySelector('#lang-et'); 
+
+
+enLang.addEventListener('click', function(e){
+   e.preventDefault();
+   var currentPath = window.location.pathname.includes('/et/') ? window.location.pathname.substr(4) : window.location.pathname;
+   window.location.pathname = currentPath;
+  
+});
+
+
+etLang.addEventListener('click', function(e){
+   e.preventDefault();
+   var currentPath = window.location.pathname.includes('/et/') ? window.location.pathname.substr(4) : window.location.pathname;
+   window.location.pathname = '/et'+currentPath;
+});
+
+</script>

@@ -49,6 +49,25 @@ body {
     line-height: 17px;
     color: #020113;
     opacity: 0.7;
+    position: relative;
+
+    &.active {
+      font-weight: 900;
+      opacity: 1;
+
+      &::after {
+        position: absolute;
+        content: "";
+        width: 4px;
+        height: 4px;
+        left: 0;
+        right: 0;
+        top: 20px;
+        margin: auto;
+        border-radius: 50%;
+        background: #06050d;
+      }
+    }
   }
 }
 .container {

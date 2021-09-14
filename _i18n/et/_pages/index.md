@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <section class="about-h1">
   <div class="container">
     <div class="h1home">
@@ -9,7 +5,7 @@ layout: default
     </div>
     <div class="about-us">
       <div class="upwork-top">
-        <p>UPWORK - TOP RATED</p>
+        <p>UPWORK - TOP HINNATUD </p>
       </div>
       <div class="description">
         <p>
@@ -105,6 +101,7 @@ layout: default
         />
       </svg>
     </div>
+
   </div>
 </section>
 <section id="what-we-do">

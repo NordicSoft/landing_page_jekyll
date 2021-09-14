@@ -3,6 +3,7 @@ layout: page
 permalink: /contact/
 menu: false
 ---
+
 <div class="container">
     <div class="start-conversation">
         <svg height="48" width="48">
@@ -65,4 +66,5 @@ menu: false
         </div>
 
     </div>
+
 </section>

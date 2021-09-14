@@ -3,7 +3,7 @@ global:
 langs:
   en: English
   et: Estonian
-# menu:
-#   services: Services
-#   projects: Projects
-#   team: Team
+menu:
+  services: Services
+  projects: Projects
+  team: Team
