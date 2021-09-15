@@ -5,3 +5,11 @@ menu:
   services: Services
   projects: Projects
   team: Team
+footer:
+  home: Home
+  about: About
+  work: Work
+  culture: Culture
+  contact: Contact
+  copyright: NordicSoft is EU registered trademark of NordicSoft OÜ.
+  allright: All Rights Reserved.
