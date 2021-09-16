@@ -133,6 +133,6 @@
 <section id="get-in-touch">
   <div class="container">
     <p>Kas soovite arutada tulevast koostööd?</p>
-    <a class="get-in-touch-link" href="/get">Ühendust võtm</a>
+    <a class="get-in-touch-link" href="{{ site.baseurl }}/contact">Ühendust võtm</a>
   </div>
 </section>

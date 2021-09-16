@@ -133,6 +133,6 @@
 <section id="get-in-touch">
   <div class="container">
     <p>Want do discuss future collaboration?</p>
-    <a class="get-in-touch-link" href="/get">Get in touch</a>
+    <a class="get-in-touch-link" href="{{ site.baseurl }}/contact">Get in touch</a>
   </div>
 </section>
