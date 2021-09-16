@@ -17,6 +17,8 @@ header_pages:
   - team.md
   - contact.md
   - services.md
+  - projects.md
+  - index.md
   - 404.md
 plugins:
   - jekyll-feed
