@@ -13,7 +13,7 @@
            integratsioonid, IT -teenused 
         </p>
       </div>
-      <div>
+      <div class="about-wrap">
         <a class="about-service" href="/about">Teenuste kohta</a
         ><svg
           width="17"
@@ -44,9 +44,11 @@
           </svg>
           <div class="project-name">
             <p>1/4</p>
-            <h2>BZX</h2>
+            <div>
+              <h2>BZX</h2>
+              <p>platform for decentralized margin trading based on bzx protocol</p>
+            </div>
           </div>
-          <p>platform for decentralized margin trading based on bzx protocol</p>
         </div>
 
         <div class="project">
@@ -55,9 +57,11 @@
           </svg>
           <div class="project-name">
             <p>3/4</p>
-            <h2>MONFEX</h2>
+            <div>
+              <h2>MONFEX</h2>
+              <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
+            </div>
           </div>
-          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
         </div>
       </div>
       <div class="project-col">
@@ -67,9 +71,11 @@
           </svg>
           <div class="project-name">
             <p>2/4</p>
-            <h2>DEX.GURU</h2>
+            <div>
+              <h2>DEX.GURU</h2>
+              <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
+            </div>
           </div>
-          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil</p>
         </div>
 
         <div class="project">
@@ -77,10 +83,12 @@
             <rect width="538" height="457" style="fill: rgb(0, 0, 0)" />
           </svg>
           <div class="project-name">
-            <p>4/4</p>
-            <h2>FULCRUM</h2>
+              <p>4/4</p>
+              <div>
+                <h2>FULCRUM</h2>
+                <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil </p>
+              </div>
           </div>
-          <p>platvorm detsentraliseeritud marginaaliga kauplemiseks, mis põhineb dex -protokollil </p>
         </div>
       </div>
     </div>

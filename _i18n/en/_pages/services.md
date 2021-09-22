@@ -6,8 +6,9 @@
   </div>
 
   <div class="container">
+    <div class="line"></div>
     <div class="service-col">
-      <div class="h2-services">
+      <div class="h2-services main-header">
         <svg height="48" width="48">
           <circle cx="24" cy="24" r="12" fill="black" />
         </svg>

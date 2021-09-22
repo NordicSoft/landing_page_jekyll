@@ -13,7 +13,7 @@
           integrations, IT Services
         </p>
       </div>
-      <div>
+      <div class="about-wrap">
         <a class="about-service" href="/about">About services</a
         ><svg
           width="17"
@@ -44,9 +44,11 @@
           </svg>
           <div class="project-name">
             <p>1/4</p>
-            <h2>BZX</h2>
+            <div> 
+              <h2>BZX</h2>
+              <p>platform for decentralized margin trading based on bzx protocol</p>
+            </div>
           </div>
-          <p>platform for decentralized margin trading based on bzx protocol</p>
         </div>
 
         <div class="project">
@@ -55,9 +57,11 @@
           </svg>
           <div class="project-name">
             <p>3/4</p>
-            <h2>MONFEX</h2>
-          </div>
+          <div>
+          <h2>MONFEX</h2>
           <p>platform for decentralized margin trading based on dex protocol</p>
+          </div>
+          </div>
         </div>
       </div>
       <div class="project-col">
@@ -67,9 +71,11 @@
           </svg>
           <div class="project-name">
             <p>2/4</p>
+            <div>
             <h2>DEX.GURU</h2>
-          </div>
           <p>platform for decentralized margin trading based on dex protocol</p>
+          </div>
+          </div>
         </div>
 
         <div class="project">
@@ -78,9 +84,11 @@
           </svg>
           <div class="project-name">
             <p>4/4</p>
+            <div>
             <h2>FULCRUM</h2>
-          </div>
           <p>platform for decentralized margin trading based on dex protocol</p>
+          </div>
+          </div>
         </div>
       </div>
     </div>

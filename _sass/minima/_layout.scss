@@ -29,6 +29,12 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  position: relative;
+  overflow: hidden;
+  max-width: 100vw;
+}
+
 /**
  * Site header
  */
@@ -50,6 +56,10 @@ body {
     color: #020113;
     opacity: 0.7;
     position: relative;
+
+    &:first-child {
+      margin-right: 16px;
+    }
 
     &.active {
       font-weight: 900;
@@ -109,6 +119,11 @@ body {
 .get-in-touch {
   text-decoration-line: underline;
 }
+
+.disclime-header {
+  display: none;
+}
+
 .site-nav {
   font-style: normal;
   font-weight: 500;
@@ -623,11 +638,21 @@ Footer
 }
 
 .project-col {
-  max-width: 620px;
+  max-width: 570px;
 }
 .project {
   h2 {
     font-weight: 800;
+  }
+
+  .project-name {
+    display: flex;
+    align-items: baseline;
+    padding: 42px 0 214px;
+
+    & > p {
+      margin-right: 54px;
+    }
   }
 }
 .what-we-do-links {
@@ -852,19 +877,37 @@ Footer
 /**
 *SERVICES
 */
-#services .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+#services {
+  padding-bottom: 42px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .ticker-wrap + .container {
+    position: relative;
+
+    .line {
+      position: absolute;
+      border-top: 1px solid #e8e8e8;
+      width: 100%;
+      top: 88px;
+    }
+  }
 }
 #services > .container:first-child {
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 64px;
 }
 #services > .container:nth-child(3) {
-  padding-top: 40px;
-  border-bottom: 1px solid #e0e0e0;
+  padding-top: 64px;
 }
+#services > .container:nth-child(4) {
+  border-bottom: 1px solid #e8e8e8;
+}
+
 #services > .container:nth-child(4) > .container {
   max-width: 392px;
 }
@@ -874,18 +917,25 @@ Footer
   max-width: 1240px;
   margin: auto;
   padding-top: 56px;
-  padding-bottom: 115px;
+  padding-bottom: 64px;
 }
 .step-container .container {
   max-width: 392px;
   flex-wrap: wrap;
 }
 .h2-services {
-  padding: 0 0 40px 0;
+  padding: 40px 0 0 0;
   width: 100%;
-  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
+
+  &.main-header {
+    padding: 0 0 40px 0;
+    width: 100%;
+    border-top: none;
+  }
+
   .h2-text {
     font-style: normal;
     font-weight: 900;
@@ -898,7 +948,7 @@ Footer
 }
 
 .who-are-we p {
-  padding-top: 180px;
+  padding-top: 298px;
   max-width: 500px;
   font-family: Neue Montreal;
   font-style: normal;
@@ -915,6 +965,7 @@ Footer
   font-weight: normal;
   font-size: 36px;
   line-height: 160%;
+  margin-bottom: 0;
   /* or 58px */
 
   max-width: 500px;
@@ -971,10 +1022,14 @@ Footer
   font-weight: 500;
   font-size: 18px;
   line-height: 160%;
-  /* identical to box height, or 29px */
-
   color: #020113;
   margin-bottom: 17px;
+
+  .steps-text {
+    padding: 8px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
 }
 
 .clients {
@@ -998,13 +1053,14 @@ Footer
   }
 }
 .clients .h3-text {
-  border-bottom: 1px solid #e0e0e0;
   padding-bottom: 48px;
+  padding-top: 8px;
 }
 .clients-testimonials {
   display: flex;
   justify-content: space-between;
   padding: 48px 110px;
+  border-top: 1px solid #e0e0e0;
 }
 .testimonial {
   .container {
@@ -1077,9 +1133,10 @@ $duration: 20s;
 
 .ticker-wrap {
   position: absolute;
-  top: 282px;
+  top: 167px;
   width: 100%;
   padding-left: 100%;
+  z-index: 1;
   .ticker__item {
     color: #020113;
   }
@@ -1158,7 +1215,7 @@ $duration: 20s;
     width: unset;
   }
 }
-@media screen and (min-width: $on-phone) {
+@media screen and (min-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -1203,14 +1260,79 @@ $duration: 20s;
       border-bottom: 1px solid #e8e8e8;
     }
   }
+
+  #menu-bar {
+    display: block;
+  }
+  #menu-cross {
+    display: none;
+    margin-top: -12px;
+  }
+  #menu-bar.show {
+    display: none;
+
+    & + svg {
+      display: block;
+    }
+  }
   .site-nav {
-    top: -200px;
+    display: none;
+    // top: -200px;
     transition: all 0.5s;
     width: 167px;
-    // left: 299px;
+    text-align: left;
     &.show {
-      top: 57px;
-      // background-color: unset;
+      display: block;
+      top: 59px;
+      width: 100%;
+      height: calc(100vh - 59px);
+      left: 0;
+      right: 0;
+      position: fixed;
+      max-width: unset;
+      padding: 29px 20px 24px;
+      z-index: 5;
+      .page-link {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #06050d;
+        margin-bottom: 48px;
+        margin-left: 0;
+        border-bottom: none;
+      }
+
+      .menu-right {
+        padding-top: 27px;
+
+        .lang {
+          margin-bottom: 55px;
+        }
+
+        .get-in-touch {
+          text-decoration: none;
+
+          a {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #020113;
+          }
+        }
+      }
+
+      .disclime-header {
+        display: block;
+        font-family: Neue Montreal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 180%;
+        color: #7c7c7c;
+        margin-top: 55px;
+      }
     }
   }
 
@@ -1233,9 +1355,8 @@ $duration: 20s;
   .menu-toggle {
     float: right;
     width: 36px;
-    height: 26px;
+    height: 6px;
     line-height: 0;
-    padding-top: 15px;
     text-align: center;
 
     > svg path {
@@ -1342,7 +1463,7 @@ $duration: 20s;
     }
   }
 }
-@media screen and (min-width: $on-palm) {
+@media screen and (min-width: 769px) {
   .container {
     max-width: 720px;
   }
@@ -1369,20 +1490,19 @@ $duration: 20s;
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: $on-pc) {
-  .project-cols {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-  }
-}
-@media screen and (min-width: $on-pc) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1240px;
   }
   .h1home h1 {
     font-size: 64px;
     line-height: 77px;
+  }
+}
+
+@media (min-width: $on-pc) and (max-width: 1440px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
@@ -1632,5 +1752,377 @@ $duration: 20s;
       line-height: 67px;
       color: #020113;
     }
+  }
+}
+
+@media (max-width: 1240px) {
+  .header .logo {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: $on-pc) {
+  .project-cols .project-col {
+    max-width: 470px;
+
+    .project svg {
+      max-width: 100%;
+    }
+  }
+
+  .h1home h1 {
+    width: unset;
+  }
+
+  .ticker-wrap {
+    width: 120%;
+
+    .ticker__item {
+      font-size: 65px;
+    }
+  }
+
+  .service-col {
+    max-width: 45%;
+  }
+  #services .h3-text {
+    max-width: unset;
+  }
+  .clients-testimonials {
+    padding: 48px 0;
+  }
+}
+
+@media (max-width: $on-laptop) {
+  .page-content {
+    padding-top: 0;
+  }
+
+  .site-nav {
+    max-width: 70%;
+  }
+
+  .project-cols {
+    flex-wrap: wrap;
+
+    & > div:first-child {
+      padding-top: 62px;
+    }
+
+    .project-col {
+      width: 100%;
+      max-width: 100%;
+
+      .project {
+        width: 100%;
+        margin-bottom: 62px;
+
+        .project-name {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .projects .container,
+  .view-all {
+    padding-top: 62px;
+  }
+
+  .what-we-do-links {
+    padding-top: 15px;
+
+    .link {
+      display: block;
+      p {
+        font-size: 32px;
+      }
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .testimonial .testimonial-description {
+    max-width: 230px;
+    padding-left: 16px;
+    padding-right: 8px;
+    font-size: 16px;
+  }
+
+  .get-in-touch-link {
+    font-size: 60px;
+  }
+
+  .ticker-wrap {
+    width: 165%;
+  }
+
+  #services {
+    padding-top: 40px;
+  }
+
+  #services .ticker-wrap + .container .line {
+    display: none;
+  }
+
+  .step-container {
+    padding-bottom: 0;
+    max-width: 720px;
+
+    .container {
+      max-width: unset;
+      padding-bottom: 124px;
+
+      .steps {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: $on-palm) {
+  body.fixed {
+    position: fixed;
+    overflow: hidden;
+  }
+
+  // body.fixed header {
+  //   position: fixed;
+  //   background-color: #fff;
+  //   width: 100%;
+  // }
+
+  header.site-header {
+    height: 30px;
+    padding: 14px 0;
+    max-width: unset;
+    min-height: unset;
+    line-height: unset;
+
+    .logo {
+      font-size: 19px;
+    }
+  }
+  .h1home {
+    padding: 54px 0 41px;
+  }
+
+  .upwork-top p,
+  .about-us .description p {
+    font-size: 14px;
+  }
+
+  .about-us .about-service {
+    font-size: 16px;
+
+    & + svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .about-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .selected-projects {
+    font-size: 28px;
+  }
+
+  .view-all {
+    padding-top: 0;
+  }
+  .projects .container {
+    padding-bottom: 56px;
+  }
+
+  #what-we-do {
+    padding: 72px 0;
+  }
+
+  .what-we-do-links .link:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  #get-in-touch p {
+    padding-top: 62px;
+  }
+  .menu-footer .mail-footer {
+    padding-top: 88px;
+  }
+
+  .social-links {
+    padding-left: 0;
+    padding-top: 120px;
+    padding-bottom: 48px;
+
+    a:first-child {
+      padding-left: 0;
+
+      svg {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .menu-footer {
+    display: block;
+
+    ul.footer-col {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .service-col {
+    max-width: unset;
+    width: 100%;
+  }
+
+  .ticker-wrap {
+    width: 350%;
+    top: 107px;
+  }
+
+  .ticker-wrap .ticker__item {
+    font-size: 56px;
+    line-height: 59px;
+  }
+
+  .serices-image {
+    text-align: right;
+    padding-bottom: 168px;
+
+    img {
+      height: 296px;
+      width: 236px;
+      text-align: right;
+    }
+  }
+
+  .h2-services {
+    padding-top: 96px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .h2-services.main-header {
+    padding: 0 0 16px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .who-are-we p {
+    padding-top: 344px;
+    font-size: 18px;
+    position: absolute;
+  }
+
+  #services > .container:nth-child(4) {
+    border: none;
+  }
+
+  #services .h3-text {
+    font-size: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 72px;
+  }
+
+  .step-title {
+    display: block;
+  }
+
+  .step-container {
+    max-width: 540px;
+  }
+
+  .step-container .container {
+    padding-top: 0;
+  }
+
+  .clients {
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+
+  .h2-clients {
+    padding-bottom: 24px;
+  }
+
+  .clients .h3-text {
+    padding: 24px 0 64px;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  .testimonial {
+    padding-bottom: 64px;
+    padding-top: 25px;
+    border-top: 1px solid #e8e8e8;
+    position: relative;
+  }
+
+  .clients-testimonials {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  .testimonial-image {
+    text-align: left;
+
+    img {
+      width: 77px;
+      height: 77px;
+    }
+  }
+
+  .testimonial .container {
+    justify-content: unset;
+  }
+
+  .client-title {
+    position: absolute;
+    top: 25px;
+    left: 109px;
+  }
+
+  .testimonial .testimonial-description {
+    padding: 32px 0 0;
+    font-size: 14px;
+    max-width: unset;
+  }
+
+  .client-title > p:first-child {
+    font-size: 16px;
+  }
+
+  #get-in-touch p {
+    font-size: 24px;
+    padding: 156px 0 41px;
+    margin-bottom: 35px;
+  }
+
+  #get-in-touch a {
+    line-height: 50px;
+  }
+
+  #get-in-touch {
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: calc(100% - 32px);
+    width: calc(100% - 32px);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  svg rect {
+    width: 100%;
   }
 }
