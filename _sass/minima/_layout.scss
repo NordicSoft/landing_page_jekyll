@@ -335,6 +335,7 @@ Footer
   max-width: 1440px;
   margin: unset;
 }
+
 .contacts {
   display: flex;
   justify-content: space-between;
@@ -474,12 +475,23 @@ Footer
 *Contact form
 */
 #footer-contact-page {
-  border-bottom: 1px solid $border-color-01;
   border-top: 1px solid $border-color-01;
   margin-left: 100px;
   margin-right: 100px;
-  padding: 48px 0;
+  padding: 48px 0 0;
+
+  .disclaimer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: 0;
+    border: 0;
+
+    p {
+      padding-top: 0;
+    }
+  }
 }
+
 #contact-form {
   padding-top: 62px;
   padding-bottom: 184px;
@@ -1133,7 +1145,7 @@ $duration: 20s;
 .ticker-wrap {
   position: absolute;
   top: 167px;
-  width: 100%;
+  width: 150%;
   padding-left: 100%;
   z-index: 1;
   .ticker__item {
@@ -1766,7 +1778,7 @@ $duration: 20s;
   }
 
   .ticker-wrap {
-    width: 120%;
+    width: 145%;
 
     .ticker__item {
       font-size: 65px;
@@ -1785,6 +1797,12 @@ $duration: 20s;
 
   .contact-col {
     max-width: unset;
+  }
+
+  #team {
+    .service-col {
+      max-width: 100%;
+    }
   }
 }
 
@@ -1851,7 +1869,7 @@ $duration: 20s;
   }
 
   .ticker-wrap {
-    width: 165%;
+    width: 200%;
   }
 
   #services {
@@ -1917,6 +1935,28 @@ $duration: 20s;
 
     p {
       padding: 0;
+    }
+  }
+
+  #team .gallery {
+    padding: 252px 0 125px;
+  }
+
+  #team {
+    padding-top: 24px;
+
+    .wizard-block {
+      .text-columns {
+        display: block;
+      }
+
+      .text-columns .column:last-child {
+        margin-left: 0;
+      }
+    }
+
+    .benefits .benefit-row .benefit {
+      margin: 48px 48px;
     }
   }
 }
@@ -2023,7 +2063,7 @@ $duration: 20s;
   }
 
   .ticker-wrap {
-    width: 350%;
+    width: 400%;
     top: 107px;
   }
 
@@ -2183,6 +2223,96 @@ $duration: 20s;
       .social-links {
         padding-top: 20px;
       }
+    }
+  }
+
+  #team .h2-team {
+    padding-bottom: 14px;
+  }
+
+  #team .gallery {
+    padding: 142px 0 94px;
+    display: block;
+  }
+
+  #team .gallery {
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4 {
+      margin-right: 0;
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+
+  #team .wizard-block {
+    padding: 48px 0;
+  }
+
+  #team .h3-text {
+    font-size: 28px;
+  }
+
+  #team .wizard-block .text-columns p {
+    font-size: 18px;
+  }
+
+  #team .wizard-block .avatars {
+    padding-top: 48px;
+  }
+  #team .wizard-block .avatars {
+    flex-wrap: wrap;
+
+    .avatar {
+      margin-bottom: 14px;
+    }
+  }
+  #team .benefits {
+    padding: 60px 0;
+
+    .benefit-row {
+      display: block;
+
+      &:last-child {
+        border-top: none;
+      }
+
+      .benefit {
+        margin: 20px 0;
+
+        p.title {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  #team .benefits .gallery-benefit .gallery-row {
+    display: block;
+    margin-bottom: 0;
+
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .pic6 {
+      margin: 12px 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  #team .in-touch {
+    padding: 48px 0;
+
+    .title {
+      font-size: 48px;
     }
   }
 }
