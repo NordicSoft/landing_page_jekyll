@@ -1173,6 +1173,82 @@ $duration: 20s;
 .social-links a {
   padding: 12px;
 }
+
+#projects {
+  .projects .container {
+    padding: 0;
+  }
+  .start-conversation {
+    padding-top: 0;
+  }
+
+  .project-head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-bottom: 102px;
+
+    h1 {
+      font-family: Telegraf;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 76px;
+    }
+
+    .project-col-head {
+      max-width: 498px;
+
+      p {
+        font-family: Neue Montreal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .project-cols {
+    .project-col {
+      &:first-child {
+        .project:last-child .project-name {
+          padding-bottom: 120px;
+        }
+      }
+    }
+  }
+
+  .project-down {
+    padding: 163px 0 224px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    .project-foot-text {
+      text-align: center;
+
+      .h2-text {
+        font-family: Neue Montreal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 67px;
+        color: #020113;
+      }
+
+      p {
+        font-family: Neue Montreal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 160%;
+        text-decoration-line: underline;
+        color: #7c7c7c;
+        margin-bottom: 0;
+        margin-top: 40px;
+      }
+    }
+  }
+}
 /**
  * Responsive
  */
@@ -1959,6 +2035,36 @@ $duration: 20s;
       margin: 48px 48px;
     }
   }
+
+  #projects {
+    .start-conversation {
+      padding-top: 40px;
+    }
+
+    .project-head {
+      display: block;
+      padding-bottom: 0;
+
+      .project-col-head {
+        max-width: 100%;
+
+        h1 {
+          font-size: 52px;
+          line-height: 59px;
+        }
+
+        p {
+          margin-top: 48px;
+          font-size: 18px;
+          line-height: 160%;
+        }
+      }
+    }
+
+    .project-cols > div:first-child {
+      padding-top: 48px;
+    }
+  }
 }
 
 @media (max-width: $on-palm) {
@@ -2313,6 +2419,35 @@ $duration: 20s;
 
     .title {
       font-size: 48px;
+    }
+  }
+
+  #projects {
+    .projects h1 {
+      max-width: 100%;
+    }
+
+    .project-cols .project-col:first-child .project:last-child .project-name {
+      padding-bottom: 0;
+    }
+
+    .project-down {
+      padding: 80px 0 126px;
+
+      .project-foot-text {
+        text-align: left;
+
+        .h2-text {
+          font-weight: 500;
+          font-size: 42px;
+          line-height: 50px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 160%;
+        }
+      }
     }
   }
 }
