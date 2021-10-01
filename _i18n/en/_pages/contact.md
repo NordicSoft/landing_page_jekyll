@@ -16,8 +16,10 @@
                 <h1 class="contact-title">contact</h1>
             </div>
             <div class="contact-col">
-                <form class="contact-form" method="POST" target="_blank">
-                    <div class="form-cols">
+<form
+  action="https://formspree.io/f/mleavbel"
+  method="POST"
+>                    <div class="form-cols">
                         <div class="form-col">
                             <div class="form-group">
                                 <label for="exampleInputName">Name</label>
