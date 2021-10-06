@@ -13,16 +13,11 @@
 @font-face {
   font-family: "Neue Montreal";
   src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot");
-  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal") format("svg");
 }
 
 body {
@@ -1506,6 +1501,10 @@ $duration: 20s;
   .menu-toggle {
     width: 40px;
     padding-right: 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
   }
   .contact-cols > div:first-child {
     display: flex;
