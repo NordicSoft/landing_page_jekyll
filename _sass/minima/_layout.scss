@@ -20,6 +20,14 @@
     url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal") format("svg");
 }
 
+@font-face {
+  font-family: "Space Grotesk";
+  src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+}
+@font-face {
+  font-family: "Manrope";
+  src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+}
 body {
   overflow-x: hidden;
 }
@@ -94,20 +102,20 @@ section {
 }
 
 .logo {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 150%;
+  color: #020113;
+font-family: 'Space Grotesk', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 150%;
   text-transform: lowercase;
-
+:hover {
+  text-decoration: none;
+  color: #020113;
+}
   @include media-query($on-palm) {
     padding-right: 45px;
     padding-left: 16px;
-  }
-
-  &,
-  &:visited {
-    color: $site-title-color;
   }
 }
 
@@ -128,13 +136,6 @@ section {
   display: flex;
   justify-content: center;
   max-width: 757px;
-  width: 100%;
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit / 2;
-  background-color: $background-color;
-  border-radius: 5px;
-  text-align: right;
   .menu {
     width: 100%;
     display: flex;
@@ -373,15 +374,17 @@ Footer
   justify-content: center;
   h1 {
     margin-bottom: 0px;
-    width: 1028px;
+    width: 1020px;
     left: 206px;
     top: 179px;
 
-    font-family: Neue Montreal;
+    font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 86px;
+    
+    color: #020113;
     text-align: center;
   }
 }
@@ -393,20 +396,28 @@ Footer
   justify-content: space-between;
   flex-wrap: wrap;
   .upwork-top p {
-    font-family: TelegrafBold;
-    font-weight: 900;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+line-height: 25px;
   }
   .description {
-    max-width: 392px;
-    font-family: Telegraf;
-    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    max-width: 457px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    
+    /* or 27px */
     text-align: right;
     text-transform: uppercase;
-    color: #7c7c7c;
+    
+    color: #7C7C7C;
   }
   .about-service {
     padding-right: 20px;
-    font-family: Neue Montreal;
+    font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -420,16 +431,16 @@ Footer
   max-width: 1240px;
 }
 .projects .container {
-  padding-top: 120px;
+  padding-top: 114px;
   padding-bottom: 120px;
 }
 .selected-projects {
-  font-family: TelegrafBold;
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 32px;
-  line-height: 34px;
-  /* identical to box height */
+  line-height: 44px;
+  padding-bottom: 22px;
 
   text-transform: uppercase;
 
@@ -453,7 +464,7 @@ Footer
   font-size: 24px;
   line-height: 160%;
   border-bottom: 1px solid #020113;
-  padding-top: 120px;
+  padding-top: 72px;
   padding-bottom: 40px;
   svg {
     padding-left: 20px;
@@ -622,9 +633,11 @@ Footer
   display: flex;
   align-items: center;
   .h2-text {
+  font-family: 'Manrope', sans-serif;
+
     font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 150%;
     text-transform: uppercase;
     color: #020113;
@@ -644,17 +657,31 @@ Footer
 }
 
 .project-col {
-  max-width: 570px;
+  max-width: 620px;
 }
 .project {
   h2 {
-    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
+p {
+  
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+font-size: 16px;
+line-height: 180%;
 
+/* identical to box height, or 29px */
+
+color: #7C7C7C;
+
+
+}
   .project-name {
     display: flex;
     align-items: baseline;
-    padding: 42px 0 214px;
+    padding: 42px 0;
 
     & > p {
       margin-right: 54px;
@@ -1574,7 +1601,8 @@ $duration: 20s;
   }
   .h1home h1 {
     font-size: 64px;
-    line-height: 77px;
+    line-height: 86.4px;
+    text-align: center;
   }
 }
 

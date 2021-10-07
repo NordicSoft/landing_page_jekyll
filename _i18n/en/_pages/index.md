@@ -14,20 +14,11 @@
         </p>
       </div>
       <div class="about-wrap">
-        <a class="about-service" href="/about">About services</a
-        ><svg
-          width="17"
-          height="17"
-          viewBox="0 0 17 17"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+        <a class="about-service" href="/about">About services</a><svg width="17" height="17" viewBox="0 0 17 17"
+          fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
             d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
-            fill="#010101"
-          />
+            fill="#010101" />
         </svg>
       </div>
     </div>
@@ -39,74 +30,65 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <svg width="448" height="562">
-            <rect width="448" height="562" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="assets/images/project1.svg">
+            <img src="assets/images/project1.svg">
+          </object>
           <div class="project-name">
             <p>1/4</p>
-            <div> 
-              <h2>BZX</h2>
+            <div>
+              <h2>DEX.GURU</h2>
               <p>platform for decentralized margin trading based on bzx protocol</p>
             </div>
           </div>
         </div>
 
         <div class="project">
-          <svg width="498" height="418">
-            <rect width="498" height="418" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="assets/images/project3.svg">
+            <img src="assets/images/project3.svg">
+          </object>
           <div class="project-name">
             <p>3/4</p>
-          <div>
-          <h2>MONFEX</h2>
-          <p>platform for decentralized margin trading based on dex protocol</p>
-          </div>
+            <div>
+              <h2>DEFI</h2>
+              <p>platform for decentralized margin trading based on dex protocol</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="project-col">
         <div class="project">
-          <svg width="604" height="420">
-            <rect width="604" height="420" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="assets/images/project2.svg">
+            <img src="assets/images/project2.svg">
+          </object>
           <div class="project-name">
             <p>2/4</p>
             <div>
-            <h2>DEX.GURU</h2>
-          <p>platform for decentralized margin trading based on dex protocol</p>
-          </div>
+              <h2>BZX</h2>
+              <p>platform for decentralized margin trading based on dex protocol</p>
+            </div>
           </div>
         </div>
 
         <div class="project">
-          <svg width="538" height="457">
-            <rect width="538" height="457" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="assets/images/project4.svg">
+            <img src="assets/images/project4.svg">
+          </object>
           <div class="project-name">
             <p>4/4</p>
             <div>
-            <h2>FULCRUM</h2>
-          <p>platform for decentralized margin trading based on dex protocol</p>
-          </div>
+              <h2>TORQUE</h2>
+              <p>platform for decentralized margin trading based on dex protocol</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="view-all">
-      View all projects<svg
-        width="17"
-        height="17"
-        viewBox="0 0 17 17"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+      View all projects<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
           d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
-          fill="#010101"
-        />
+          fill="#010101" />
       </svg>
     </div>
 
@@ -115,9 +97,6 @@
 <section id="what-we-do">
   <div class="container">
     <div class="section-name">
-      <svg height="48" width="48">
-        <circle cx="24" cy="24" r="12" fill="black" />
-      </svg>
       <p class="h2-text">what we do</p>
     </div>
     <div class="what-we-do-links">
