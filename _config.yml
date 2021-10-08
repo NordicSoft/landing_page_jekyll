@@ -28,4 +28,4 @@ plugins:
   # jekyll-multiple-languages-plugin settings:
 languages: ["en", "et"]
 exclude_from_localizations:
-  ["javascript", "images", "css", "scripts", "favicon.ico"]
+  ["javascript", "images", "css", "scripts"]
