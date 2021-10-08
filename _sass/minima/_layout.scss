@@ -22,11 +22,11 @@
 
 @font-face {
   font-family: "Space Grotesk";
-  src: url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap");
 }
 @font-face {
   font-family: "Manrope";
-  src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap");
 }
 body {
   overflow-x: hidden;
@@ -43,9 +43,9 @@ section {
  */
 .header {
   width: 100%;
-  max-width: 1241px;
+  max-width: 1240px;
   display: flex;
-  justify-content: space-between;
+  //   justify-content: space-between;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
@@ -82,6 +82,11 @@ section {
       }
     }
   }
+
+  @include media-query($on-palm) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .container {
   width: 100%;
@@ -95,7 +100,7 @@ section {
 .site-header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid $border-color-01;
+  // border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
   position: relative;
@@ -103,16 +108,16 @@ section {
 
 .logo {
   color: #020113;
-font-family: 'Space Grotesk', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 42px;
-line-height: 150%;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 150%;
   text-transform: lowercase;
-:hover {
-  text-decoration: none;
-  color: #020113;
-}
+  :hover {
+    text-decoration: none;
+    color: #020113;
+  }
   @include media-query($on-palm) {
     padding-right: 45px;
     padding-left: 16px;
@@ -126,8 +131,79 @@ line-height: 150%;
 .disclime-header {
   display: none;
 }
-
 .site-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  .nav-trigger {
+    display: none;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    // display: block;
+    padding: 5px 10px;
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    &:first-child {
+      margin-left: 52px;
+    }
+    margin-left: 2px;
+  }
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      margin-left: auto;
+    }
+  }
+}
+.header {
+  padding-top: 9px;
+}
+.site-nav1 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -136,7 +212,7 @@ line-height: 150%;
   display: flex;
   justify-content: center;
   max-width: 757px;
-  .menu {
+  .menu1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -262,10 +338,9 @@ line-height: 150%;
     .footer-link {
       width: 100%;
       max-width: 70px;
-      font-family: Neue Montreal;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
       line-height: 22px;
       color: #020113;
     }
@@ -301,9 +376,9 @@ Footer
 
     max-width: 119px;
     a {
-      font-family: Neue Montreal;
+      font-family: "Manrope", sans-serif;
       font-size: 14px;
-      line-height: 17px;
+      line-height: 19.2px;
       color: #020113;
     }
   }
@@ -312,11 +387,9 @@ Footer
   p {
     padding-top: 108px;
     max-width: 391px;
-    font-family: Neue Montreal;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Manrope", sans-serif;
     font-size: 12px;
-    line-height: 180%;
+    line-height: 21px;
     color: #7c7c7c;
   }
 }
@@ -369,7 +442,7 @@ Footer
   max-width: 1241px;
 }
 .h1home {
-  padding: 120px 0;
+  padding: 139px 0;
   display: flex;
   justify-content: center;
   h1 {
@@ -378,12 +451,12 @@ Footer
     left: 206px;
     top: 179px;
 
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 86px;
-    
+
     color: #020113;
     text-align: center;
   }
@@ -396,28 +469,28 @@ Footer
   justify-content: space-between;
   flex-wrap: wrap;
   .upwork-top p {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 600;
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
   }
   .description {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     max-width: 457px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    
+
     /* or 27px */
     text-align: right;
     text-transform: uppercase;
-    
-    color: #7C7C7C;
+
+    color: #7c7c7c;
   }
   .about-service {
     padding-right: 20px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -435,7 +508,7 @@ line-height: 25px;
   padding-bottom: 120px;
 }
 .selected-projects {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -633,7 +706,7 @@ line-height: 25px;
   display: flex;
   align-items: center;
   .h2-text {
-  font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
 
     font-style: normal;
     font-weight: 600;
@@ -661,23 +734,20 @@ line-height: 25px;
 }
 .project {
   h2 {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
   }
-p {
-  
-  font-family: 'Manrope', sans-serif;
-  font-weight: 400;
-font-size: 16px;
-line-height: 180%;
+  p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
 
-/* identical to box height, or 29px */
+    /* identical to box height, or 29px */
 
-color: #7C7C7C;
-
-
-}
+    color: #7c7c7c;
+  }
   .project-name {
     display: flex;
     align-items: baseline;
@@ -690,7 +760,7 @@ color: #7C7C7C;
 }
 .what-we-do-links {
   margin: auto;
-  padding-top: 47px;
+  padding-top: 15px;
   .links {
     width: 100%;
   }
@@ -703,20 +773,19 @@ color: #7C7C7C;
     max-width: 1028px;
     margin: auto;
     p {
-      font-family: Neue Montreal;
+      font-family: "Space Grotesk", sans-serif;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 36px;
-      line-height: 160%;
+      line-height: 51.5px;
       /* identical to box height, or 58px */
       color: #020113;
     }
     a {
-      font-family: Neue Montreal;
-      font-style: normal;
+      font-family: "Manrope", sans-serif;
       font-weight: 500;
       font-size: 24px;
-      line-height: 160%;
+      line-height: 38.4px;
       /* or 38px */
 
       text-align: right;
@@ -724,6 +793,10 @@ color: #7C7C7C;
 
       color: #7c7c7c;
     }
+  }
+  .link:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
   }
   .links:last-child {
     border-bottom: unset;
@@ -734,9 +807,8 @@ color: #7C7C7C;
   padding-bottom: 155px;
   border-bottom: 1px solid #e8e8e8;
   a {
-    font-family: Neue Montreal;
-    font-style: normal;
-    font-weight: 600;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
     font-size: 72px;
     line-height: 86px;
     padding-top: 53px;
@@ -747,11 +819,11 @@ color: #7C7C7C;
     width: 100%;
     border-bottom: 1px solid #e0e0e0;
     color: #7c7c7c;
-    padding-top: 133px;
+    padding-top: 120px;
     padding-bottom: 40px;
-    font-family: Neue Montreal;
-    font-style: normal;
-    font-weight: normal;
+    margin-bottom: 40px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
     font-size: 25px;
     line-height: 30px;
     color: #020113;
@@ -762,7 +834,7 @@ color: #7C7C7C;
   justify-content: space-between;
 }
 .page-content {
-  padding: 96px 0 12px;
+  padding: 0 0 12px;
   flex: 1 0 auto;
 }
 

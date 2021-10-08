@@ -4,44 +4,25 @@
     page_paths = site.header_pages | default: default_paths -%} {%- assign
     titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="logo" href="{% tl root %}">{{ site.title | escape }}</a>
-    <label for="nav-trigger">
-      <div
-        class="menu-toggle"
-        onclick="document.querySelector('nav').classList.toggle('show'); document.querySelector('#menu-bar').classList.toggle('show'); document.querySelector('body').classList.toggle('fixed')"
-      >
-        <svg
-          id="menu-bar"
-          width="40"
-          height="6"
-          viewBox="0 0 40 6"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+    <div class="menu-toggle"
+      onclick="document.querySelector('nav').classList.toggle('show'); document.querySelector('#menu-bar').classList.toggle('show'); document.querySelector('body').classList.toggle('fixed')">
+      <label for="nav-trigger">
+
+        <svg id="menu-bar" width="40" height="6" viewBox="0 0 40 6" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="40" height="1" fill="#06050D" />
           <rect y="5" width="40" height="1" fill="#06050D" />
         </svg>
-        <svg
-          id="menu-cross"
-          width="31"
-          height="32"
-          viewBox="0 0 31 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M30.1211 1.06023e-05L0 30.1211L0.707107 30.8282L30.8282 0.707117L30.1211 1.06023e-05Z"
-            fill="black"
-          />
-          <path
-            d="M0.707107 0.413987L0 1.12109L30.1211 31.2422L30.8282 30.5351L0.707107 0.413987Z"
-            fill="black"
-          />
+        <svg id="menu-cross" width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30.1211 1.06023e-05L0 30.1211L0.707107 30.8282L30.8282 0.707117L30.1211 1.06023e-05Z"
+            fill="black" />
+          <path d="M0.707107 0.413987L0 1.12109L30.1211 31.2422L30.8282 30.5351L0.707107 0.413987Z" fill="black" />
         </svg>
-      </div>
-    </label>
+      </label>
+    </div>
+
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <div class="menu1">
+      <div class="menu">
         <div class="menu-left">
           {% for page in site.pages %} {% if page.menu == true %}
           <a class="page-link" href="{{ site.baseurl }}{{ page.url }}">
@@ -53,11 +34,11 @@
         <div class="menu-right">
           <div class="lang">
             {% if site.lang == "en" %}
-            <a class="link-en link-lang active" href="#" id="lang-en">EN</a>
-            <a class="link-et link-lang" href="#" id="lang-et">ET</a>
+            <a class="link-en link-lang active" href="#" id="lang-en">En</a>
+            <a class="link-et link-lang" href="#" id="lang-et">Ee</a>
             {% else %}
-            <a class="link-en link-lang" href="#" id="lang-en">EN</a>
-            <a class="link-et link-lang active" href="#" id="lang-et">ET</a>
+            <a class="link-en link-lang" href="#" id="lang-en">En</a>
+            <a class="link-et link-lang active" href="#" id="lang-et">Ee</a>
             {% endif %}
           </div>
           <div class="get-in-touch">
