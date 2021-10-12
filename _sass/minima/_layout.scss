@@ -517,7 +517,7 @@ Footer
   line-height: 44px;
   padding-bottom: 22px;
 
-  text-transform: uppercase;
+
 
   color: #020113;
   margin: unset;
@@ -586,9 +586,11 @@ Footer
   display: flex;
   align-items: center;
   .h2-text {
+  font-family: "Manrope", sans-serif;
+
     font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 18px;
     line-height: 150%;
     text-transform: uppercase;
     color: #020113;
@@ -831,6 +833,10 @@ Footer
     color: #020113;
   }
 }
+.projects{
+  padding-top: 106px;
+  }
+
 .projects-row {
   display: flex;
   justify-content: space-between;
@@ -1277,26 +1283,27 @@ $duration: 20s;
   .start-conversation {
     padding-top: 0;
   }
-
+.project{
+  padding-top: 100px;
+}
   .project-head {
     display: flex;
     justify-content: space-between;
     padding-top: 62px;
-    padding-bottom: 102px;
-
+    
     h1 {
-      font-family: Telegraf;
-      font-style: normal;
-      font-weight: 900;
+      color: #020113;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 400;
       font-size: 72px;
-      line-height: 76px;
+      line-height: 97px;
     }
 
     .project-col-head {
       max-width: 498px;
 
       p {
-        font-family: Neue Montreal;
+        font-family: "Manrope", sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 22px;
@@ -1316,23 +1323,23 @@ $duration: 20s;
   }
 
   .project-down {
-    padding: 163px 0 224px;
-    border-top: 1px solid #e0e0e0;
+    padding: 120px 0 160px;
     border-bottom: 1px solid #e0e0e0;
     .project-foot-text {
       text-align: center;
 
       .h2-text {
-        font-family: Neue Montreal;
+        font-family: "Space Grotesk", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 56px;
-        line-height: 67px;
+        line-height: 76px;
         color: #020113;
       }
 
       p {
-        font-family: Neue Montreal;
+        font-family: "Manrope", sans-serif;
+
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -1466,6 +1473,14 @@ $duration: 20s;
       display: block;
     }
   }
+  
+    .projects {
+      padding-top: unset;
+  
+  }
+  #projects .project {
+    padding-top: unset;
+}
   .site-nav {
     display: none;
     // top: -200px;

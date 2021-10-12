@@ -15,26 +15,26 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <svg width="448" height="562">
-            <rect width="448" height="562" style="fill: rgb(0, 0, 0)" />
-          </svg>
+         <object type="image/svg+xml" data="../assets/images/project1.svg" class="project-image">
+            <img src="../assets/images/project1.svg">
+          </object>
           <div class="project-name">
             <p>1/4</p>
             <div> 
-              <h2>BZX</h2>
+              <h2>DEX.GURU</h2>
               <p>platform for decentralized margin trading based on bzx protocol</p>
             </div>
           </div>
         </div>
 
         <div class="project">
-          <svg width="498" height="418">
-            <rect width="498" height="418" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="../assets/images/project3.svg" class="project-image">
+            <img src="../assets/images/project3.svg">
+          </object>
           <div class="project-name">
             <p>3/4</p>
           <div>
-          <h2>MONFEX</h2>
+          <h2>DEFI</h2>
           <p>platform for decentralized margin trading based on dex protocol</p>
           </div>
           </div>
@@ -42,26 +42,26 @@
       </div>
       <div class="project-col">
         <div class="project">
-          <svg width="604" height="420">
-            <rect width="604" height="420" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="../assets/images/project2.svg" class="project-image">
+            <img src="../assets/images/project2.svg">
+          </object>
           <div class="project-name">
             <p>2/4</p>
             <div>
-            <h2>DEX.GURU</h2>
+            <h2>BZX</h2>
           <p>platform for decentralized margin trading based on dex protocol</p>
           </div>
           </div>
         </div>
 
         <div class="project">
-          <svg width="538" height="457">
-            <rect width="538" height="457" style="fill: rgb(0, 0, 0)" />
-          </svg>
+          <object type="image/svg+xml" data="../assets/images/project4.svg" class="project-image">
+            <img src="../assets/images/project4.svg">
+          </object>
           <div class="project-name">
             <p>4/4</p>
             <div>
-            <h2>FULCRUM</h2>
+            <h2>TORQUE</h2>
           <p>platform for decentralized margin trading based on dex protocol</p>
           </div>
           </div>
