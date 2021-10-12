@@ -279,11 +279,12 @@ section {
 }
 .menu-right {
   a {
-    font-family: Neue Montreal;
+    font-family: "Manrope", sans-serif;
+
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 25px;
     color: #020113;
   }
   width: 100%;
@@ -1351,8 +1352,8 @@ $duration: 20s;
     max-width: 288px;
   }
   .h1home h1 {
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 49px;
   }
 
   .project-col {
@@ -1385,6 +1386,8 @@ $duration: 20s;
   }
   .about-us .description {
     text-align: unset;
+    max-width: 288px;
+    font-size: 14px;
   }
   .project-cols > div:first-child {
     padding-top: 62px;
@@ -1425,8 +1428,10 @@ $duration: 20s;
   }
   // menu
   .menu-right div {
-    padding: 5px 10px;
+    padding: 5px 16px;
     line-height: 1.5;
+  }
+  .get-in-touch {
   }
   .menu-right a {
     font-family: unset;
@@ -1434,20 +1439,20 @@ $duration: 20s;
   }
   .site-nav > .menu {
     display: block;
+    padding-top: 40px;
   }
   .menu-right {
     display: block;
-    a {
-      border-bottom: 1px solid #e8e8e8;
-    }
   }
-
+  .h1home h1 {
+    font-size: 36px;
+    line-height: 49px;
+  }
   #menu-bar {
     display: block;
   }
   #menu-cross {
     display: none;
-    margin-top: -12px;
   }
   #menu-bar.show {
     display: none;
@@ -1464,6 +1469,7 @@ $duration: 20s;
     text-align: left;
     &.show {
       display: block;
+      background-color: #fff;
       top: 59px;
       width: 100%;
       height: calc(100vh - 59px);
@@ -1471,21 +1477,24 @@ $duration: 20s;
       right: 0;
       position: fixed;
       max-width: unset;
-      padding: 29px 20px 24px;
+
       z-index: 5;
       .page-link {
-        font-weight: 900;
+        display: block;
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: normal;
         font-size: 24px;
-        line-height: 25px;
-        text-transform: uppercase;
-        color: #06050d;
+        line-height: 33px;
+        color: #020113;
         margin-bottom: 48px;
         margin-left: 0;
         border-bottom: none;
+        padding: 5px 16px;
       }
 
       .menu-right {
-        padding-top: 27px;
+        padding-top: 16px;
 
         .lang {
           margin-bottom: 55px;
@@ -1495,10 +1504,9 @@ $duration: 20s;
           text-decoration: none;
 
           a {
-            font-weight: 900;
+            font-weight: normal;
             font-size: 24px;
-            line-height: 25px;
-            text-transform: uppercase;
+            line-height: 33px;
             color: #020113;
           }
         }
@@ -1932,13 +1940,6 @@ $duration: 20s;
     }
   }
 }
-
-@media (max-width: 1240px) {
-  .header .logo {
-    margin-left: 16px;
-  }
-}
-
 @media (max-width: $on-pc) {
   .project-cols .project-col {
     max-width: 470px;
@@ -2186,7 +2187,7 @@ $duration: 20s;
     line-height: unset;
 
     .logo {
-      font-size: 19px;
+      font-size: 32px;
     }
   }
   .h1home {
@@ -2197,7 +2198,11 @@ $duration: 20s;
   .about-us .description p {
     font-size: 14px;
   }
-
+  .about-us .upwork-top p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
   .about-us .about-service {
     font-size: 16px;
 
@@ -2222,7 +2227,9 @@ $duration: 20s;
   .projects .container {
     padding-bottom: 56px;
   }
-
+  .page-content .container{
+    padding-left: 0px;
+  }
   #what-we-do {
     padding: 72px 0;
   }
