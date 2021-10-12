@@ -2,9 +2,6 @@
 <div class="projects">
   <div class="container">
     <div class="start-conversation">
-        <svg height="48" width="48">
-            <circle cx="24" cy="24" r="12" fill="black" />
-        </svg>
         <p class="h2-text">our expertise</p>
     </div>
     <div class="project-head">

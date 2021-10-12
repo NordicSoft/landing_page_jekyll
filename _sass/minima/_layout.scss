@@ -111,7 +111,7 @@ section {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 150%;
   text-transform: lowercase;
   :hover {
@@ -122,10 +122,6 @@ section {
     padding-right: 45px;
     padding-left: 16px;
   }
-}
-
-.get-in-touch {
-  text-decoration-line: underline;
 }
 
 .disclime-header {
@@ -367,6 +363,7 @@ Footer
   ul {
     margin: unset;
   }
+  
   .footer-col:first-child {
     li {
       padding-left: unset;
@@ -374,7 +371,8 @@ Footer
   }
   .footer-col:last-child {
     padding: 0 87px;
-
+    display: flex;
+    flex-wrap: wrap;
     max-width: 119px;
     a {
       font-family: "Manrope", sans-serif;
@@ -434,6 +432,9 @@ Footer
     color: #7c7c7c;
     text-decoration-line: underline;
   }
+}
+.phone-footer{
+  padding-bottom: 7px;
 }
 /**
  * Page content
@@ -1431,7 +1432,11 @@ $duration: 20s;
     padding: 5px 16px;
     line-height: 1.5;
   }
-  .get-in-touch {
+  .project-name {
+    max-width: 260px;
+  }
+  .project-image{
+    width: 95%;
   }
   .menu-right a {
     font-family: unset;
@@ -2024,7 +2029,8 @@ $duration: 20s;
     .link {
       display: block;
       p {
-        font-size: 32px;
+        font-size: 24px;
+width: 90%;
       }
 
       a {
@@ -2172,7 +2178,12 @@ $duration: 20s;
     position: fixed;
     overflow: hidden;
   }
-
+  .phone-footer{
+    padding-bottom: 14px;
+  }
+  .section-name .h2-text{
+    font-size: 14px;
+  }
   // body.fixed header {
   //   position: fixed;
   //   background-color: #fff;
@@ -2230,6 +2241,9 @@ $duration: 20s;
   .page-content .container{
     padding-left: 0px;
   }
+  .projects .container{
+    padding-left: 16px;
+  }
   #what-we-do {
     padding: 72px 0;
   }
@@ -2249,7 +2263,7 @@ $duration: 20s;
   .social-links {
     padding-left: 0;
     padding-top: 120px;
-    padding-bottom: 48px;
+    // padding-bottom: 48px;
 
     a:first-child {
       padding-left: 0;
@@ -2392,7 +2406,7 @@ $duration: 20s;
 
   #get-in-touch p {
     font-size: 24px;
-    padding: 156px 0 41px;
+    padding: 64px 0 41px;
     margin-bottom: 35px;
   }
 

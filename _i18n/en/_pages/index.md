@@ -30,7 +30,7 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project1.svg">
+          <object type="image/svg+xml" data="assets/images/project1.svg" class="project-image">
             <img src="assets/images/project1.svg">
           </object>
           <div class="project-name">
@@ -43,7 +43,7 @@
         </div>
 
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project3.svg">
+          <object type="image/svg+xml" data="assets/images/project3.svg" class="project-image">
             <img src="assets/images/project3.svg">
           </object>
           <div class="project-name">
@@ -57,7 +57,7 @@
       </div>
       <div class="project-col">
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project2.svg">
+          <object type="image/svg+xml" data="assets/images/project2.svg" class="project-image">
             <img src="assets/images/project2.svg">
           </object>
           <div class="project-name">
@@ -70,7 +70,7 @@
         </div>
 
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project4.svg">
+          <object type="image/svg+xml" data="assets/images/project4.svg" class="project-image">
             <img src="assets/images/project4.svg">
           </object>
           <div class="project-name">
@@ -85,7 +85,8 @@
     </div>
 
     <div class="view-all">
-      View all projects<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <a class="what-we-do-link" href="/projects">View all projects</a>
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd"
           d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
           fill="#010101" />
