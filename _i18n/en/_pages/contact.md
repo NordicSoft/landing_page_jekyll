@@ -1,8 +1,5 @@
 <div class="container">
     <div class="start-conversation">
-        <svg height="48" width="48">
-            <circle cx="24" cy="24" r="12" fill="black" />
-        </svg>
         <p class="h2-text">start a conversation</p>
     </div>
 </div>
@@ -13,7 +10,7 @@
         <div class="contact-cols">
 
             <div class="contact-col">
-                <h1 class="contact-title">contact</h1>
+                <h1 class="contact-title">Contact</h1>
             </div>
             <div class="contact-col">
 <form
