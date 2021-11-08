@@ -519,7 +519,7 @@ Footer
   font-size: 32px;
   line-height: 44px;
   padding-bottom: 22px;
-
+  text-transform: uppercase;
   color: #020113;
   margin: unset;
 }
@@ -533,19 +533,7 @@ Footer
   height: 100%;
   color: black;
 }
-.view-all {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 160%;
-  border-bottom: 1px solid #020113;
-  padding-top: 72px;
-  padding-bottom: 40px;
-  svg {
-    padding-left: 20px;
-  }
-}
+
 #what-we-do {
   padding: 104px 0;
   width: 100%;
@@ -838,7 +826,6 @@ Footer
     font-weight: 400;
     font-size: 72px;
     line-height: 86px;
-    padding-top: 53px;
     color: #020113;
     padding-bottom: 185px;
   }
@@ -848,7 +835,7 @@ Footer
     color: #7c7c7c;
     padding-top: 120px;
     padding-bottom: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 52px;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-size: 25px;
@@ -1015,7 +1002,6 @@ Footer
 */
 #services {
   padding-bottom: 42px;
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -1026,6 +1012,7 @@ Footer
     position: relative;
 
     .line {
+      margin-top: 96px;
       position: absolute;
       border-top: 1px solid #e8e8e8;
       width: 100%;
@@ -1033,9 +1020,9 @@ Footer
     }
   }
 }
-#services > .container:first-child {
-  border-bottom: 1px solid #e8e8e8;
-  padding-bottom: 64px;
+#services > .container:nth-child(2) {
+  padding-top: 96px;
+
 }
 #services > .container:nth-child(3) {
   padding-top: 64px;
@@ -1193,6 +1180,7 @@ Footer
   padding-top: 8px;
 }
 .clients-testimonials {
+  align-items: flex-start;
   display: flex;
   justify-content: space-between;
   padding: 48px 110px;
@@ -1202,7 +1190,7 @@ Footer
   .container {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-start;
   }
   .testimonial-description {
     max-width: 246px;
@@ -1212,7 +1200,6 @@ Footer
     font-size: 18px;
     line-height: 160%;
     padding-left: 32px;
-    padding-top: 10px;
   }
 }
 .client-title > p:first-child {
@@ -1268,8 +1255,8 @@ $duration: 20s;
 }
 
 .ticker-wrap {
+  top: 240px;
   position: absolute;
-  top: 167px;
   width: 150%;
   padding-left: 100%;
   z-index: 1;
@@ -1467,6 +1454,9 @@ $duration: 20s;
   }
   .project-image {
     width: 95%;
+  }
+  .project-image:hover {
+    transform: skew(-10deg);
   }
   .menu-right a {
     font-family: unset;
@@ -1694,9 +1684,6 @@ $duration: 20s;
   .container {
     max-width: 720px;
   }
-  // .step-container {
-  //   max-width: 360px;
-  // }
   .h1home h1 {
     font-size: 40px;
     line-height: 55px;
@@ -2054,12 +2041,6 @@ $duration: 20s;
       }
     }
   }
-
-  .projects .container,
-  .view-all {
-    padding-top: 62px;
-  }
-
   .what-we-do-links {
     padding-top: 15px;
 
@@ -2266,10 +2247,6 @@ $duration: 20s;
 
   .selected-projects {
     font-size: 28px;
-  }
-
-  .view-all {
-    padding-top: 0;
   }
   .projects .container {
     padding-bottom: 56px;
