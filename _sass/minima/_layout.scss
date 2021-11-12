@@ -446,11 +446,26 @@ Footer
   width: 100%;
   max-width: 1241px;
 }
+// .h1home:hover {
+
+// background: rgba(0,0,0,0.5)}
 .h1home {
+  
+  
+ 
   padding: 139px 0;
   display: flex;
   justify-content: center;
   h1 {
+     
+  &:hover {
+    background: rgba(0, 0, 0, .1);
+
+  }
+  background: transparent;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
     margin-bottom: 0px;
     width: 1020px;
     left: 206px;
@@ -633,7 +648,14 @@ Footer
   padding-top: 12px;
   padding-bottom: 8px;
   appearance: none;
+  background: #ffffff;
 }
+.form-col option {
+
+background: #020113;
+color: #7C7C7C;
+}
+
 .form-col label {
   font-family: "Manrope", sans-serif;
   font-style: normal;
@@ -853,7 +875,7 @@ Footer
 }
 .page-content {
   padding: 0 0 12px;
-  flex: 1 0 auto;
+  // flex: 1 0 auto;
 }
 
 .page-heading {
@@ -1273,11 +1295,11 @@ $duration: 20s;
     -webkit-animation-duration: $duration;
     animation-duration: $duration;
     &__item {
-      font-family: TelegrafBold;
+      font-family: "Manrope", sans-serif;
       font-style: normal;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 72px;
-      line-height: 76px;
+      line-height: 98px;
       color: #06050d;
     }
   }
@@ -1469,6 +1491,7 @@ $duration: 20s;
   .menu-right {
     display: block;
   }
+
   .h1home h1 {
     font-size: 36px;
     line-height: 49px;
@@ -1768,7 +1791,8 @@ $duration: 20s;
 
   .h2-team {
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 106px;
   }
 
   .h2-text {

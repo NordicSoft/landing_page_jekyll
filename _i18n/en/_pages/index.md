@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="about-wrap">
-        <a class="about-service" href="/about">About services</a><svg width="17" height="17" viewBox="0 0 17 17"
+        <a class="about-service" href="/services">About services</a><svg width="17" height="17" viewBox="0 0 17 17"
           fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
@@ -104,15 +104,15 @@
       <div class="links">
         <div class="link">
           <p>Help businesses unleash their potential</p>
-          <a class="what-we-do-link" href="/know">Know about us</a>
+          <a class="what-we-do-link" href="/services">Know about us</a>
         </div>
         <div class="link">
           <p>Build transformative products and experiences</p>
-          <a class="what-we-do-link" href="/Build">See our work</a>
+          <a class="what-we-do-link" href="/projects">See our work</a>
         </div>
         <div class="link">
           <p>Work with people who are willing to learn</p>
-          <a class="what-we-do-link" href="/know">Work with us</a>
+          <a class="what-we-do-link" href="/team">Work with us</a>
         </div>
       </div>
     </div>

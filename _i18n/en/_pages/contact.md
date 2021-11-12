@@ -27,9 +27,11 @@
                             <label for="exampleInputName">I need help with</label>
                             <br>
                             <select class="form-control" name="platform" required="required">
-                                <option>Design - Web /Mobile App</option>
-                                <option>Gitlab</option>
-                                <option>Bitbucket</option>
+                                <option>Design - Website or Landing Page</option>
+                                <option>Illustration & Branding</option>
+                                <option>Development - Frontend/Backend</option>
+                                <option>Design & Development - Ecommerce</option>
+
                             </select>
                         </div>
                         <div class="form-col">
@@ -45,8 +47,10 @@
                             <select class="form-control" id="exampleFormControlSelect1" name="platform"
                                 required="required">
                                 <option>$2,500 - $5,000</option>
-                                <option>Gitlab</option>
-                                <option>Bitbucket</option>
+                                <option>$5,000 - $15,000</option>
+                                <option>$15,000 - $25,000</option>
+                                <option>Over $25,000</option>
+
                             </select>
 
                         </div>
