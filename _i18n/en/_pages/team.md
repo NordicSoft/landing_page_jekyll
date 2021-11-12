@@ -9,9 +9,6 @@
     <div class="service-col">
       <div class="h2-team">
         <div class="point-block">
-          <svg height="48" width="48">
-            <circle cx="24" cy="24" r="12" fill="black" />
-          </svg>
           <p class="h2-text">Working at nordicsoft</p>
         </div>
       </div>
@@ -27,9 +24,6 @@
   <div class="container">
     <div class="h2-team">
       <div class="point-block">
-        <svg height="48" width="48">
-          <circle cx="24" cy="24" r="12" fill="black" />
-        </svg>
         <p class="h2-text">WHO ARE WE?</p>
       </div>
       <p class="h3-text">Creative wizards who conjure magic</p>
@@ -76,9 +70,6 @@
     <div class="container">
       <div class="h2-team">
         <div class="point-block">
-          <svg height="48" width="48">
-            <circle cx="24" cy="24" r="12" fill="black" />
-          </svg>
           <p class="h2-text">Benefits other than</p>
         </div>
         <p class="h3-text">Joining an awesome team.</p>

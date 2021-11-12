@@ -1796,16 +1796,24 @@ $duration: 20s;
   }
 
   .h2-text {
+    font-family: "Manrope", sans-serif;
+
     font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 150%;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
     text-transform: uppercase;
     color: #020113;
     margin-bottom: 0px;
   }
 
   .h3-text {
+    font-family: "Manrope", sans-serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57.6px;
     padding-bottom: 10px;
     margin-bottom: 0;
   }
@@ -1816,7 +1824,7 @@ $duration: 20s;
   }
 
   .wizard-block {
-    padding: 104px 0 224px;
+    padding: 120px 0 200px;
 
     .text-columns {
       display: flex;
@@ -1835,11 +1843,11 @@ $duration: 20s;
 
       p {
         margin-bottom: 40px;
-        font-family: Neue Montreal;
+        font-family: "Space Grotesk", sans-serif;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 500;
         font-size: 22px;
-        line-height: 160%;
+        line-height: 35.2px;
         color: #020113;
       }
     }
@@ -1847,7 +1855,7 @@ $duration: 20s;
     .avatars {
       display: flex;
       justify-content: space-between;
-      padding-top: 184px;
+      padding-top: 162px;
 
       .avatar {
         width: 54px;
@@ -1892,6 +1900,7 @@ $duration: 20s;
     .h2-team {
       padding-bottom: 38px;
       border: none;
+      padding-top: unset;
     }
 
     .benefit-row {
@@ -1911,20 +1920,21 @@ $duration: 20s;
         }
 
         p {
-          font-family: Neue Montreal;
+          font-family: "Space Grotesk", sans-serif;
           font-style: normal;
-          font-weight: normal;
+          font-weight: 400;
           font-size: 24px;
-          line-height: 160%;
+          line-height: 34.4px;
           color: #06050d;
         }
 
         p.title {
-          font-family: Neue Montreal;
+          font-family: "Manrope", sans-serif;
+
           font-style: normal;
           font-weight: 500;
           font-size: 32px;
-          line-height: 160%;
+          line-height: 51.5px;
           color: #06050d;
           margin-bottom: 24px;
         }
@@ -1973,22 +1983,24 @@ $duration: 20s;
     text-align: center;
 
     div {
-      font-family: Neue Montreal;
+      font-family: "Manrope", sans-serif;
+
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 18px;
-      line-height: 160%;
+      line-height: 28.8px;
+      color: #06050d;
       color: #7c7c7c;
       text-decoration: none;
     }
 
     .title {
       margin-bottom: 40px;
-      font-family: Neue Montreal;
+      font-family: "Space Grotesk", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 56px;
-      line-height: 67px;
+      line-height: 75.6px;
       color: #020113;
     }
   }
