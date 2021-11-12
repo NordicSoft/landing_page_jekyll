@@ -9,9 +9,6 @@
     <div class="line"></div>
     <div class="service-col">
       <div class="h2-services main-header">
-        <svg height="48" width="48">
-          <circle cx="24" cy="24" r="12" fill="black" />
-        </svg>
         <p class="h2-text">Our expertise</p>
       </div>
       <div class="who-are-we">
@@ -34,9 +31,6 @@
   </div>
   <div class="container">
     <div class="h2-services">
-      <svg height="48" width="48">
-        <circle cx="24" cy="24" r="12" fill="black" />
-      </svg>
       <p class="h2-text">services</p>
     </div>
   </div>
@@ -143,9 +137,6 @@
 <section class="clients">
   <div class="container">
     <div class="h2-clients">
-      <svg height="48" width="48">
-        <circle cx="24" cy="24" r="12" fill="black" />
-      </svg>
       <p class="h2-text">testimonials</p>
     </div>
   </div>

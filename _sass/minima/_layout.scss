@@ -1,26 +1,4 @@
 @font-face {
-  font-family: "Telegraf";
-  src: url("fonts/TelegrafRegular400.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "TelegrafBold";
-  src: url("fonts/TelegrafUltraBold800.otf");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Neue Montreal";
-  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot");
-  src: url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7980cc1889b6b0b264dc47cca659f7c2.svg#Neue Montreal") format("svg");
-}
-
-@font-face {
   font-family: "Space Grotesk";
   src: url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap");
 }
@@ -51,11 +29,10 @@ section {
   margin-left: auto;
 
   .link-lang {
-    font-family: Telegraf;
-    font-style: normal;
-    font-weight: 900;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 17px;
+    line-height: 21.86px;
     color: #020113;
     opacity: 0.7;
     position: relative;
@@ -716,20 +693,6 @@ color: #7C7C7C;
 .contact-form select {
   width: calc(100% - 15px);
 }
-.contact-form label {
-  font-family: TelegrafBold;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 150%;
-  /* identical to box height, or 21px */
-
-  text-transform: uppercase;
-
-  /* Nordicsoft / Main */
-
-  color: #06050d;
-}
 .contact-form > div:last-child {
   display: flex;
   justify-content: center;
@@ -847,7 +810,7 @@ color: #7C7C7C;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
     font-size: 72px;
-    line-height: 86px;
+    line-height: 91.8px;
     color: #020113;
     padding-bottom: 185px;
   }
@@ -1082,10 +1045,10 @@ color: #7C7C7C;
   }
 
   .h2-text {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 150%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
     text-transform: uppercase;
     color: #020113;
     margin-bottom: 0px;
@@ -1095,21 +1058,19 @@ color: #7C7C7C;
 .who-are-we p {
   padding-top: 298px;
   max-width: 500px;
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 160%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35.2px;
   /* or 35px */
 
   color: #020113;
 }
 .h3-text {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   font-size: 36px;
-  line-height: 160%;
+  line-height: 57.6px;
   margin-bottom: 0;
   /* or 58px */
 
@@ -1118,6 +1079,8 @@ color: #7C7C7C;
   color: #020113;
 }
 .step-title {
+  font-family: "Manrope", sans-serif;
+
   display: flex;
   align-items: center;
   padding-right: 40px;
@@ -1125,12 +1088,11 @@ color: #7C7C7C;
 .step-title > p {
   margin-bottom: 32px;
 }
-.step-description {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: normal;
+.step-description > p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 160%;
+  line-height: 28.8px;
   margin-bottom: 40px;
   /* or 29px */
 
@@ -1139,11 +1101,10 @@ color: #7C7C7C;
   color: #7c7c7c;
 }
 .step-number {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43.71px;
   padding-right: 40px;
   /* identical to box height */
 
@@ -1152,21 +1113,20 @@ color: #7C7C7C;
   color: #06050d;
 }
 .step-name {
-  font-family: Neue Montreal;
-  font-style: normal;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 32px;
-  line-height: 38px;
+  line-height: 43.71px;
 
   /* Nordicsoft / Main */
 
   color: #06050d;
 }
 .steps {
-  font-style: normal;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  line-height: 160%;
+  line-height: 28.8px;
   color: #020113;
   margin-bottom: 17px;
 
@@ -1188,10 +1148,10 @@ color: #7C7C7C;
   display: flex;
   align-items: center;
   .h2-text {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 150%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
     text-transform: uppercase;
     color: #020113;
     margin-bottom: 0px;
@@ -1216,36 +1176,25 @@ color: #7C7C7C;
   }
   .testimonial-description {
     max-width: 246px;
-    font-family: Neue Montreal;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 160%;
+    line-height: 28.8px;
     padding-left: 32px;
   }
 }
 .client-title > p:first-child {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-
-  /* Nordicsoft / Main */
-
+  line-height: 24.59px;
   color: #06050d;
 }
 .client-title > p:last-child {
-  font-family: Neue Montreal;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 180%;
-  /* identical to box height, or 22px */
-
-  /* Nordicsoft/Description */
-
+  line-height: 21.2px;
   color: #7c7c7c;
 }
 $duration: 20s;
@@ -1569,11 +1518,10 @@ $duration: 20s;
 
       .disclime-header {
         display: block;
-        font-family: Neue Montreal;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 180%;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21.6px;
         color: #7c7c7c;
         margin-top: 55px;
       }
