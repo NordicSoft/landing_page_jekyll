@@ -511,7 +511,6 @@ Footer
   font-size: 32px;
   line-height: 44px;
   padding-bottom: 22px;
-  text-transform: uppercase;
   color: #020113;
   margin: unset;
 }
@@ -773,6 +772,7 @@ color: #7C7C7C;
     max-width: 1028px;
     margin: auto;
     p {
+      margin-bottom: unset;
       font-family: "Space Grotesk", sans-serif;
       font-style: normal;
       font-weight: 400;
@@ -828,9 +828,6 @@ color: #7C7C7C;
     color: #020113;
   }
 }
-.projects {
-  padding-top: 106px;
-}
 
 .projects-row {
   display: flex;
@@ -839,6 +836,20 @@ color: #7C7C7C;
 .page-content {
   padding: 0 0 12px;
   // flex: 1 0 auto;
+}
+
+.view-all{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  border-bottom: #000 1px solid;
+}
+
+.what-we-do-link{
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38.4px;
+
 }
 
 .page-heading {
@@ -1006,7 +1017,7 @@ color: #7C7C7C;
   }
 }
 #services > .container:nth-child(2) {
-  padding-top: 96px;
+  padding-top: 106px;
 
 }
 #services > .container:nth-child(3) {
@@ -1258,6 +1269,7 @@ $duration: 20s;
 }
 
 #projects {
+  padding-top: 106px;
   .projects .container {
     padding: 0;
   }
@@ -1270,7 +1282,7 @@ $duration: 20s;
   .project-head {
     display: flex;
     justify-content: space-between;
-    padding-top: 62px;
+    padding-top: 64px;
 
     h1 {
       color: #020113;
@@ -1316,9 +1328,11 @@ $duration: 20s;
         font-size: 56px;
         line-height: 76px;
         color: #020113;
+        padding-bottom: 40px;
+
       }
 
-      p {
+      a {
         font-family: "Manrope", sans-serif;
 
         font-style: normal;
@@ -1328,7 +1342,6 @@ $duration: 20s;
         text-decoration-line: underline;
         color: #7c7c7c;
         margin-bottom: 0;
-        margin-top: 40px;
       }
     }
   }
@@ -2244,7 +2257,6 @@ $duration: 20s;
   #what-we-do {
     padding: 72px 0;
   }
-
   .what-we-do-links .link:last-child {
     border-bottom: none;
     padding-bottom: 0;

@@ -76,7 +76,8 @@
     <div class="container">
       <div class="project-foot-text">
         <div class="h2-text">Want to work on a project ?</div>
-        <p>Send an enquiry.</p>
+        <a class="mail" href="mailto:info@nordicsoft.ee"
+              title="email" aria-label="email">Send an enquiry.</a>
       </div>
     </div>
 
