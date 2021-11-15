@@ -699,6 +699,12 @@ color: #7C7C7C;
 /**
 *END Contact form
 */
+.project-image:hover {
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.6250000000000228, 0, 1);
+transition: 0.5s ease;
+opacity: 0.7;
+}
+
 .section-name {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 40px;
@@ -1438,9 +1444,6 @@ $duration: 20s;
   }
   .project-image {
     width: 95%;
-  }
-  .project-image:hover {
-    transform: skew(-10deg);
   }
   .menu-right a {
     font-family: unset;
