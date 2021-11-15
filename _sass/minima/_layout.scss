@@ -1403,7 +1403,7 @@ $duration: 20s;
 }
 @media screen and (min-width: 576px) {
   .container {
-    max-width: 540px;
+    width: calc(100% - 50px);
   }
   .h1home h1 {
     font-size: 36px;
@@ -1665,9 +1665,9 @@ $duration: 20s;
   }
 }
 @media screen and (min-width: 769px) {
-  .container {
-    max-width: 720px;
-  }
+  // .container {
+  //   max-width: 720px;
+  // }
   .h1home h1 {
     font-size: 40px;
     line-height: 55px;
@@ -1677,9 +1677,9 @@ $duration: 20s;
   }
 }
 @media screen and (min-width: $on-laptop) {
-  .container {
-    max-width: 960px;
-  }
+  // .container {
+  //   max-width: 960px;
+  // }
   .h1home h1 {
     font-size: 50px;
     line-height: 64px;
@@ -1699,11 +1699,11 @@ $duration: 20s;
   }
 }
 
-@media (min-width: $on-pc) and (max-width: 1440px) {
-  .container {
-    max-width: 1140px;
-  }
-}
+// @media (min-width: $on-pc) and (max-width: 1440px) {
+//   .container {
+//     max-width: 1140px;
+//   }
+// }
 
 #team {
   border-bottom: 1px solid #e0e0e0;
