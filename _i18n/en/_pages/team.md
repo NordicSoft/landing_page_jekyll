@@ -133,7 +133,7 @@
   <div class="in-touch">
     <div class="container">
       <div class="title">Interested in working with us?</div>
-      <div>Send us an email at careers@nordicsoft.ee</div>
+      <div>Send us an email at <a class="" href="mailto:careers@nordicsoft.ee" title="email" aria-label="email">careers@nordicsoft.ee</a></div>
     </div>
   </div>
 </section>
