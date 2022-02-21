@@ -9,7 +9,7 @@
     <div class="service-col">
       <div class="h2-team">
         <div class="point-block">
-          <p class="h2-text">Working at nordicsoft</p>
+          <p class="h2-text-main">Working at nordicsoft</p>
         </div>
       </div>
       <div class="gallery">
