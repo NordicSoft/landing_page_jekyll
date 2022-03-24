@@ -1,11 +1,6 @@
-@font-face {
-  font-family: "Space Grotesk";
-  src: url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap");
-}
-@font-face {
-  font-family: "Manrope";
-  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap");
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 body {
   overflow-x: hidden;
 }
@@ -811,7 +806,31 @@ opacity: 0.7;
     color: #020113;
   }
 }
-
+#get-in-touchnew {
+  padding-bottom: 155px;
+  border-bottom: 1px solid #e8e8e8;
+  a {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 86.77px;
+    color: #020113;
+    padding-bottom: 185px;
+  }
+  p {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    color: #7c7c7c;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin-bottom: 52px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.9px;
+    color: #020113;
+  }
+}
 .projects-row {
   display: flex;
   justify-content: space-between;
@@ -997,6 +1016,17 @@ opacity: 0.7;
       top: 88px;
     }
   }
+  .ticker-wrapnew + .container {
+    position: relative;
+
+    .line {
+      margin-top: 96px;
+      position: absolute;
+      border-top: 1px solid #e8e8e8;
+      width: 100%;
+      top: 88px;
+    }
+  }
 }
 #services > .container:nth-child(2) {
   padding-top: 106px;
@@ -1047,11 +1077,44 @@ opacity: 0.7;
     margin-bottom: 0px;
   }
 }
+.h2-servicesnew {
+  padding: 40px 0 0 0;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
 
+  &.main-header {
+    padding: 0 0 40px 0;
+    width: 100%;
+    border-top: none;
+  }
+
+  .h2-text {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
+}
 .who-are-we p {
   padding-top: 298px;
   max-width: 500px;
   font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+  /* or 35px */
+
+  color: #020113;
+}
+.who-are-wenew p {
+  padding-top: 298px;
+  max-width: 500px;
+  font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 35.2px;
@@ -1071,8 +1134,27 @@ opacity: 0.7;
   padding: 40px 0;
   color: #020113;
 }
+.h3-textnew {
+  font-family: "Quesrial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 57.6px;
+  margin-bottom: 0;
+  /* or 58px */
+
+  max-width: 500px;
+  padding: 40px 0;
+  color: #020113;
+}
 .step-title {
   font-family: "Manrope", sans-serif;
+
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+.step-titlenew {
+  font-family: "Quesrial", sans-serif;
 
   display: flex;
   align-items: center;
@@ -1081,8 +1163,11 @@ opacity: 0.7;
 .step-title > p {
   margin-bottom: 32px;
 }
-.step-description > p {
-  font-family: "Space Grotesk", sans-serif;
+.step-titlenew > p {
+  margin-bottom: 32px;
+}
+.step-descriptionnew > p {
+  font-family: "Quesrial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28.8px;
@@ -1105,8 +1190,30 @@ opacity: 0.7;
 
   color: #06050d;
 }
+.step-numbernew {
+  font-family: "Quesrial", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43.71px;
+  padding-right: 40px;
+  /* identical to box height */
+
+  /* Nordicsoft / Main */
+
+  color: #06050d;
+}
 .step-name {
   font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43.71px;
+
+  /* Nordicsoft / Main */
+
+  color: #06050d;
+}
+.step-namenew {
+  font-family: "Quesrial", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 43.71px;
@@ -1124,6 +1231,20 @@ opacity: 0.7;
   margin-bottom: 17px;
 
   .steps-text {
+    padding: 8px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
+}
+.stepsnew {
+  font-family: "Quesrial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #020113;
+  margin-bottom: 17px;
+
+  .steps-textnew {
     padding: 8px 0;
     margin-bottom: 0;
     border-bottom: 1px solid #e8e8e8;
@@ -1149,8 +1270,21 @@ opacity: 0.7;
     color: #020113;
     margin-bottom: 0px;
   }
+  .h2-textnew {
+    font-family: "Quesrial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #020113;
+    margin-bottom: 0px;
+  }
 }
 .clients .h3-text {
+  padding-bottom: 48px;
+  padding-top: 8px;
+}
+.clients .h3-textnew {
   padding-bottom: 48px;
   padding-top: 8px;
 }
@@ -1175,6 +1309,14 @@ opacity: 0.7;
     line-height: 28.8px;
     padding-left: 32px;
   }
+  .testimonial-descriptionnew {
+    max-width: 246px;
+    font-family: "Quesrial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    padding-left: 32px;
+  }
 }
 .client-title > p:first-child {
   font-family: "Manrope", sans-serif;
@@ -1183,8 +1325,22 @@ opacity: 0.7;
   line-height: 24.59px;
   color: #06050d;
 }
+.client-titlenew > p:first-child {
+  font-family: "Quesrial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #06050d;
+}
 .client-title > p:last-child {
   font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21.2px;
+  color: #7c7c7c;
+}
+.client-titlenew > p:last-child {
+  font-family: "Quesrial", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21.2px;
@@ -1246,6 +1402,36 @@ $duration: 20s;
     }
   }
 }
+
+.ticker-wrapnew {
+  top: 240px;
+  position: absolute;
+  width: 150%;
+  padding-left: 100%;
+  z-index: 1;
+  .ticker__item {
+    color: #020113;
+  }
+  .ticker {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: $duration;
+    animation-duration: $duration;
+    &__item {
+      font-family: "Questrial", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 98px;
+      color: #06050d;
+    }
+  }
+}
+
 .social-links a {
   padding: 12px;
 }
