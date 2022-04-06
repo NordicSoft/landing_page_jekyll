@@ -30,7 +30,7 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project1.svg" class="project-image">
+          <object type="image/svg+xml"  class="project-image">
             <img src="assets/images/project1.svg">
           </object>
           <div class="project-name">
@@ -43,7 +43,7 @@
         </div>
 
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project3.svg" class="project-image">
+          <object type="image/svg+xml"  class="project-image">
             <img src="assets/images/project3.svg">
           </object>
           <div class="project-name">
@@ -57,7 +57,7 @@
       </div>
       <div class="project-col">
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project2.svg" class="project-image">
+          <object type="image/svg+xml"  class="project-image">
             <img src="assets/images/project2.svg">
           </object>
           <div class="project-name">
@@ -70,7 +70,7 @@
         </div>
 
         <div class="project">
-          <object type="image/svg+xml" data="assets/images/project4.svg" class="project-image">
+          <object type="image/svg+xml"  class="project-image">
             <img src="assets/images/project4.svg">
           </object>
           <div class="project-name">
