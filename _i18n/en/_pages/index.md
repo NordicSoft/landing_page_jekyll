@@ -30,7 +30,7 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <img src="/assets/images/Project1.png" alt="" />
+          <img src="/assets/images/Project1.webp" alt="" />
           <div class="project-name">
             <p>1/4</p>
             <div>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/Project3.png" alt="" />
+          <img src="/assets/images/Project3.webp" alt="" />
           <div class="project-name">
             <p>3/4</p>
             <div>
@@ -53,7 +53,7 @@
       </div>
       <div class="project-col">
         <div class="project">
-        <img src="/assets/images/Project2.png" alt="" />
+        <img src="/assets/images/Project2.webp" alt="" />
           <div class="project-name">
             <p>2/4</p>
             <div>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/Project4.png" alt="" />
+          <img src="/assets/images/Project4.webp" alt="" />
           <div class="project-name">
             <p>4/4</p>
             <div>
