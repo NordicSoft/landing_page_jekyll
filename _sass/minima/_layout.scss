@@ -708,6 +708,9 @@ opacity: 0.7;
 }
 .project-cols > div:first-child {
   padding-top: 166px;
+  div:last-child>img {
+max-width:498px;
+  }
 }
 
 .project-col {
@@ -1391,9 +1394,9 @@ $duration: 20s;
     &__item {
       font-family: "Questrial", sans-serif;
       font-style: normal;
-      font-weight: 200;
+      font-weight: 400;
       font-size: 72px;
-      line-height: 98px;
+      line-height: 74.16px;
       color: #06050d;
     }
   }
@@ -1978,8 +1981,8 @@ $duration: 20s;
         font-family: "Questrial", sans-serif;
         font-style: normal;
         font-weight: 200;
-        font-size: 22px;
-        line-height: 35.2px;
+        font-size: 18px;
+        line-height: 28.8px;
         color: #020113;
       }
     }
@@ -2055,8 +2058,8 @@ $duration: 20s;
           font-family: "Questrial", sans-serif;
           font-style: normal;
           font-weight: 200;
-          font-size: 24px;
-          line-height: 34.4px;
+          font-size: 18px;
+          line-height: 28.8px;
           color: #06050d;
         }
 
@@ -2065,8 +2068,8 @@ $duration: 20s;
 
           font-style: normal;
           font-weight: 200;
-          font-size: 32px;
-          line-height: 51.5px;
+          font-size: 28px;
+          line-height: 44.8px;
           color: #06050d;
           margin-bottom: 24px;
         }
@@ -2132,7 +2135,7 @@ $duration: 20s;
       font-style: normal;
       font-weight: 200;
       font-size: 56px;
-      line-height: 71.4px;
+      line-height: 57.68px;
       color: #020113;
     }
   }
