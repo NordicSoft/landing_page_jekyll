@@ -14,12 +14,9 @@
         </p>
       </div>
       <div class="about-wrap">
-        <a class="about-service" href="/services">About services</a><svg width="17" height="17" viewBox="0 0 17 17"
-          fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
-            fill="#010101" />
-        </svg>
+        <a class="about-service" href="/services">Our services</a><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.49996 2.5H14.9999H17.4999V5V17.5H14.9999V6.76779L3.18781 18.5799L1.42004 16.8122L13.2322 5H2.49996V2.5Z" fill="#020113"/>
+</svg>
       </div>
     </div>
   </div>
@@ -78,11 +75,9 @@
 
     <div class="view-all">
              <a class="what-we-do-link" href="/projects">View all projects</a>
-<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M1.49996 0.5H13.9999H16.4999V3V15.5H13.9999V4.76779L2.18781 16.5799L0.420044 14.8122L12.2322 3H1.49996V0.5Z"
-          fill="#010101" />
-      </svg>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.49996 2.5H14.9999H17.4999V5V17.5H14.9999V6.76779L3.18781 18.5799L1.42004 16.8122L13.2322 5H2.49996V2.5Z" fill="#020113"/>
+</svg>
     </div>
 
   </div>

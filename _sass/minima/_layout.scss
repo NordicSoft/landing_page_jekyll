@@ -445,17 +445,17 @@ Footer
   flex-wrap: wrap;
   .upwork-top p {
     font-family: "Questrial", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 18.54px;
   }
   .description {
     font-family: "Questrial", sans-serif;
     max-width: 457px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     text-align: right;
     text-transform: uppercase;
 
@@ -466,8 +466,8 @@ Footer
     font-family: "Questrial", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 24px;
-    line-height: 160%;
+    font-size: 18px;
+    line-height: 28.8px;
     text-align: right;
     color: #020113;
   }
@@ -483,9 +483,10 @@ Footer
 .selected-projects {
   font-family: "Questrial", sans-serif;
   font-style: normal;
-  font-weight: 200;
-  font-size: 32px;
-  line-height: 44px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28.84px;
+  text-transform: uppercase;
   padding-bottom: 22px;
   color: #020113;
   margin: unset;
@@ -690,9 +691,9 @@ opacity: 0.7;
     font-family: "Questrial", sans-serif;
 
     font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    line-height: 150%;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
     text-transform: uppercase;
     color: #020113;
     margin-bottom: 0px;
@@ -719,14 +720,16 @@ max-width:498px;
 .project {
   h2 {
     font-family: "Questrial", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 24.72px;
   }
   p {
     font-family: "Questrial", sans-serif;
     font-weight: 200;
     font-size: 16px;
-    line-height: 180%;
+    line-height: 28.8px;
     color: #7c7c7c;
   }
   .project-name {
@@ -735,7 +738,9 @@ max-width:498px;
     padding: 42px 0;
 
     & > p {
-      margin-right: 54px;
+      font-size: 16px;
+      line-height: 28.8px;
+      margin-right: 32px;
     }
   }
 }
@@ -758,15 +763,15 @@ max-width:498px;
       font-family: "Questrial", sans-serif;
       font-style: normal;
       font-weight: 200;
-      font-size: 36px;
-      line-height: 51.5px;
+      font-size: 24px;
+      line-height: 38.4px;
       color: #020113;
     }
     a {
       font-family: "Questrial", sans-serif;
       font-weight: 200;
-      font-size: 24px;
-      line-height: 38.4px;
+      font-size: 18px;
+      line-height: 28.8px;
       text-align: right;
       text-decoration-line: underline;
 
@@ -788,8 +793,8 @@ max-width:498px;
   a {
     font-family: "Questrial", sans-serif;
     font-weight: 200;
-    font-size: 68px;
-    line-height: 86.77px;
+    font-size: 64px;
+    line-height: 65.92px;
     color: #020113;
     padding-bottom: 185px;
   }
@@ -802,8 +807,8 @@ max-width:498px;
     margin-bottom: 52px;
     font-family: "Questrial", sans-serif;
     font-weight: 200;
-    font-size: 25px;
-    line-height: 31.9px;
+    font-size: 24px;
+    line-height: 24.72px;
     color: #020113;
   }
 }
@@ -847,8 +852,9 @@ max-width:498px;
 }
 
 .what-we-do-link{
+  margin-right: 22px;
   font-family: "Questrial", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 24px;
   line-height: 38.4px;
 
@@ -1858,7 +1864,8 @@ $duration: 20s;
   }
   .h1home h1 {
     font-size: 64px;
-    line-height: 86.4px;
+    line-height: 88.32px;
+    font-weight: 400;
     text-align: center;
   }
 }
