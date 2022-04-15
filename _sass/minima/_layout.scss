@@ -712,8 +712,20 @@ opacity: 0.7;
   div:last-child>img {
 max-width:498px;
   }
-}
+  div:first-child>img {
+  max-width: 448px;
+  }
 
+}
+.project-cols > div:last-child {
+  div:last-child>img {
+max-width:604px;
+  }
+  div:first-child>img {
+  max-width: 538px;
+  }
+
+}
 .project-col {
   max-width: 620px;
 }

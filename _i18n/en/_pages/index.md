@@ -27,7 +27,7 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <img src="/assets/images/Project1.webp" alt="" />
+          <img src="/assets/images/dex-1x.png" srcset="/assets/images/dex-2x.png 2x" alt="" />
           <div class="project-name">
             <p>1/4</p>
             <div>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/Project3.webp" alt="" />
+          <img src="/assets/images/defi-1x.png" srcset="/assets/images/defi-2x.png 2x" alt="" />
           <div class="project-name">
             <p>3/4</p>
             <div>
@@ -50,7 +50,7 @@
       </div>
       <div class="project-col">
         <div class="project">
-        <img src="/assets/images/Project2.webp" alt="" />
+        <img src="/assets/images/bzx-1x.png" srcset="/assets/images/bzx-2x.png 2x" alt="" />
           <div class="project-name">
             <p>2/4</p>
             <div>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/Project4.webp" alt="" />
+          <img src="/assets/images/torque-1x.png" srcset="/assets/images/torque-2x.png 2x" alt="" />
           <div class="project-name">
             <p>4/4</p>
             <div>
