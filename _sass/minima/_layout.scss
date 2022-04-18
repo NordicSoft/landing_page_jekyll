@@ -626,7 +626,7 @@ Footer
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
 .form-col::after {
   content: "\25CF";
-  margin-left: 15px;
+  margin-left: -25px;
 }
 
 /* (A3) POSITION CUSTOM ARROW */
