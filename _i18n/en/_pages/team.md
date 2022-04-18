@@ -26,7 +26,7 @@
       <div class="point-block">
         <p class="h2-text">WHO ARE WE?</p>
       </div>
-      <p class="h3-text">Creative wizards who conjure magic</p>
+      <p class="h3-text">Creative geeks who know what they are doing </p>
     </div>
   </div>
   <div class="container">
@@ -34,22 +34,15 @@
       <div class="text-columns">
         <div class="column">
           <p>
-            Just kidding. We don’t know any magic. But we have a few neat tricks
-            up our sleeve in designing and building digital products
+            Technology is our craft and our passion. We combine the power of the digital world and our deep skills to solve engineering and design challenges of any scale and complexity.
           </p>
         </div>
         <div class="column">
           <p>
-            We are a team of different and driven individuals who work together
-            to experiment, create, and solve challenges. Our designers and
-            developers put together their experience, wisdom, and creativity to
-            build great products.
+            We are a team of like minded creators who use software to help businesses move to a completely new level. Our developers and designers deliver turnkey software projects and build dedicated development teams to streamline operations and open up new opportunities for companies.
           </p>
           <p>
-            We are a team of different and driven individuals who work together
-            to experiment, create, and solve challenges. Our designers and
-            developers put together their experience, wisdom, and creativity to
-            build great products.
+            At Nordicsoft, every employee excels at what they do and is empowered to make decisions on how the project may be completed. We believe in learning from each other and collaboration with each other and that’s what helps us to succeed
           </p>
         </div>
       </div>
@@ -70,41 +63,37 @@
     <div class="container">
       <div class="h2-team">
         <div class="point-block">
-          <p class="h2-text">Benefits other than</p>
+          <p class="h2-text">BENEFITS OF JOINING OUR TEAM</p>
         </div>
-        <p class="h3-text">Joining an awesome team.</p>
+        <p class="h3-text">Become a member of Nordicsoft family</p>
       </div>
     </div>
     <div class="container">
       <div class="benefit-row">
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Team spirit</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+            A humane attitude is what we stand for. We believe that we succeed more when we work well together as a team.
           </p>
         </div>
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Growth and development</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+            We create a comfortable and encouraging workplace environment for our teams to grow and develop.
           </p>
         </div>
       </div>
       <div class="benefit-row">
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Openness</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+            We care about people and foster a culture of openness, caring, eﬀort, and results. We are always open to discussions
           </p>
         </div>
         <div class="benefit">
-          <p class="title">Flexibility and benefits</p>
+          <p class="title">Smart comfort</p>
           <p>
-            Flexible hours, inclusive culture, regular team outings, and annual
-            company retreats.
+            We build trust relationships with our employees meaning that they can manage their work time by themselves
           </p>
         </div>
       </div>
@@ -132,7 +121,7 @@
   </div>
   <div class="in-touch">
     <div class="container">
-      <div class="title">Interested in working with us?</div>
+      <div class="title">Build your career with Nordicsoft?</div>
       <div>Send us an email at <a class="" href="mailto:careers@nordicsoft.ee" title="email" aria-label="email">careers@nordicsoft.ee</a></div>
     </div>
   </div>

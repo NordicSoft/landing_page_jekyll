@@ -13,8 +13,7 @@
       </div>
       <div class="who-are-we">
         <p>
-          We integrate intelligent design with functionality and technology to
-          build world-class digital products that accentuate user experiences.
+          We use our top-level expertise to build unique and reliable software development solutions that accentuate user experiences.
         </p>
       </div>
     </div>
@@ -45,8 +44,7 @@
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          Being passionate about the latest technologies, we bring ideas to life by flawlessly creating and supporting advanced and memorable web experiences
         </p>
       </div>
       <div class="steps">
@@ -66,8 +64,7 @@
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          Benefit from the full-cycle development approach and let us handle the entire process: from business analysis to UX, development, and QA.
         </p>
       </div>
       <div class="steps">
@@ -75,11 +72,13 @@
 
         <p class="steps-text">Frontend Development</p>
 
+        <p class="steps-text">React.js Development</p>
+
+        <p class="steps-text">Web3 Development</p>
+
         <p class="steps-text">Blockchain</p>
 
         <p class="steps-text">E-commerce</p>
-
-        <p class="steps-text">React.js</p>
       </div>
     </div>
 
@@ -92,20 +91,22 @@
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          All-in-one comprehensive cloud managed services delivering leading-edge technology combined with dedicated service and support.
         </p>
       </div>
       <div class="steps">
         <p class="steps-text">Windows Administration</p>
 
-        <p class="steps-text">Azure Administrationn</p>
-
         <p class="steps-text">Linux Administration</p>
+
+        <p class="steps-text">Azure Administrationn</p>
 
         <p class="steps-text">AWS Administration</p>
 
         <p class="steps-text">Database Management</p>
+
+        <p class="steps-text">DevOps</p>
+
       </div>
     </div>
     <div class="container">
@@ -115,20 +116,19 @@
       </div>
       <div class="step-description">
         <p>
-          Bringing design and frameworks to life by flawlessly deploying
-          advanced technologies and providing sustained support.
+          We can improve your project by implementing thoroughly planned and polished quality assurance workflows.
         </p>
       </div>
       <div class="steps">
-        <p class="steps-text">Backend Development</p>
+        <p class="steps-text">Functionality testing</p>
 
-        <p class="steps-text">Frontend Development</p>
+        <p class="steps-text">Compatibility testing</p>
 
-        <p class="steps-text">Blockchain</p>
+        <p class="steps-text">Performance testing</p>
 
-        <p class="steps-text">E-commerce</p>
+        <p class="steps-text">Security testing</p>
 
-        <p class="steps-text">React.js</p>
+        <p class="steps-text">Localization testing</p>
       </div>
     </div>
 
@@ -155,11 +155,10 @@
           </div>
           <div class="testimonial-description">
             <p>
-              “NordicSoft provided us with immediate access to a top-notch
-              engineering team in the midst of rapid growth.”
+              “With Nordicsoft we finally found a smart and conscientious team that provided us with the creation and implementation of new and tailored software. Overall, a very professional experience, great management process, and a really friendly and committed team.”
             </p>
             <div class="client-title">
-              <p>Nick Nick</p>
+              <p>Nick Sawinyh</p>
               <p>Product Lead, Dex.Guru</p>
             </div>
           </div>
@@ -193,7 +192,7 @@
 
 <section id="get-in-touch">
   <div class="container">
-    <p>Our work speaks volumes of our craft</p>
-    <a class="get-in-touch-link" href="/get">View our projects</a>
+    <p>‘Top rated plus’ with a 100% Job Success score on Upwork speaks volumes of our work.</p>
+    <a class="get-in-touch-link" href="/get">View case studies</a>
   </div>
 </section>
