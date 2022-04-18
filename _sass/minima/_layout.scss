@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 body {
   overflow-x: hidden;
 }
@@ -412,15 +412,13 @@ Footer
   display: flex;
   justify-content: center;
   h1 {
-     
-  &:hover {
-    background: rgba(0, 0, 0, .1);
-
-  }
-  background: transparent;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+    background: transparent;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
     margin-bottom: 0px;
     width: 1020px;
     left: 206px;
@@ -604,9 +602,8 @@ Footer
   background: #ffffff;
 }
 .form-col option {
-
-background: #020113;
-color: #7C7C7C;
+  background: #020113;
+  color: #7c7c7c;
 }
 
 .form-col label {
@@ -629,7 +626,7 @@ color: #7C7C7C;
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
 .form-col::after {
   content: "\25CF";
-  margin-left: -15px;
+  margin-left: 15px;
 }
 
 /* (A3) POSITION CUSTOM ARROW */
@@ -677,9 +674,9 @@ color: #7C7C7C;
 *END Contact form
 */
 .project-image:hover {
-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.6250000000000228, 0, 1);
-transition: 0.5s ease;
-opacity: 0.7;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.6250000000000228, 0, 1);
+  transition: 0.5s ease;
+  opacity: 0.7;
 }
 
 .section-name {
@@ -709,22 +706,20 @@ opacity: 0.7;
 }
 .project-cols > div:first-child {
   padding-top: 166px;
-  div:last-child>img {
-max-width:498px;
+  div:last-child > img {
+    max-width: 498px;
   }
-  div:first-child>img {
-  max-width: 448px;
+  div:first-child > img {
+    max-width: 448px;
   }
-
 }
 .project-cols > div:last-child {
-  div:last-child>img {
-max-width:604px;
+  div:last-child > img {
+    max-width: 604px;
   }
-  div:first-child>img {
-  max-width: 538px;
+  div:first-child > img {
+    max-width: 538px;
   }
-
 }
 .project-col {
   max-width: 620px;
@@ -857,19 +852,18 @@ max-width:604px;
   padding: 0 0 12px;
 }
 
-.view-all{
+.view-all {
   padding-top: 70px;
   padding-bottom: 40px;
   border-bottom: #000 1px solid;
 }
 
-.what-we-do-link{
+.what-we-do-link {
   margin-right: 22px;
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 38.4px;
-
 }
 
 .page-heading {
@@ -1049,7 +1043,6 @@ max-width:604px;
 }
 #services > .container:nth-child(2) {
   padding-top: 106px;
-
 }
 #services > .container:nth-child(3) {
   padding-top: 64px;
@@ -1110,7 +1103,7 @@ max-width:604px;
   }
 
   .h2-text {
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
     font-weight: 200;
     font-size: 18px;
     line-height: 27px;
@@ -1448,9 +1441,25 @@ $duration: 20s;
     }
   }
 }
-
+.address-social {
+  display: flex;
+  max-width: 231px;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  p{
+    text-align: right;
+  }
+}
 .social-links a {
   padding: 12px;
+}
+.social-links a:last-child {
+  padding: unset;
 }
 
 #projects {
@@ -1514,7 +1523,6 @@ $duration: 20s;
         line-height: 76px;
         color: #020113;
         padding-bottom: 40px;
-
       }
 
       a {
@@ -2136,7 +2144,8 @@ $duration: 20s;
     padding: 163px 0 224px;
     text-align: center;
 
-    div, a {
+    div,
+    a {
       font-family: "Questrial", sans-serif;
 
       font-style: normal;
@@ -2201,7 +2210,10 @@ $duration: 20s;
   }
 }
 
-@media (max-width: $on-laptop) {
+@media (max-width: 1336px) {
+  .header{
+    width: calc(100% - 50px);    justify-content: inherit;
+  }
   .page-content {
     padding-top: 0;
   }
@@ -2776,8 +2788,8 @@ $duration: 20s;
 
 @media (max-width: 576px) {
   .container {
-    max-width: calc(100% - 32px);
-    width: calc(100% - 32px);
+    max-width: calc(100% - 50px);
+    width: calc(100% - 50px);
     padding-left: 16px;
     padding-right: 16px;
   }
