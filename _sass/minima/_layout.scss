@@ -1302,7 +1302,7 @@ Footer
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
-  padding: 48px 110px;
+  padding: 48px 15px;
   border-top: 1px solid #e0e0e0;
 }
 .testimonial {
@@ -1312,7 +1312,7 @@ Footer
     align-items: flex-start;
   }
   .testimonial-description {
-    max-width: 246px;
+    max-width: 70%;
     font-family: "Questrial", sans-serif;
     font-weight: 200;
     font-size: 18px;
@@ -2232,7 +2232,8 @@ $duration: 20s;
     .project-col {
       width: 100%;
       max-width: 100%;
-
+display: flex;
+justify-content: inherit;
       .project {
         width: 100%;
         margin-bottom: 62px;
@@ -2242,6 +2243,18 @@ $duration: 20s;
         }
       }
     }
+  }
+  .project-cols > div:first-child div:last-child > img {
+    max-width: calc(100% - 30px);
+  }
+  .project-cols > div:first-child div:first-child > img {
+    max-width: calc(100% - 30px);
+  }
+  .project-cols > div:last-child div:first-child > img {
+    max-width:  calc(100% - 30px);
+  }
+  .project-cols > div:last-child div:last-child > img {
+    max-width:  calc(100% - 30px);
   }
   .what-we-do-links {
     padding-top: 15px;
@@ -2260,7 +2273,6 @@ $duration: 20s;
   }
 
   .testimonial .testimonial-description {
-    max-width: 230px;
     padding-left: 16px;
     padding-right: 8px;
     font-size: 16px;

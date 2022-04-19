@@ -176,8 +176,7 @@
           </div>
           <div class="testimonial-description">
             <p>
-              “NordicSoft provided us with immediate access to a top-notch
-              engineering team in the midst of rapid growth.”
+              “With Nordicsoft we finally found a smart and conscientious team that provided us with the creation and implementation of new and tailored software. Overall, a very professional experience, great management process, and a really friendly and committed team.”
             </p>
             <div class="client-title">
               <p>Nick Nick</p>
