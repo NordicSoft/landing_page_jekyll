@@ -9,7 +9,7 @@
     <div class="line"></div>
     <div class="service-col">
       <div class="h2-services main-header">
-        <p class="h2-text">Our expertise</p>
+        <p class="h2-text">our work</p>
       </div>
       <div class="who-are-we">
         <p>

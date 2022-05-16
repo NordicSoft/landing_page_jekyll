@@ -699,6 +699,9 @@ Footer
 .project-cols {
   display: flex;
   justify-content: space-between;
+  img {
+    width: 100%;
+  }
 }
 .project-cols:first-child {
   display: flex;
@@ -715,14 +718,14 @@ Footer
 }
 .project-cols > div:last-child {
   div:last-child > img {
-    max-width: 604px;
+    max-width: 538px;
   }
   div:first-child > img {
-    max-width: 538px;
+    max-width: 604px;
   }
 }
 .project-col {
-  max-width: 620px;
+  max-width: 50%;
 }
 .project {
   h2 {
@@ -1451,7 +1454,7 @@ $duration: 20s;
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
-  p{
+  p {
     text-align: right;
   }
 }
@@ -1779,7 +1782,6 @@ $duration: 20s;
   }
 
   .project-cols {
-    flex-wrap: wrap;
     display: flex;
   }
   .project-col {
@@ -1866,16 +1868,15 @@ $duration: 20s;
     display: none;
   }
 }
+@media screen and (max-width: 1023px) {
+  .project-cols {
+    flex-wrap: wrap;
+  }
+}
 @media screen and (min-width: $on-laptop) {
-  // .container {
-  //   max-width: 960px;
-  // }
   .h1home h1 {
     font-size: 50px;
     line-height: 64px;
-  }
-  .project-cols {
-    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -1890,11 +1891,6 @@ $duration: 20s;
   }
 }
 
-// @media (min-width: $on-pc) and (max-width: 1440px) {
-//   .container {
-//     max-width: 1140px;
-//   }
-// }
 
 #team {
   border-bottom: 1px solid #e0e0e0;
@@ -2170,7 +2166,7 @@ $duration: 20s;
 }
 @media (max-width: $on-pc) {
   .project-cols .project-col {
-    max-width: 470px;
+    max-width: calc(50% - 20px);
 
     .project svg {
       max-width: 100%;
@@ -2209,22 +2205,21 @@ $duration: 20s;
     }
   }
 }
+@media (max-width: 1023px) {
+  .step-container {
+    padding-bottom: 0;
+    max-width: 720px;
 
-@media (max-width: 1336px) {
-  .header{
-    width: calc(100% - 50px);    justify-content: inherit;
-  }
-  .page-content {
-    padding-top: 0;
-  }
+    .container {
+      max-width: unset;
+      padding-bottom: 124px;
 
-  .site-nav {
-    max-width: 70%;
+      .steps {
+        width: 100%;
+      }
+    }
   }
-
   .project-cols {
-    flex-wrap: wrap;
-
     & > div:first-child {
       padding-top: 62px;
     }
@@ -2232,8 +2227,7 @@ $duration: 20s;
     .project-col {
       width: 100%;
       max-width: 100%;
-display: flex;
-justify-content: inherit;
+      justify-content: inherit;
       .project {
         width: 100%;
         margin-bottom: 62px;
@@ -2245,17 +2239,22 @@ justify-content: inherit;
     }
   }
   .project-cols > div:first-child div:last-child > img {
-    max-width: calc(100% - 30px);
+    max-width: calc(90%);
   }
-  .project-cols > div:first-child div:first-child > img {
-    max-width: calc(100% - 30px);
+}
+@media (max-width: 1336px) {
+  .header {
+    width: calc(100% - 50px);
+    justify-content: inherit;
   }
-  .project-cols > div:last-child div:first-child > img {
-    max-width:  calc(100% - 30px);
+  .page-content {
+    padding-top: 0;
   }
-  .project-cols > div:last-child div:last-child > img {
-    max-width:  calc(100% - 30px);
+
+  .site-nav {
+    max-width: 70%;
   }
+
   .what-we-do-links {
     padding-top: 15px;
 
@@ -2292,20 +2291,6 @@ justify-content: inherit;
 
   #services .ticker-wrap + .container .line {
     display: none;
-  }
-
-  .step-container {
-    padding-bottom: 0;
-    max-width: 720px;
-
-    .container {
-      max-width: unset;
-      padding-bottom: 124px;
-
-      .steps {
-        width: 100%;
-      }
-    }
   }
 
   #contact-form {
@@ -2401,6 +2386,9 @@ justify-content: inherit;
     .project-cols > div:first-child {
       padding-top: 48px;
     }
+  }
+  .view-all {
+    padding-top: unset;
   }
 }
 

@@ -2,7 +2,7 @@
 <div class="projects">
   <div class="container">
     <div class="start-conversation">
-        <p class="h2-text">our expertise</p>
+        <p class="h2-text">our work</p>
     </div>
     <div class="project-head">
     <div class="project-col-head">
