@@ -42,7 +42,7 @@
             We are a team of like minded creators who use software to help businesses move to a completely new level. Our developers and designers deliver turnkey software projects and build dedicated development teams to streamline operations and open up new opportunities for companies.
           </p>
           <p>
-            At Nordicsoft, every employee excels at what they do and is empowered to make decisions on how the project may be completed. We believe in learning from each other and collaboration with each other and that’s what helps us to succeed
+           We believe in learning from each other and collaborating with each other and that’s what helps us succeed.
           </p>
         </div>
       </div>
@@ -121,7 +121,7 @@
   </div>
   <div class="in-touch">
     <div class="container">
-      <div class="title">Build your career with Nordicsoft?</div>
+      <div class="title">Build your career with Nordicsoft</div>
       <div>Send us an email at <a class="" href="mailto:careers@nordicsoft.ee" title="email" aria-label="email">careers@nordicsoft.ee</a></div>
     </div>
   </div>

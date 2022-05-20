@@ -9,7 +9,7 @@
     <div class="line"></div>
     <div class="service-col">
       <div class="h2-services main-header">
-        <p class="h2-text">our work</p>
+        <p class="h2-text">our expertise</p>
       </div>
       <div class="who-are-we">
         <p>
@@ -159,27 +159,6 @@
             </p>
             <div class="client-title">
               <p>Nick Sawinyh</p>
-              <p>Product Lead, Dex.Guru</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="container">
-          <div class="testimonial-image">
-            <img
-              src="/assets/images/client.png"
-              width="114"
-              height="114"
-              alt=""
-            />
-          </div>
-          <div class="testimonial-description">
-            <p>
-              “With Nordicsoft we finally found a smart and conscientious team that provided us with the creation and implementation of new and tailored software. Overall, a very professional experience, great management process, and a really friendly and committed team.”
-            </p>
-            <div class="client-title">
-              <p>Nick Nick</p>
               <p>Product Lead, Dex.Guru</p>
             </div>
           </div>
