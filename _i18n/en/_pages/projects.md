@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/lazysizes.min.js" async=""></script>
 <section id="projects">
 <div class="projects">
   <div class="container">
@@ -15,7 +17,7 @@
     <div class="project-cols">
       <div class="project-col">
         <div class="project">
-          <img src="/assets/images/dex-1x.webp" srcset="/assets/images/dex-2x.webp 2x" alt="" />
+          {% include lazyload.html image_src="/assets/images/dex-1x.webp" srcset="/assets/images/dex-2x.webp 2x" alt="" %}
           <div class="project-name">
             <p>1/4</p>
             <div> 
@@ -26,7 +28,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/defi-1x.webp" srcset="/assets/images/defi-2x.webp 2x" alt="" />
+          {% include lazyload.html image_src="/assets/images/defi-1x.webp" src="/assets/images/defi-1x.webp" srcset="/assets/images/defi-2x.webp 2x" alt="" %}
           <div class="project-name">
             <p>3/4</p>
           <div>
@@ -38,7 +40,7 @@
       </div>
       <div class="project-col">
         <div class="project">
-        <img src="/assets/images/bzx-1x.webp" srcset="/assets/images/bzx-2x.webp 2x" alt="" />
+        {% include lazyload.html image_src="/assets/images/bzx-1x.webp" src="/assets/images/bzx-1x.webp" srcset="/assets/images/bzx-2x.webp 2x" alt="" %}
           <div class="project-name">
             <p>2/4</p>
             <div>
@@ -49,7 +51,7 @@
         </div>
 
         <div class="project">
-          <img src="/assets/images/torque-1x.webp" srcset="/assets/images/torque-2x.webp 2x" alt="" />
+          {% include lazyload.html image_src="/assets/images/torque-1x.webp" src="/assets/images/torque-1x.webp" srcset="/assets/images/torque-2x.webp 2x" alt="" %}
           <div class="project-name">
             <p>4/4</p>
             <div>
