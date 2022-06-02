@@ -1,0 +1,8 @@
+User-agent: *
+Allow: */fileupload.js
+Disallow: /*?utm=*
+Allow: /*.js
+
+Host: http://
+
+Sitemap: http:///sitemap.xml
