@@ -1,3 +1,5 @@
+{% include cookie-consent.html %}
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="/assets/js/lazysizes.min.js" async=""></script>
 <section id="projects">
 <div class="projects">
