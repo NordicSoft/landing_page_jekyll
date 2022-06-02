@@ -1,3 +1,4 @@
+{% include cookie-consent.html %}
 <section id="projects">
 <div class="projects">
   <div class="container">

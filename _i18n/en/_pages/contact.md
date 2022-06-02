@@ -1,3 +1,4 @@
+{% include cookie-consent.html %}
 <div class="container">
     <div class="start-conversation">
         <p class="h2-text">start a conversation</p>

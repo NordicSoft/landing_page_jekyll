@@ -1,3 +1,4 @@
+{% include cookie-consent.html %}
 <section id="services">
   <div class="ticker-wrap">
     <div class="ticker">
