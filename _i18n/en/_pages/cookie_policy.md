@@ -33,3 +33,9 @@
                     <p>However, some cookies might be necessary for the functionality and usage of our website and services. Therefore, customers should be aware that when blocking or deleting the cookies some features within the website might not function correctly. For more general and detailed information about cookies please see <a class="text-primary" href="http://www.allaboutcookies.org/" title="all about cookies" rel="noopener noreferrer nofollow" target="_blank">allaboutcookies.org</a>.</p>
     </div> 
 </section>
+<section id="get-in-touch-cookie">
+  <div class="container">
+    <p>Want to discuss your project?</p>
+    <a class="get-in-touch-link" href="{{ site.baseurl }}/contact">Get in touch</a>
+  </div>
+</section>

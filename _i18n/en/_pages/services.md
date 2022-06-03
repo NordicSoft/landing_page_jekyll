@@ -1,6 +1,6 @@
 {% include cookie-consent.html %}
 <section id="services">
-  <div class="ticker-wrap">
+  <div class="ticker-wrap ticker-wrap-services">
     <div class="ticker">
       <div class="ticker__item">DEVELOPMENT.BLOCKCHAIN.DESIGN.</div>
     </div>
