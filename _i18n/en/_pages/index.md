@@ -42,7 +42,7 @@
         <div class="project">
           {% include lazyload.html image_src="/assets/images/defi-1x.webp" src="/assets/images/defi-1x.webp" srcset="/assets/images/defi-2x.webp 2x" alt="" %}
           <div class="project-name">
-            <p>3/4</p>
+            <p>2/4</p>
             <div>
               <h2>DEFI</h2>
               <p>Digital media and analytical services provider</p>
@@ -54,7 +54,7 @@
         <div class="project">
         {% include lazyload.html image_src="/assets/images/bzx-1x.webp" src="/assets/images/bzx-1x.webp" srcset="/assets/images/bzx-2x.webp 2x" alt="" %}
           <div class="project-name">
-            <p>2/4</p>
+            <p>3/4</p>
             <div>
               <h2>BZX</h2>
               <p>Crypto Margin Trading Platform</p>

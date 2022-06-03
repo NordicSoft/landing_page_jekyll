@@ -1,6 +1,6 @@
 {% include cookie-consent.html %}
 <section id="team">
-  <div class="ticker-wrap">
+  <div class="ticker-wrap ticker-wrap-team">
     <div class="ticker">
       <div class="ticker__item">TEAMWORK.MEANINGFULL INTERACTION.</div>
     </div>
