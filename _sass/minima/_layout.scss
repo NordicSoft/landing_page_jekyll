@@ -1782,7 +1782,7 @@ $duration: 20s;
         font-weight: 200;
         font-size: 12px;
         line-height: 21.6px;
-        color: #7c7c7c;
+        color: #020113;
         margin-top: 55px;
       }
     }
@@ -2302,7 +2302,6 @@ $duration: 20s;
 }
 @media (max-width: 1336px) {
   .header {
-    width: calc(100% - 50px);
     justify-content: inherit;
   }
   .page-content {
