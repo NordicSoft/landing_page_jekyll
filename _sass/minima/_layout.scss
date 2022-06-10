@@ -1644,6 +1644,9 @@ $duration: 20s;
     flex-wrap: wrap;
     margin: auto;
   }
+  .line{
+    display: none;
+  }
   .address-social {
     display: flex;
     max-width: unset;

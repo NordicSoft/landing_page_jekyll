@@ -17,25 +17,24 @@
     </div>
     <div class="project-cols">
       <div class="project-col">
-        <div class="project">
+              <div class="project">
           {% include lazyload.html image_src="/assets/images/dex-1x.webp" srcset="/assets/images/dex-2x.webp 2x" alt="" %}
           <div class="project-name">
             <p>1/4</p>
-            <div> 
+            <div>
               <h2>DEX.GURU</h2>
               <p>Open finance protocol website</p>
             </div>
           </div>
         </div>
-
         <div class="project">
           {% include lazyload.html image_src="/assets/images/defi-1x.webp" src="/assets/images/defi-1x.webp" srcset="/assets/images/defi-2x.webp 2x" alt="" %}
           <div class="project-name">
-            <p>3/4</p>
-          <div>
-          <h2>DEFI</h2>
-          <p>Digital media and analytical services provider</p>
-          </div>
+            <p>2/4</p>
+            <div>
+              <h2>DEFI</h2>
+              <p>Digital media and analytical services provider</p>
+            </div>
           </div>
         </div>
       </div>
@@ -43,11 +42,11 @@
         <div class="project">
         {% include lazyload.html image_src="/assets/images/bzx-1x.webp" src="/assets/images/bzx-1x.webp" srcset="/assets/images/bzx-2x.webp 2x" alt="" %}
           <div class="project-name">
-            <p>2/4</p>
+            <p>3/4</p>
             <div>
-            <h2>BZX</h2>
-          <p>Crypto Margin Trading Platform</p>
-          </div>
+              <h2>BZX</h2>
+              <p>Crypto Margin Trading Platform</p>
+            </div>
           </div>
         </div>
 
@@ -56,9 +55,9 @@
           <div class="project-name">
             <p>4/4</p>
             <div>
-            <h2>TORQUE</h2>
-          <p>Platform and website for crypto borrowing</p>
-          </div>
+              <h2>TORQUE</h2>
+              <p>Platform and website for crypto borrowing</p>
+            </div>
           </div>
         </div>
       </div>
