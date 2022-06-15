@@ -1,5 +1,15 @@
 {% include cookie-consent.html %}
 <section class="cookie-policy">
+<div class="container">
+    <div class="start-conversation">
+        <p class="h2-text">start a conversation</p>
+    </div>
+</div>
+<div class="cookie-header">
+    <div class="container">
+                <h1 class="contact-title">Cookie policy</h1>
+            </div>
+            </div>
     <div class="container">
     <br>
     <br>

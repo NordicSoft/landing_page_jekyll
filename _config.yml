@@ -8,9 +8,9 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 baseurl: ""
 permalink: /:title/
-url: "http://192.168.201.21:4000/" # the base hostname & protocol for your site
+url: "https://nordicsoft.ee" # the base hostname & protocol for your site
 plugins:
-url: "https://example.com" # the base hostname & protocol for your site
+url: "https://nordicsoft.ee" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
 show_excerpts: false # set to true to show excerpts on the homepage

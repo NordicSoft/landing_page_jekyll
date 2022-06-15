@@ -3,6 +3,6 @@ Allow: */fileupload.js
 Disallow: /*?utm=*
 Allow: /*.js
 
-Host: http://
+Host: https://nordicsoft.ee
 
 Sitemap: http:///sitemap.xml
