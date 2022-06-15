@@ -854,7 +854,6 @@ Footer
     font-size: 64px;
     line-height: 65.92px;
     color: #020113;
-    padding-bottom: 185px;
   }
   p {
     width: 100%;
@@ -1471,6 +1470,35 @@ $duration: 20s;
     }
   }
 
+}
+#get-in-touch-cookie .cookie-footer-text {
+  padding: 180px 0 150px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+#get-in-touch-cookie .cookie-footer .cookie-footer-text {
+  text-align: center;
+  .h2-text{
+    
+      font-family: "Questrial", sans-serif;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 56px;
+      line-height: 76px;
+      color: #020113;
+      padding-bottom: 40px;
+    
+  }
+  a{
+    font-family: "Questrial", sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 160%;
+text-decoration-line: underline;
+color: #7c7c7c;
+margin-bottom: 0;
+  }
 }
 .ticker-wrap-team {
   padding-top: 120px;
@@ -2838,6 +2866,16 @@ $duration: 20s;
       }
     }
   }
+#get-in-touch-cookie .cookie-footer .cookie-footer-text {
+  .h2-text {
+    font-weight: 200;
+    font-size: 42px;
+    line-height: 50px;
+  }
+  a{
+    font-size: 18px;
+  }
+}
 }
 
 @media (max-width: 576px) {

@@ -34,8 +34,13 @@
     </div> 
 </section>
 <section id="get-in-touch-cookie">
-  <div class="container">
-    <p>Want to discuss your project?</p>
-    <a class="get-in-touch-link" href="{{ site.baseurl }}/contact">Get in touch</a>
+  <div class="cookie-footer">
+    <div class="container">
+      <div class="cookie-footer-text">
+        <div class="h2-text">Want to discuss your project?</div>
+        <a class="mail" href="mailto:info@nordicsoft.ee"
+              title="email" aria-label="email">Send an enquiry.</a>
+      </div>
+  </div>
   </div>
 </section>
