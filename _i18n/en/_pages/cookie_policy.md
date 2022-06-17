@@ -13,9 +13,6 @@
     <div class="container">
     <br>
     <br>
-                    <h2>
-                        Welcome to NordicSoft Cookie Policy!
-                    </h2>
                     <p>NordicSoft, together with its marketing, analytics and technology partners, uses certain monitoring technologies such as cookies. These technologies are applied in order to maintain, provide and improve the use of our services.  For example, we are able to ensure better security of our services, identify technical issues, user trends and effectiveness of campaigns, and monitor and improve the overall performance of our services.</p>
                     <p>Cookies are small text files that a website or its service provider(s) transfers to the customer's computer hard drive through their website browser (if customer allows it). It enables the website's or service provider's systems to recognize customer's browser and capture and remember certain information.</p>
                     <h3>Our purposes of using cookies:</h3>

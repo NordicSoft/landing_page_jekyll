@@ -107,6 +107,9 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+    font-weight: 200;
   }
   label[for="nav-trigger"] {
     display: block;
@@ -127,6 +130,16 @@ section {
     padding-bottom: 5px;
   }
   .page-link {
+    
+      display: block;
+      font-family: "Questrial", sans-serif;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 22px;
+      color: #020113;
+      border-bottom: none;
+  
     color: $text-color;
     line-height: $base-line-height;
     padding: 5px 10px;
@@ -412,9 +425,9 @@ Footer
   display: flex;
   justify-content: center;
   h1 {
-    &:hover {
-      background: rgba(0, 0, 0, 0.1);
-    }
+    // &:hover {
+    //   background: rgba(0, 0, 0, 0.1);
+    // }
     background: transparent;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
@@ -537,7 +550,7 @@ Footer
 .start-conversation {
   font-family: "Questrial", sans-serif;
 
-  padding: 96px 0 40px 0;
+  padding: 106px 0 40px 0;
   width: 100%;
   border-bottom: 1px solid #e0e0e0;
   display: flex;
@@ -624,10 +637,10 @@ Footer
 }
 
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
-.form-col-select::after {
-  content: "\25CF";
-  margin-left: -25px;
-}
+// .form-col-select::after {
+//   content: "\25CF";
+//   margin-left: -25px;
+// }
 
 /* (A3) POSITION CUSTOM ARROW */
 .form-col-select {
@@ -1071,7 +1084,7 @@ Footer
     }
   }
   .ticker-wrap-services {
-    padding-top: 120px;
+    padding-top: 64px;
   }
 
 }
@@ -1093,7 +1106,7 @@ Footer
   flex-wrap: wrap;
   max-width: 1240px;
   margin: auto;
-  padding-top: 56px;
+  padding-top: 133px;
   padding-bottom: 64px;
 }
 .step-container .container {
@@ -1518,7 +1531,12 @@ margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
-  p {
+  a {
+    font-family: "Questrial", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    color: #020113;
     text-align: right;
   }
 }
@@ -1530,7 +1548,7 @@ margin-bottom: 0;
 }
 
 #projects {
-  padding-top: 106px;
+    padding-top: 106px;
   .projects .container {
     padding: 0;
   }
@@ -1949,7 +1967,15 @@ margin-bottom: 0;
       padding: 50px 0;
     }
   }
+  .ticker-wrap-team {
+    padding-top: unset;
+  }
 }
+@media screen and (max-width: 769px) {
+  .cookie-header {
+    padding-top: 62px;
+    margin: unset;
+  }}
 @media screen and (min-width: 769px) {
   // .container {
   //   max-width: 720px;
@@ -1962,15 +1988,35 @@ margin-bottom: 0;
     display: none;
   }
 }
-@media screen and (max-width: 1023px) {
-  .project-cols {
-    flex-wrap: wrap;
-  }
-}
 @media screen and (min-width: $on-laptop) {
   .h1home h1 {
     font-size: 50px;
     line-height: 64px;
+  }
+}
+@media screen and (max-width: $on-laptop) {
+  .logo {
+   padding-left: 16px;
+  }
+  #projects .project-head {
+    padding-top: 32px;
+    padding-bottom: unset;
+  }
+  .selected-projects {
+
+    padding-bottom: unset;
+
+  }
+  #projects {
+    padding-top: unset;}
+    #services > .container:nth-child(2) {
+      padding-top: unset;
+    }
+    #team .service-col .h2-team {
+      padding-top: unset;
+    }
+  .project-cols {
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -2289,9 +2335,7 @@ margin-bottom: 0;
     padding: 48px 0;
   }
 
-  .contact-col {
-    max-width: unset;
-  }
+  
 
   #team {
     .service-col {
@@ -2426,7 +2470,7 @@ margin-bottom: 0;
   }
 
   #team {
-    padding-top: 24px;
+    padding-top: 40px;
 
     .wizard-block {
       .text-columns {
@@ -2601,7 +2645,7 @@ margin-bottom: 0;
   .serices-image {
     text-align: right;
     padding-bottom: 168px;
-
+    padding-top: 16px;
     img {
       height: 296px;
       width: 236px;
@@ -2719,9 +2763,6 @@ margin-bottom: 0;
   }
 
   #contact-form {
-    border-top: 1px solid #ededef;
-    margin-top: 16px;
-
     .contact-cols > div:first-child {
       margin-right: 0;
       border: none;
@@ -2735,8 +2776,7 @@ margin-bottom: 0;
   }
 
   .start-conversation {
-    padding: 40px 0 0;
-    border: none;
+    padding: 40px 0 16px;
   }
 
   .form-group input {
@@ -2757,7 +2797,7 @@ margin-bottom: 0;
   }
 
   #team .gallery {
-    padding: 142px 0 94px;
+    padding: 32px 0 0px;
     display: block;
   }
 
