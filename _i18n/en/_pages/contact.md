@@ -30,7 +30,7 @@
                                 <label for="exampleInputEmail1" required="required">Email</label>
                                 <br>
                                 <input type="email" name="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Your email">
+                                    aria-describedby="emailHelp" placeholder="Your email" required="required">
                             </div>
                             </div>
                         </div>

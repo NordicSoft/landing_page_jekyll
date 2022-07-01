@@ -148,7 +148,7 @@
         <div class="container">
           <div class="testimonial-image">
             <img
-              src="/assets/images/client.png"
+              src="/assets/images/client.jpg"
               width="114"
               height="114"
               alt=""
@@ -172,6 +172,6 @@
 <section id="get-in-touch">
   <div class="container">
     <p>‘Top rated plus’ with a 100% Job Success score on Upwork speaks volumes of our work.</p>
-    <a class="get-in-touch-link" href="/get">View case studies</a>
+    <a class="get-in-touch-link" href="/projects">View case studies</a>
   </div>
 </section>

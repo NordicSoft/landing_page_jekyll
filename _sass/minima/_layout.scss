@@ -272,6 +272,12 @@ section {
   }
 }
 /**
+ *temporary
+ */
+.lang{
+  display: none;
+}
+/**
  * Site footer
  */
 .site-footer {
@@ -424,6 +430,8 @@ Footer
   padding: 139px 0;
   display: flex;
   justify-content: center;
+  max-width: 1000px;
+  margin: auto;
   h1 {
     // &:hover {
     //   background: rgba(0, 0, 0, 0.1);
@@ -544,7 +552,6 @@ Footer
 #contact-form {
   padding-top: 62px;
   padding-bottom: 184px;
-  margin: 0 100px;
 }
 
 .start-conversation {
@@ -634,6 +641,7 @@ Footer
   font-weight: 200;
   font-size: 16px;
   line-height: 180%;
+  padding-left: 8px;
 }
 
 /* (A2) DEFINE OUR OWN CUSTOM ARROW */
@@ -1519,7 +1527,7 @@ margin-bottom: 0;
   }
 }
 .ticker-wrap-team {
-  padding-top: 120px;
+  padding-top: 64px;
 }
 .address-social {
   display: flex;
@@ -1544,7 +1552,7 @@ margin-bottom: 0;
   padding: 12px;
 }
 .social-links a:last-child {
-  padding: unset;
+  padding-right: unset;
 }
 
 #projects {
@@ -2036,7 +2044,7 @@ margin-bottom: 0;
   border-bottom: 1px solid #e0e0e0;
 
   .gallery {
-    padding: 252px 0 224px;
+    padding: 252px 0 74px;
     display: flex;
     justify-content: space-between;
 
