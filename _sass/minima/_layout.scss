@@ -1062,7 +1062,7 @@ Footer
 *SERVICES
 */
 #services {
-  padding-bottom: 42px;
+  padding-bottom: 76px;
   .container {
     display: flex;
     justify-content: space-between;
@@ -1109,6 +1109,10 @@ Footer
 #services > .container:nth-child(4) > .container {
   max-width: 392px;
 }
+#services > div:last-child{
+  padding-top: 10px;
+}
+
 .step-container {
   display: flex;
   flex-wrap: wrap;
@@ -1120,6 +1124,8 @@ Footer
 .step-container .container {
   max-width: 392px;
   flex-wrap: wrap;
+  max-height: 450px;
+  height: 100%;
 }
 .h2-services {
   padding: 40px 0 0 0;
@@ -1365,6 +1371,10 @@ Footer
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    .client-title{
+      padding-top: 32px;
+    }
+
   }
   .testimonial-description {
     max-width: 70%;
