@@ -1,4 +1,4 @@
-{% include cookie-consent.html %}
+{% include cookie-content.html %}
 
 <div class="container">
     <div class="start-conversation">
