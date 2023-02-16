@@ -1,4 +1,4 @@
-{% include cookie-consent.html %}
+{% include cookie-content.html %}
 <section id="team">
   <div class="ticker-wrap ticker-wrap-team">
     <div class="ticker">
