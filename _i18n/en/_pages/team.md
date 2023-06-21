@@ -76,12 +76,18 @@
           <p>
             A humane attitude is what we stand for. We believe that we succeed more when we work well together as a team.
           </p>
+          <div class="benefit-pic-m">
+            <img alt="" src="/assets/images/benefit2.svg" />
+          </div>
         </div>
         <div class="benefit">
           <p class="title">Growth and development</p>
           <p>
             We create a comfortable and encouraging workplace environment for our teams to grow and develop.
           </p>
+           <div class="benefit-pic-m">
+            <img alt="" src="/assets/images/benefit1.svg" />
+          </div>
         </div>
       </div>
       <div class="benefit-row">
@@ -90,12 +96,18 @@
           <p>
             We care about people and foster a culture of openness, caring, eﬀort, and results. We are always open to discussions
           </p>
+                    <div class="benefit-pic-m">
+            <img alt="" src="/assets/images/benefit5.svg" />
+          </div>
         </div>
         <div class="benefit">
           <p class="title">Smart comfort</p>
           <p>
             We build trust relationships with our employees meaning that they can manage their work time by themselves
           </p>
+                    <div class="benefit-pic-m">
+            <img alt="" src="/assets/images/benefit6.svg" />
+          </div>
         </div>
       </div>
       <div class="gallery-benefit">

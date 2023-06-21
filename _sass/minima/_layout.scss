@@ -130,16 +130,15 @@ section {
     padding-bottom: 5px;
   }
   .page-link {
-    
-      display: block;
-      font-family: "Questrial", sans-serif;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 16px;
-      line-height: 22px;
-      color: #020113;
-      border-bottom: none;
-  
+    display: block;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    color: #020113;
+    border-bottom: none;
+
     color: $text-color;
     line-height: $base-line-height;
     padding: 5px 10px;
@@ -274,7 +273,7 @@ section {
 /**
  *temporary
  */
-.lang{
+.lang {
   display: none;
 }
 /**
@@ -1092,7 +1091,6 @@ Footer
   .ticker-wrap-services {
     padding-top: 64px;
   }
-
 }
 #services > .container:nth-child(2) {
   padding-top: 106px;
@@ -1107,7 +1105,7 @@ Footer
 #services > .container:nth-child(4) > .container {
   max-width: 392px;
 }
-#services > div:last-child{
+#services > div:last-child {
   padding-top: 10px;
 }
 
@@ -1369,10 +1367,9 @@ Footer
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    .client-title{
+    .client-title {
       padding-top: 32px;
     }
-
   }
   .testimonial-description {
     max-width: 70%;
@@ -1503,35 +1500,31 @@ $duration: 20s;
       color: #06050d;
     }
   }
-
 }
 #get-in-touch-cookie .cookie-footer-text {
   padding: 180px 0 150px;
   border-bottom: 1px solid #e0e0e0;
-
 }
 #get-in-touch-cookie .cookie-footer .cookie-footer-text {
   text-align: center;
-  .h2-text{
-    
-      font-family: "Questrial", sans-serif;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 56px;
-      line-height: 76px;
-      color: #020113;
-      padding-bottom: 40px;
-    
-  }
-  a{
+  .h2-text {
     font-family: "Questrial", sans-serif;
-font-style: normal;
-font-weight: 200;
-font-size: 24px;
-line-height: 160%;
-text-decoration-line: underline;
-color: #7c7c7c;
-margin-bottom: 0;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 56px;
+    line-height: 76px;
+    color: #020113;
+    padding-bottom: 40px;
+  }
+  a {
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 160%;
+    text-decoration-line: underline;
+    color: #7c7c7c;
+    margin-bottom: 0;
   }
 }
 
@@ -1562,7 +1555,7 @@ margin-bottom: 0;
 }
 
 #projects {
-    padding-top: 106px;
+  padding-top: 106px;
   .projects .container {
     padding: 0;
   }
@@ -1709,7 +1702,7 @@ margin-bottom: 0;
     flex-wrap: wrap;
     margin: auto;
   }
-  .line{
+  .line {
     display: none;
   }
   .address-social {
@@ -1989,7 +1982,8 @@ margin-bottom: 0;
   .cookie-header {
     padding-top: 62px;
     margin: unset;
-  }}
+  }
+}
 @media screen and (min-width: 769px) {
   // .container {
   //   max-width: 720px;
@@ -2010,25 +2004,24 @@ margin-bottom: 0;
 }
 @media screen and (max-width: $on-laptop) {
   .logo {
-   padding-left: 16px;
+    padding-left: 16px;
   }
   #projects .project-head {
     padding-top: 32px;
     padding-bottom: unset;
   }
   .selected-projects {
-
     padding-bottom: unset;
-
   }
   #projects {
-    padding-top: 40px;}
-    #services > .container:nth-child(2) {
-      padding-top: 40px;
-    }
-    #team .service-col .h2-team {
-      padding-top: 40px;
-    }
+    padding-top: 40px;
+  }
+  #services > .container:nth-child(2) {
+    padding-top: 40px;
+  }
+  #team .service-col .h2-team {
+    padding-top: 40px;
+  }
   .project-cols {
     flex-wrap: wrap;
   }
@@ -2044,7 +2037,6 @@ margin-bottom: 0;
     text-align: center;
   }
 }
-
 
 #team {
   border-bottom: 1px solid #e0e0e0;
@@ -2219,8 +2211,18 @@ margin-bottom: 0;
       display: flex;
       justify-content: space-between;
       border-top: 1px solid #e0e0e0;
-
+      @media screen and (max-width: 769px) {
+        border-top: none;
+      }
       .benefit {
+        .benefit-pic-m {
+          display: flex;
+          justify-content: center;
+
+          @media screen and (min-width: 769px) {
+            display: none;
+          }
+        }
         margin: 48px 122px;
 
         &:first-child {
@@ -2348,8 +2350,6 @@ margin-bottom: 0;
   .clients-testimonials {
     padding: 48px 0;
   }
-
-  
 
   #team {
     .service-col {
@@ -2484,7 +2484,6 @@ margin-bottom: 0;
   }
 
   #team {
-
     .wizard-block {
       .text-columns {
         display: block;
@@ -2501,8 +2500,6 @@ margin-bottom: 0;
   }
 
   #projects {
-
-
     .project-head {
       display: block;
       padding-bottom: 0;
@@ -2871,7 +2868,7 @@ margin-bottom: 0;
   }
 
   #team .benefits .gallery-benefit .gallery-row {
-    display: block;
+    display: none;
     margin-bottom: 0;
 
     .pic1,
@@ -2922,16 +2919,16 @@ margin-bottom: 0;
       }
     }
   }
-#get-in-touch-cookie .cookie-footer .cookie-footer-text {
-  .h2-text {
-    font-weight: 200;
-    font-size: 42px;
-    line-height: 50px;
+  #get-in-touch-cookie .cookie-footer .cookie-footer-text {
+    .h2-text {
+      font-weight: 200;
+      font-size: 42px;
+      line-height: 50px;
+    }
+    a {
+      font-size: 18px;
+    }
   }
-  a{
-    font-size: 18px;
-  }
-}
 }
 
 @media (max-width: 576px) {
