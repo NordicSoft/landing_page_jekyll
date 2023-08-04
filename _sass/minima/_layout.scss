@@ -2164,7 +2164,7 @@ $duration: 20s;
       .avatar {
         width: 54px;
         height: 54px;
-        border-radius: 50%;
+        background-position: center;
       }
 
       .avatar1 {
@@ -2760,6 +2760,7 @@ $duration: 20s;
     font-size: 24px;
     padding: 64px 0 41px;
     margin-bottom: 35px;
+    line-height: inherit;
   }
 
   #get-in-touch a {
@@ -2840,7 +2841,13 @@ $duration: 20s;
     flex-wrap: wrap;
 
     .avatar {
+      margin-bottom: 32px;
+      padding: 3px 32px;
+      background-repeat: no-repeat;
       margin-bottom: 14px;
+    }
+    .avatars {
+      justify-content: center;
     }
   }
   #team .benefits {
@@ -2935,8 +2942,6 @@ $duration: 20s;
   .container {
     max-width: calc(100% - 50px);
     width: calc(100% - 50px);
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   svg rect {
