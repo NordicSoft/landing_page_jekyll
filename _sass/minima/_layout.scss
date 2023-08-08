@@ -69,8 +69,8 @@ section {
 .site-header {
   display: flex;
   justify-content: space-between;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  min-height: calc($spacing-unit * 1.865);
+  line-height: calc($base-line-height * $base-font-size * 2.25);
   position: relative;
 }
 
@@ -285,7 +285,7 @@ section {
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .feed-subscribe .svg-icon {
@@ -967,7 +967,7 @@ Footer
   h1,
   h2,
   h3 {
-    margin-top: $spacing-unit * 2;
+    margin-top: calc($spacing-unit * 2);
   }
   h4,
   h5,
@@ -1014,7 +1014,7 @@ Footer
     }
     a {
       display: block;
-      padding: $spacing-unit / 4;
+      padding: calc($spacing-unit / 4);
       &:hover {
         border-color: $border-color-02;
       }
@@ -1037,7 +1037,7 @@ Footer
     }
     div {
       display: block;
-      padding: $spacing-unit / 4;
+      padding: calc($spacing-unit / 4);
       border: 1px solid transparent;
 
       &.pager-edge {
