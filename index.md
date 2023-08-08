@@ -11,6 +11,8 @@ description: Unique Web3, design and development solutions with NordicSoft.ee. T
 menu: false
 namespace: root
 permalink: /
+sitemap: true
+
 ---
 
 {% translate_file _pages/index.md %}
