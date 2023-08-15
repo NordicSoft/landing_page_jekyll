@@ -12,7 +12,7 @@
       </div>
       <div class="description">
         <p>
-          E-COMMERCE, BLOCKCHAIN, WEB DEVELOPMENT, UX/UI DESIGN, API INTEGRATIONS, IT SERVICES
+          E-COMMERCE, BLOCKCHAIN, WEB DEVELOPMENT, UX/UI DESIGN, API INTEGRATIONS, IT SERVICES 
         </p>
       </div>
       <div class="about-wrap">
@@ -44,7 +44,7 @@
           <div class="project-name">
             <p>2/4</p>
             <div>
-              <h2>DEFI</h2>
+              <h2>DEFIPRIME</h2>
               <p>Digital media and analytical services provider</p>
             </div>
           </div>
