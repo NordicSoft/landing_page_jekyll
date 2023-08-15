@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How We Use Cookies | NordicSoft
+title: How We Use Cookies |
 description: What are cookies - check here some important information on how NordicSoft uses cookies or whether it is safe to allow using it.
 namespace: Cookie Policy
 menu: false

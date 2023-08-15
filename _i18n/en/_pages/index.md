@@ -1,4 +1,5 @@
 {% include cookie-content.html %}
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="/assets/js/lazysizes.min.js" async=""></script>
 <section class="about-h1">
@@ -12,7 +13,7 @@
       </div>
       <div class="description">
         <p>
-          E-COMMERCE, BLOCKCHAIN, WEB DEVELOPMENT, UX/UI DESIGN, API INTEGRATIONS, IT SERVICES 
+         WEB DEVELOPMENT, BLOCKCHAIN, E-COMMERCE, UI/UX DESIGN, API INTEGRATIONS, IT SERVICES
         </p>
       </div>
       <div class="about-wrap">
