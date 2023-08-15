@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: default
-title: Web3 development, design & IT services | NordicSoft
+title: Web3 development, design & IT services |
 description: Unique Web3, design and development solutions with NordicSoft.ee. The NordicSoft is Upwork Top Rated agency that provides design and development services in the e-commerce and blockchain.
 menu: false
 namespace: root
